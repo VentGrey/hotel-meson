@@ -1,0 +1,46 @@
+#+TITLE: Hotel
+
+* Objetivo
+Crear una página web comercial cuya competencia son los mejores hoteles.
+
+Para ello se necesitará crear un sistema de reservas mediante un calendario, lo
+cual implicará dos vistas:
+
+** Vista de Usuario
+En esta vista se mostrarán las habitaciones disponibles, cada habitación es
+única y el cliente seleccionará una manera de pago, en este caso con tarjeta.
+
+** Vista de Administrador
+En esta vista el administrador podrá procesar los pagos y las habitaciones de
+los clientes, asímismo podrá ver qué habitaciones se encuentran disponibles y
+las fechas.
+
+La página deberá de tener una paleta de colores suave además de "carrousel" de
+imágenes, animaciones y ser responsiva.
+
+* Equipo de Trabajo
+
+- Ernesto Ramírez de Sancristobal (@ErnestoRdS)
+
+
+* Recomendaciones para el entorno de trabajo
+No puedo listar TODOS los plugins para los editores de texto que utilizamos,
+pero si puedo dividirlos por recomendaciones en dependiendo del área:
+
+** Front End
+Plugins para html como emmet, autoclose y snippets servirían mucho para ahorrar
+tiempo al escribir etiquetas.
+
+Para css existen linternas que nos pueden ayudar a depurar nuestro código
+
+En caso de lenguajes como JS existe el paquete `eslint` y `tslint` para
+linternas de JavaScript y Typescript.
+
+** Backend
+Si se utilizarán lenguajes como Python es recomendable tener el paquete de
+autopep8 para mantener un código limpio y entendible, además de tener los
+plugins necesarios para linternas, snippets y soporte para Django.
+
+Para lenguajes como Python o Ruby *SIEMPRE* se deberá de hacer un entorno
+virtual con las dependencias dentro, esto es para asegurar la portabilidad del
+código y la protección de los componentes del sistema de los desarrolladores.
