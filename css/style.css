@@ -20,6 +20,23 @@ body {
     margin-right: 1.1em;
 }
 
+/* Content */
+.txt {
+    height: 50%;
+    background-color: bisque;
+}
+.img {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home-img {
+    background-image: url(../);
+}
+
 /* Colors */
 .hm_primary-color {
     background-color: rgb(96, 5, 5);
