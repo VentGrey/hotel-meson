@@ -2,6 +2,7 @@
 body {
     font: normal normal normal 14px/1.2em;
     font-family: Source Sans Pro SemiBold, sans-serif;
+    font-weight: bold;
     background-color: rgb(58, 4, 4);
 }
 
