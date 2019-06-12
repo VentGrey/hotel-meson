@@ -1,0 +1,24 @@
+/* Generals */
+body {
+    font: normal normal normal 14px/1.2em brandon-grot-w01-light, sans-serif;
+    background-color: rgb(58, 4, 4);
+}
+
+/* Navbar */
+.hm_navbar {
+    padding-left: 50%;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+}
+.hm_navbar-list {
+    transform: translate(-50%, 0);
+}
+.hm_navbar-item {
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+}
+
+/* Colors */
+.hm_primary-color {
+    background-color: rgb(96, 5, 5);
+}
