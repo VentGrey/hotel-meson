@@ -1,6 +1,7 @@
 /* Generals */
 body {
-    font: normal normal normal 14px/1.2em brandon-grot-w01-light, sans-serif;
+    font: normal normal normal 14px/1.2em;
+    font-family: Source Sans Pro SemiBold, sans-serif;
     background-color: rgb(58, 4, 4);
 }
 
