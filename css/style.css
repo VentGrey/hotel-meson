@@ -55,3 +55,14 @@ input {
 .hm_primary-color {
     background-color: rgb(96, 5, 5);
 }
+
+
+/* Styles for ROOMS section */
+
+.rooms-body{
+  padding-top: 10%;
+  height: 100%;
+  background-color: #F2EFE9;
+}
+
+/* End of ROOMS styling */
