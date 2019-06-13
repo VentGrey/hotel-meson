@@ -10,6 +10,10 @@ body {
     height: 100%;
 }
 
+input {
+  text-align: center;
+}
+
 /* Navbar */
 .hm_navbar {
     padding-left: 50%;
@@ -51,29 +55,3 @@ body {
 .hm_primary-color {
     background-color: rgb(96, 5, 5);
 }
-
-
-/* Styles for ROOMS section */
-
-.hm_container {
-  margin-top: 5.1em;
-  width: 80%;
-  height: 40%;
-}
-
-.rooms-body{
-  padding-top: 10%;
-  height: 100%;
-  background-color: #F2EFE9;
-}
-
-.text-2 {
-  font-size: 1.9em;
-  color: #242323 !important;
-}
-
-.sml-input {
-  width: 14%;
-}
-
-/* End of ROOMS styling */
