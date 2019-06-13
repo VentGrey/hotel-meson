@@ -1,3 +1,6 @@
+# PROJECT QUALITY
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/00adae03eb844883b994ff8dc48845f4)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VentGrey/hotel-meson&amp;utm_campaign=Badge_Grade)
+
 # Objetivo
 
 Crear una página web comercial cuya competencia son los mejores hoteles.
