@@ -55,11 +55,17 @@ body {
 
 /* Styles for ROOMS section */
 
+.hm_container {
+    margin-top: 5.1em;
+    width: 100%;
+    height: 40%;
+}
+
 .rooms-body{
   background-color: #F2EFE9;
 }
 
-.text {
+.text-2 {
   background-color: #FAFAFA;
 }
 /* End of ROOMS styling */
