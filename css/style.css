@@ -43,6 +43,7 @@ input {
 /* End of NAVBAR styling */
 
 /* Styles for CONTENT section */
+  /* Content Section General Style */
 .text {
     height: 50%;
     background-color: bisque;
@@ -55,21 +56,38 @@ input {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+  /* Home Section */
 .home-img {
     background-image: url(../images/image-1.jpg);
 }
+
+/* About Section */
+
+/* Rooms Section */
 .rooms-img {
     background-image: url(../images/image-2.jpg);
 }
+
+/* Services Section */
+
+/* Gallery Section */
+
+/* See&Do Section */
 .see-img {
     background-image: url(../images/image-3.jpg);
 }
+
+/* Contact Section */
+
+/* Map Section */
+
 /* End of CONTENT styling */
 
-/* Styles for ROOMS section */
+/* Styles for BOOK A ROOM section */
 .rooms-body{
   padding-top: 10%;
   height: 100%;
   background-color: #F2EFE9;
 }
-/* End of ROOMS styling */
+/* End of BOOK A ROOM styling */
