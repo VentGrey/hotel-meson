@@ -13,6 +13,8 @@
     <link href="../css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="../css/style.css" rel="stylesheet">
+    <!-- Rooms specific stylesheet -->
+    <link href="rooms.css" rel="stylesheet">
     <!--Official Font-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   </head>
@@ -59,24 +61,38 @@
     <!--/.Spacing between navbar and content-->
 
     <div class="container hm_container rooms-body rounded">
+
       <p class="text-2 text-left font-weight-light">Our Rooms</p>
       <hr/>
         <div class="container form-group form-inline">
           <form>
             Check-in:
-            <input type="date" class="form-control sml-input" name="checkin">
-            <input type="submit" class="btn btn-primary btn-raised btn-sm" value="Send">
+            <input type="date" class="form-control sml-date" name="checkin">
           </form>
         </div>
 
         <div class="container form-group form-inline">
           <form>
             Check-Out:
-            <input type="date" class="form-control sml-input" name="checkout">
-            <input type="submit" class="btn btn-primary btn-raised btn-sm" value="Send">
+            <input type="date" class="form-control sml-date" name="checkout">
           </form>
         </div>
-      </div>
+
+        <div class="container form-group form-inline">
+          <form>
+            Adults
+            <input type="number" class="form-control sml-number" name="Adults" min="0" step="1">
+          </form>
+        </div>
+
+        <div class="container form-group form-inline">
+          <form>
+            Kids
+            <input type="number" class="form-control sml-number" name="Adults" min="0" step="1">
+          </form>
+        </div>
+
+    </div>
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
