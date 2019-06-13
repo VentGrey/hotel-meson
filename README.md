@@ -1,7 +1,7 @@
 # PROJECT QUALITY
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/00adae03eb844883b994ff8dc48845f4)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VentGrey/hotel-meson&amp;utm_campaign=Badge_Grade)
 
-# Objetivo
+## Objetivo
 
 Crear una página web comercial cuya competencia son los mejores hoteles.
 
@@ -23,7 +23,7 @@ encuentran disponibles y las fechas.
 La página deberá de tener una paleta de colores suave además de
 "carrousel" de imágenes, animaciones y ser responsiva.
 
-# Recomendaciones para el entorno de trabajo
+## Recomendaciones para el entorno de trabajo
 
 No puedo listar TODOS los plugins para los editores de texto que
 utilizamos, pero si puedo dividirlos por recomendaciones en dependiendo
@@ -44,8 +44,8 @@ Plantillas
 
 Se usarán las siguientes páginas web como base para hacer la nuestra:
 
-  - (<https://www.wix.com/website-template/view/html/1906?siteId=749280c3-c977-403f-88c9-a480d0dc5465&metaSiteId=6708aa10-f19b-4dd4-a0e7-40ba3cc81485&originUrl=https%3A%2F%2Fes.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3Dhoteles%26page%3D2>)
-  - (<https://www.wix.com/website-template/view/html/1558?siteId=ac13739a-6fd5-4da3-a63f-866fbe43d077&metaSiteId=492c0b1f-8429-40c0-ade4-9f58e135ecba&originUrl=https%3A%2F%2Fes.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3Dhoteles%26page%3D1>)
+- (<https://www.wix.com/website-template/view/html/1906?siteId=749280c3-c977-403f-88c9-a480d0dc5465&metaSiteId=6708aa10-f19b-4dd4-a0e7-40ba3cc81485&originUrl=https%3A%2F%2Fes.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3Dhoteles%26page%3D2>)
+- (<https://www.wix.com/website-template/view/html/1558?siteId=ac13739a-6fd5-4da3-a63f-866fbe43d077&metaSiteId=492c0b1f-8429-40c0-ade4-9f58e135ecba&originUrl=https%3A%2F%2Fes.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3Dhoteles%26page%3D1>)
 
 La primera plantilla es la estructura que debe tener nuestra página,
 mientras que de la segunda se utilizará la paleta de colores.
