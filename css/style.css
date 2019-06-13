@@ -1,4 +1,9 @@
-/* Generals */
+/* To use fonts in font-family:
+- 'Sintony', sans-serif;
+- 'Source Sans Pro', sans-serif;
+*/
+
+/* GENERALS */
 html {
     height: 100%;
 }
@@ -9,12 +14,20 @@ body {
     background-color: rgb(58, 4, 4);
     height: 100%;
 }
-
 input {
   text-align: center;
 }
 
-/* Navbar */
+  /* Colors */
+.hm_primary-color {
+    background-color: rgb(96, 5, 5);
+}
+.hm_secondary-color {
+    background-color: rgb(58, 4, 4);
+}
+/* End of GENERALS */
+
+/* Styles for NAVBAR section */
 .hm_navbar {
     padding-left: 50%;
     padding-top: 1.4em;
@@ -27,8 +40,9 @@ input {
     margin-left: 1.1em;
     margin-right: 1.1em;
 }
+/* End of NAVBAR styling */
 
-/* Content */
+/* Styles for CONTENT section */
 .text {
     height: 50%;
     background-color: bisque;
@@ -50,19 +64,12 @@ input {
 .see-img {
     background-image: url(../images/image-3.jpg);
 }
-
-/* Colors */
-.hm_primary-color {
-    background-color: rgb(96, 5, 5);
-}
-
+/* End of CONTENT styling */
 
 /* Styles for ROOMS section */
-
 .rooms-body{
   padding-top: 10%;
   height: 100%;
   background-color: #F2EFE9;
 }
-
 /* End of ROOMS styling */
