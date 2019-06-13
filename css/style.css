@@ -62,10 +62,13 @@ body {
 }
 
 .rooms-body{
+  padding-top: 10%;
+  height: 100%;
   background-color: #F2EFE9;
 }
 
 .text-2 {
   background-color: #FAFAFA;
 }
+
 /* End of ROOMS styling */
