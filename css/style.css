@@ -51,3 +51,15 @@ body {
 .hm_primary-color {
     background-color: rgb(96, 5, 5);
 }
+
+
+/* Styles for ROOMS section */
+
+.rooms-body{
+  background-color: #F2EFE9;
+}
+
+.text {
+  background-color: #FAFAFA;
+}
+/* End of ROOMS styling */
