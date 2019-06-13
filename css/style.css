@@ -1,4 +1,8 @@
 /* Generals */
+html, body {
+  height: 100%;
+}
+
 body {
     font: normal normal normal 14px/1.2em;
     font-family: Source Sans Pro SemiBold, sans-serif;
@@ -41,3 +45,15 @@ body {
 .hm_primary-color {
     background-color: rgb(96, 5, 5);
 }
+
+
+/* Styles for ROOMS section */
+
+.rooms-body{
+  background-color: #F2EFE9;
+}
+
+.text {
+  background-color: #FAFAFA;
+}
+/* End of ROOMS styling */
