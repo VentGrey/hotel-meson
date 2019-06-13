@@ -72,4 +72,8 @@ body {
   color: #242323 !important;
 }
 
+.sml-input {
+  width: 14%;
+}
+
 /* End of ROOMS styling */
