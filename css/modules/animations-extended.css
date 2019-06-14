@@ -1307,7 +1307,7 @@
   animation-duration: 0.75s;
   -webkit-animation-name: flipOutX;
   animation-name: flipOutX;
-  -webkit-backface-visibility: visible !important;
+  -webkit-backface-visibility: visible;
   backface-visibility: visible; }
 
 @-webkit-keyframes flipOutY {
