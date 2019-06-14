@@ -47,6 +47,8 @@ input {
 .text {
     height: 50%;
     background-color: bisque;
+    text-align: center;
+    padding-top: 1.3em;
 }
 .img {
     width: 50%;
@@ -58,14 +60,25 @@ input {
 }
 
   /* Home Section */
-.home-img {
+.home_logo {
+    text-transform: uppercase;
+    font-family: 'Sintony', sans-serif;
+    display: block;
+}
+.logo-main {
+    font-size: 25px;
+}
+.logo-sec {
+    font-size: 16px;
+}
+.home_img {
     background-image: url(../images/image-1.jpg);
 }
 
 /* About Section */
 
 /* Rooms Section */
-.rooms-img {
+.rooms_img {
     background-image: url(../images/image-2.jpg);
 }
 
@@ -74,7 +87,7 @@ input {
 /* Gallery Section */
 
 /* See&Do Section */
-.see-img {
+.see_img {
     background-image: url(../images/image-3.jpg);
 }
 
