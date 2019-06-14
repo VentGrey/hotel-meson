@@ -44,8 +44,8 @@ Plantillas
 
 Se usarán las siguientes páginas web como base para hacer la nuestra:
 
-- (<https://www.wix.com/website-template/view/html/1906?siteId=749280c3-c977-403f-88c9-a480d0dc5465&metaSiteId=6708aa10-f19b-4dd4-a0e7-40ba3cc81485&originUrl=https%3A%2F%2Fes.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3Dhoteles%26page%3D2>)
-- (<https://www.wix.com/website-template/view/html/1558?siteId=ac13739a-6fd5-4da3-a63f-866fbe43d077&metaSiteId=492c0b1f-8429-40c0-ade4-9f58e135ecba&originUrl=https%3A%2F%2Fes.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3Dhoteles%26page%3D1>)
+[Estrucutra](<https://www.wix.com/website-template/view/html/1906?siteId=749280c3-c977-403f-88c9-a480d0dc5465&metaSiteId=6708aa10-f19b-4dd4-a0e7-40ba3cc81485&originUrl=https%3A%2F%2Fes.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3Dhoteles%26page%3D2>)
+[Paleta de Colores](<https://www.wix.com/website-template/view/html/1558?siteId=ac13739a-6fd5-4da3-a63f-866fbe43d077&metaSiteId=492c0b1f-8429-40c0-ade4-9f58e135ecba&originUrl=https%3A%2F%2Fes.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3Dhoteles%26page%3D1>)
 
 La primera plantilla es la estructura que debe tener nuestra página,
 mientras que de la segunda se utilizará la paleta de colores.
