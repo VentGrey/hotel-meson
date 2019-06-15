@@ -53,9 +53,8 @@ input {
   /* Content Section General Style */
 .text {
     height: 50%;
-    background-color: bisque;
+    background-color: rgb(58, 4, 4);
     text-align: center;
-    padding-top: 1.3em;
 }
 .img {
     width: 50%;
@@ -67,18 +66,26 @@ input {
 }
 
   /* Home Section */
+.text_home-sec {
+    padding-top: 3.5em;
+    height: 35%;
+}
 .home_logo {
-    text-transform: uppercase;
     display: block;
+    color: #fafafa;
 }
 .logo-main {
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
     font-size: 40px;
-    letter-spacing: 4px;
+    letter-spacing: 10px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 400;
 }
 .logo-sec {
     font-size: 16px;
+    font-family: 'Bad Script', cursive;
+    letter-spacing: 3px;
 }
 .home_img {
     background-image: url(../images/image-1.jpg);
