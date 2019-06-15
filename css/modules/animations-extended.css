@@ -1272,7 +1272,7 @@
 
 .flipInY {
   -webkit-backface-visibility: visible;
-  backface-visibility: visible !important;
+  backface-visibility: visible;
   -webkit-animation-name: flipInY;
   animation-name: flipInY; }
 
@@ -1339,7 +1339,7 @@
 .flipOutY {
   -webkit-animation-duration: 0.75s;
   animation-duration: 0.75s;
-  -webkit-backface-visibility: visible !important;
+  -webkit-backface-visibility: visible;
   backface-visibility: visible;
   -webkit-animation-name: flipOutY;
   animation-name: flipOutY; }
