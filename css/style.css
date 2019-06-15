@@ -1,5 +1,7 @@
 /* To use fonts in font-family:
-- 'Sintony', sans-serif;
+- 'Great Vibes', cursive;
+- 'M PLUS Rounded 1c', sans-serif;
+- 'Varela Round', sans-serif;
 - 'Source Sans Pro', sans-serif;
 */
 
@@ -42,6 +44,13 @@ input {
 }
 /* End of NAVBAR styling */
 
+/* Help Container */
+.help-container {
+    width: 100%;
+    height: 5.1em;
+    background-color: transparent;
+}
+
 /* Styles for CONTENT section */
   /* Content Section General Style */
 .text {
@@ -62,7 +71,7 @@ input {
   /* Home Section */
 .home_logo {
     text-transform: uppercase;
-    font-family: 'Sintony', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     display: block;
 }
 .logo-main {
