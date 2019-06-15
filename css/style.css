@@ -1,6 +1,4 @@
 /* To use fonts in font-family:
-- 'Great Vibes', cursive;
-- 'M PLUS Rounded 1c', sans-serif;
 - 'Varela Round', sans-serif;
 - 'Source Sans Pro', sans-serif;
 */
@@ -71,11 +69,13 @@ input {
   /* Home Section */
 .home_logo {
     text-transform: uppercase;
-    font-family: 'Varela Round', sans-serif;
     display: block;
 }
 .logo-main {
-    font-size: 25px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
 }
 .logo-sec {
     font-size: 16px;
