@@ -1219,7 +1219,7 @@
     transform: perspective(400px); } }
 
 .flipInX {
-  -webkit-backface-visibility: visible !important;
+  -webkit-backface-visibility: visible;
   backface-visibility: visible;
   -webkit-animation-name: flipInX;
   animation-name: flipInX; }
