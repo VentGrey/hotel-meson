@@ -76,7 +76,7 @@ input {
 /* Styles for CONTENT section */
 /* Content Section General Style */
 .text {
-    height: 50%;
+    height: auto;
     background-color: #600505;
     text-align: center;
 }
@@ -143,6 +143,9 @@ input {
 }
 
 /* Services Section */
+.services-gral {
+    padding-bottom: 1.5em;
+}
 
 /* Gallery Section */
 
