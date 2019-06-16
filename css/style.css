@@ -11,7 +11,7 @@ body {
     font: normal normal normal 14px/1.2em;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    background-color: rgb(58, 4, 4);
+    background-color: #93382e;
     height: 100%;
 }
 input {
@@ -20,7 +20,7 @@ input {
 
   /* Colors */
 .hm_primary-color {
-    background-color: rgb(96, 5, 5);
+    background-color: #600505;
 }
 /* End of GENERALS */
 
@@ -50,7 +50,6 @@ input {
   /* Content Section General Style */
 .text {
     height: 50%;
-    background-color: rgb(58, 4, 4);
     text-align: center;
 }
 .img {
