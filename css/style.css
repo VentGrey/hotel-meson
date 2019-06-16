@@ -93,7 +93,7 @@ input {
   /* Home Section */
 .text_home-sec {
     padding-top: 3.3em;
-    height: 35%;
+    height: auto;
 }
 
 .home_logo {
@@ -114,6 +114,7 @@ input {
     font-size: 16px;
     font-family: 'Bad Script', cursive;
     letter-spacing: 3px;
+    padding-bottom: 3em;
 }
 
 .home_img {
@@ -122,12 +123,16 @@ input {
 }
 
 /* About Section */
+.text_about-sec {
+    padding-top: 3.3em;
+    height: auto;
+}
+
 .about-container {
-    position: absolute;
     width: 50%;
     height: auto;
+    padding-bottom: 2em;
     margin-left: 50%;
-    margin-top: 1.7em;
     transform: translate(-50%, 0);
 }
 
