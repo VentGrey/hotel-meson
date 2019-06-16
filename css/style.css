@@ -122,6 +122,14 @@ input {
 }
 
 /* About Section */
+.about-container {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    margin-left: 50%;
+    margin-top: 1.7em;
+    transform: translate(-50%, 0);
+}
 
 /* Rooms Section */
 .rooms_img {
