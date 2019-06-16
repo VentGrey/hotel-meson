@@ -13,13 +13,18 @@ body {
     font-weight: bold;
     height: 100%;
 }
+
 input {
   text-align: center;
 }
 
-  /* Colors */
+/* Colors */
 .hm_primary-color {
     background-color: #380000;
+}
+
+.page-text {
+  color: #FAFAFA;
 }
 /* End of GENERALS */
 
@@ -29,9 +34,11 @@ input {
     padding-top: 1.4em;
     padding-bottom: 1.4em;
 }
+
 .hm_navbar-list {
     transform: translate(-50%, 0);
 }
+
 .hm_navbar-item {
     margin-left: 1.1em;
     margin-right: 1.1em;
@@ -46,12 +53,13 @@ input {
 }
 
 /* Styles for CONTENT section */
-  /* Content Section General Style */
+/* Content Section General Style */
 .text {
     height: 50%;
     background-color: #600505;
     text-align: center;
 }
+
 .img {
     width: 70%;
     height: 95%;
@@ -66,10 +74,12 @@ input {
     padding-top: 3.3em;
     height: 35%;
 }
+
 .home_logo {
     display: block;
     color: #fafafa;
 }
+
 .logo-main {
     margin-bottom: 0.3em;
     text-transform: uppercase;
@@ -78,11 +88,13 @@ input {
     font-family: 'Varela Round', sans-serif;
     font-weight: 400;
 }
+
 .logo-sec {
     font-size: 16px;
     font-family: 'Bad Script', cursive;
     letter-spacing: 3px;
 }
+
 .home_img {
     background-image: url(../images/imagen-1.jpg);
     opacity: 0.85;
