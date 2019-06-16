@@ -143,8 +143,12 @@ input {
 }
 
 /* Services Section */
+.services-main {
+    padding-top: 3em;  
+}
+
 .services-gral {
-    padding-bottom: 1.5em;
+    padding-bottom: 3em;
 }
 
 /* Gallery Section */
