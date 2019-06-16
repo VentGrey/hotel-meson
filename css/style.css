@@ -54,7 +54,7 @@ input {
     text-align: center;
 }
 .img {
-    width: 50%;
+    width: 70%;
     height: 100%;
     margin: auto;
     background-size: cover;
@@ -85,14 +85,14 @@ input {
     letter-spacing: 3px;
 }
 .home_img {
-    background-image: url(../images/image-1.jpg);
+    background-image: url(../images/imagen-1.jpg);
 }
 
 /* About Section */
 
 /* Rooms Section */
 .rooms_img {
-    background-image: url(../images/image-2.jpg);
+    background-image: url(../images/imagen-2.jpg);
 }
 
 /* Services Section */
@@ -101,7 +101,7 @@ input {
 
 /* See&Do Section */
 .see_img {
-    background-image: url(../images/image-3.jpg);
+    background-image: url(../images/imagen-3.jpg);
 }
 
 /* Contact Section */
