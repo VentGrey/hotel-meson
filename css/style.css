@@ -18,15 +18,35 @@ input {
   text-align: center;
 }
 
-/* Colors */
-.hm_primary-color {
-    background-color: #380000;
+.page-title {
+  color: #FAFAFA;
+  font-size: 2em;
+  letter-spacing: 4px;
 }
 
 .page-text {
   color: #FAFAFA;
   font-size: 1.5em;
 }
+
+.page-title {
+  color: #FAFAFA;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
+
+.service-text {
+  color: #FAFAFA;
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+}
+
+/* Colors */
+.hm_primary-color {
+    background-color: #380000;
+}
+
+
 /* End of GENERALS */
 
 /* Styles for NAVBAR section */
