@@ -181,33 +181,6 @@ input {
 
 /* Gallery Section */
 
-/* See&Do Section */
-.see_img {
-    background-image: url(../images/imagen-3.jpg);
-    opacity: 0.85;
-    padding-top: 7em;
-}
-
-.img-see_inside-container {
-    width: 40%;
-    height: auto;
-    background-color: #fff;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 100;
-}
-
-.see-container {
-    padding: 2em;
-}
-
-.see-container > p {
-    color: #000;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-}
-
-
 /* Contact Section */
 
 /* Map Section */
