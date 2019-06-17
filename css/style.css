@@ -181,18 +181,18 @@ input {
 
 /* Gallery Section */
 .gallery-section {
-    padding-top: 8em;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
 }
 
-.gallery-main {
-    padding-bottom: 3em;
+.gallery_main {
+    margin-top: 2em;
 }
 
-.gallery-container {
-    width: 50%;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
-    padding-bottom: 3em;
+.gallery_sec {
+    
 }
 
 /* Contact Section */
