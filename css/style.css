@@ -91,7 +91,7 @@ input {
 }
 
   /* Home Section */
-.text_home-sec {
+.text_home-section {
     padding-top: 3.3em;
     height: auto;
 }
@@ -123,15 +123,15 @@ input {
 }
 
 /* About Section */
-.text_about-sec {
-    padding-top: 3.3em;
+.text_about-section {
+    padding-top: 8em;
     height: auto;
 }
 
 .about-container {
     width: 50%;
     height: auto;
-    padding-bottom: 2em;
+    padding-bottom: 8em;
     margin-left: 50%;
     transform: translate(-50%, 0);
 }
@@ -140,6 +140,34 @@ input {
 .rooms_img {
     background-image: url(../images/imagen-2.jpg);
     opacity: 0.85;
+    padding-top: 7em;
+}
+
+.img_inside-container {
+    width: 40%;
+    height: auto;
+    background-color: #fff;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 100;
+}
+
+.rooms-container {
+    padding: 2em;
+}
+
+.rooms-container > p {
+    color: #000;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+}
+
+.btn-hm {
+    border: 2px solid #000;
+    border-radius: 2px;
+    margin-top: 2.5em;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
 }
 
 /* Services Section */
