@@ -143,7 +143,7 @@ input {
     padding-top: 7em;
 }
 
-.img_inside-container {
+.img-rooms_inside-container {
     width: 40%;
     height: auto;
     background-color: #fff;
@@ -164,7 +164,7 @@ input {
 
 .btn-hm {
     border: 2px solid #000;
-    border-radius: 2px;
+    border-radius: 3px;
     margin-top: 2.5em;
     margin-left: 50%;
     transform: translate(-50%, 0);
@@ -185,7 +185,28 @@ input {
 .see_img {
     background-image: url(../images/imagen-3.jpg);
     opacity: 0.85;
+    padding-top: 7em;
 }
+
+.img-see_inside-container {
+    width: 40%;
+    height: auto;
+    background-color: #fff;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 100;
+}
+
+.see-container {
+    padding: 2em;
+}
+
+.see-container > p {
+    color: #000;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+}
+
 
 /* Contact Section */
 
