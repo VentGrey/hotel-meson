@@ -172,7 +172,7 @@ input {
 
 /* Services Section */
 .services-main {
-    padding-top: 3em;  
+    padding-top: 3em;
 }
 
 .services-gral {
@@ -188,11 +188,19 @@ input {
 }
 
 .gallery_main {
-    margin-top: 2em;
+    margin-top: 3.5em;
+    margin-bottom: 3em;
 }
 
-.gallery_sec {
-    
+.hm-row {
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    width: 95%;
+    margin-bottom: 1.6em;
+}
+
+.hm-gallery_img {
+    border-radius: 3px;
 }
 
 /* Contact Section */
