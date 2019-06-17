@@ -180,6 +180,20 @@ input {
 }
 
 /* Gallery Section */
+.gallery-section {
+    padding-top: 8em;
+}
+
+.gallery-main {
+    padding-bottom: 3em;
+}
+
+.gallery-container {
+    width: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    padding-bottom: 3em;
+}
 
 /* Contact Section */
 
