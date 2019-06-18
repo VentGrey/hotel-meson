@@ -20,24 +20,29 @@ input {
 
 .page-title {
   color: #FAFAFA;
-  font-size: 2em;
-  letter-spacing: 4px;
+  font-size: 1.5em;
+  letter-spacing: 2px;
 }
 
 .page-text {
   color: #FAFAFA;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
-.page-title {
-  color: #FAFAFA;
-  font-size: 1.3em;
+.page-title-2 {
+  color: #000;
+  font-size: 1.5em;
   letter-spacing: 2px;
+}
+
+.page-text-2 {
+  color: #000;
+  font-size: 1.2em;
 }
 
 .service-text {
   color: #FAFAFA;
-  font-size: 1.2em;
+  font-size: 1.15em;
   letter-spacing: 1.5px;
 }
 
@@ -181,7 +186,6 @@ input {
 
 /* Gallery Section */
 .gallery-section {
-    position: absolute;
     width: 100%;
     height: auto;
     background-color: #fff;
@@ -205,7 +209,31 @@ input {
 
 /* Contact Section */
 
+.contact-section {
+    width: 85%;
+    height: auto;
+    margin-top: 8em;
+    margin-left: 50%;
+    padding: 1.2em;
+    transform: translate(-50%, 0);
+    border: 3px solid #600505;
+}
+
 /* Map Section */
+.map-container-4 {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container-4 iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 /* End of CONTENT styling */
 
