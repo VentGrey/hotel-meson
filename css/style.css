@@ -318,13 +318,12 @@ input {
 
 /* Styles for MESSENGER BUBBLE */
 .back_msng-bubble {
-    position: absolute;
+    position: fixed;
     width: 70px;
     height: 65px;
     border-radius: 50%;
     background-color: #380000;
   
-    position: fixed;
     left: 50px;
     bottom: 10px;
     align-items: center;
@@ -338,7 +337,53 @@ input {
     color: #fff;
 }
 
-/* Styles for MESSENGER BUBBLE */
+/* End of MESSENGER BUBBLE styling */
+
+/* Styles for REDES SOCIALES */
+.box_redes {
+    position: fixed;
+    width: 50px;
+    height: auto;
+    border-radius: 3px;
+    background-color: #380000;
+
+    right: 0px;
+    top: 200px;
+    align-items: center;
+}
+
+.red-facebook {
+    position: relative;
+    display: block;
+    margin-top: 1em;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 30px;
+    color: #fff;
+}
+
+.red-insta {
+    position: relative;
+    display: block;
+    margin-top: 1em;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 27px;
+    color: #fff;
+}
+
+.red-google {
+    position: relative;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 25px;
+    color: #fff;
+}
+
+/* End of REDES SOCIALES styling */
 
 /* Styles for BOOK A ROOM section */
 .rooms-body{
