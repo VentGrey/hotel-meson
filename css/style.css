@@ -46,6 +46,20 @@ input {
   letter-spacing: 1.5px;
 }
 
+.btn-hm {
+    border: 2px solid #000;
+    border-radius: 3px;
+    margin-top: 2.5em;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.btn-hm-2 {
+    border: 1.5px solid #fafafa;
+    border-radius: 3px;
+    margin-left: 5em;
+}
+
 /* Colors */
 .hm_primary-color {
     background-color: #380000;
@@ -165,14 +179,6 @@ input {
     color: #000;
     font-family: 'Varela Round', sans-serif;
     font-size: 18px;
-}
-
-.btn-hm {
-    border: 2px solid #000;
-    border-radius: 3px;
-    margin-top: 2.5em;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
 }
 
 /* Services Section */
