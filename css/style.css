@@ -220,6 +220,11 @@ input {
 }
 
 /* Map Section */
+.map-section {
+    width: 85%;
+    height: 20%;
+}
+
 .map-container-4 {
     overflow:hidden;
     padding-bottom:56.25%;
