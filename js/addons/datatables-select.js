@@ -119,8 +119,8 @@
     ctx._select.className = className
 
     // Sort table based on selected rows. Requires Select Datatables extension
-    $.fn.dataTable.ext.order['select-checkbox'] = function (settings, col) {
-      return this.api().column(col, { order: 'index' }).nodes().map(function (td) {
+    $.fn.dataTable.ext.order["select-checkbox"] = function (settings, col) {
+      return this.api().column(col, { order: "index" }).nodes().map(function (td) {
         if (settings._select.items === 'row') {
           return $(td).parent().hasClass(settings._select.className)
         } else if (settings._select.items === 'cell') {
@@ -300,7 +300,7 @@ handler that will select the items using the API methods.
     var selector = ctx._select.selector
 
     $(dt.table().container())
-      .off('mousedown.dtSelect', selector)
+      .off("mousedown.dtSelect", selector)
       .off('mouseup.dtSelect', selector)
       .off('click.dtSelect', selector)
 
@@ -351,7 +351,7 @@ handler that will select the items using the API methods.
 
           // If the element that contains the selection is not in the table, we can ignore it
           // This can happen if the developer selects text from the click event
-          if (!selection.anchorNode || $(selection.anchorNode).closest('table')[0] === dt.table().node()) {
+          if (!selection.anchorNode || $(selection.anchorNode).closest("table")[0] === dt.table().node()) {
             if (selection !== matchSelection) {
               return
             }
