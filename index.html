@@ -32,7 +32,7 @@
       <!--Links-->
       <div class="collapse navbar-collapse" id="navbarNav navbarSupportedContent">
         <ul class="navbar-nav mr-auto hm_navbar-list">
-         
+
           <li class="nav-item hm_navbar-item">
             <a class="nav-link scroll-link" href="#home"><strong>HOME</strong></a>
           </li>
@@ -56,7 +56,7 @@
           <li class="nav-item hm_navbar-item">
             <a class="nav-link scroll-link" href="#contact"><strong>CONTACTO<!--CONTACT--></strong></a>
           </li>
-          
+
           <li class="nav-item hm_navbar-item">
             <a class="nav-link scroll-link btn-hm-2" href="login/index-login.html">Reservar</a>
           </li>
@@ -64,7 +64,7 @@
           <!--<li class="nav-item hm_navbar-item">
             <a class="nav-link scroll-link" href="#map"><strong>UBICACIÓN///MAP</strong></a>
           </li>-->
-          
+
         </ul>
       </div>
       <!--/.Links -->
@@ -341,6 +341,39 @@
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- Smooth Scroll JavaScript -->
 <script type="text/javascript" src="js/smooth-scroll.js"></script>
+<!-- Chatbot button -->
+<script>
+  var div = document.createElement('div');
+  div.className = 'fb-customerchat';
+  div.setAttribute('page_id', '586726805166882');
+  div.setAttribute('ref', '');
+  document.body.appendChild(div);
+  window.fbMessengerPlugins = window.fbMessengerPlugins || {
+    init: function () {
+      FB.init({
+        appId            : '1678638095724206',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v3.0'
+      });
+    }, callable: []
+  };
+  window.fbAsyncInit = window.fbAsyncInit || function () {
+    window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+    window.fbMessengerPlugins.init();
+  };
+  setTimeout(function () {
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  }, 0);
+</script>
+
 </body>
 <!-- Footer -->
 <footer class="page-footer font-small hm_primary-color pt-4">
