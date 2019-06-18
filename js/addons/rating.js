@@ -3,13 +3,13 @@ var $stars
 jQuery(document).ready(function ($) {
   // Custom whitelist to allow for using HTML tags in popover content
   var myDefaultWhiteList = $.fn.tooltip.Constructor.Default.whiteList
-  myDefaultWhiteList.textarea = []
+  myDefaultWhiteList.textarea = [];
   myDefaultWhiteList.button = []
 
   $stars = $('.rate-popover')
 
   $stars.on('mouseover', function () {
-    var index = $(this).attr('data-index')
+    var index = $(this).attr('data-index');
     markStarsAsActive(index)
   })
 
@@ -47,5 +47,5 @@ $(function () {
     // Custom content for popover
     content: `<div class="my-0 py-0"> <textarea type="text" style="font-size: 0.78rem" class="md-textarea form-control py-0" placeholder="Write us what can we improve" rows="3"></textarea> <button id="voteSubmitButton" type="submit" class="btn btn-sm btn-primary">Submit!</button> <button id="closePopoverButton" class="btn btn-flat btn-sm">Close</button>  </div>`
   })
-  $('.rate-popover').tooltip()
+  $(".rate-popover").tooltip()
 })
