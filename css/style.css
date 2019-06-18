@@ -111,8 +111,16 @@ input {
 
   /* Home Section */
 .text_home-section {
-    padding-top: 3.3em;
     height: auto;
+}
+
+.box_home-logo {
+    display: inline-block;
+    width: 35%;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    padding: 0.6em;
+    border: 2px solid #ba771f;
 }
 
 .home_logo {
@@ -123,17 +131,25 @@ input {
 .logo-main {
     margin-bottom: 0.3em;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: 10px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 400;
 }
 
 .logo-sec {
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Bad Script', cursive;
     letter-spacing: 3px;
-    padding-bottom: 3em;
+}
+
+.box_home-linea {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 2em;
+    padding: 0.2em;
+    border-top: 2px solid #ba771f;
+    border-bottom: 2px solid #ba771f;
 }
 
 .home_img {
