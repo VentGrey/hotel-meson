@@ -80,10 +80,10 @@
 <!--About Section-->
 <div class="text text_about-section" id="about">
   <div class="container">
-    <p class="text-center page-text font-weight-bold">Nosotros<!--About--></p>
+    <p class="text-center page-title font-weight-bold">Nosotros<!--About--></p>
   </div>
   <div class="about-container">
-    <p class="lead page-title text-justify text-center font-weight-lighter text-wrap">
+    <p class="lead page-text text-justify text-center font-weight-lighter text-wrap">
       El Mesón de Juan Valle está localizado en Guanajuato capital y gracias a su ubicación, se
       encuentra a 150 metros del Jardín Principal y a 300 metros del Jardín de la Unión. De igual
       forma, tiene muchas de las atracciones más populares cerca, como el Callejón del Beso.
@@ -120,29 +120,29 @@
 <!--Services Section-->
 <div class="text" id="services">
   <div class="container services-gral services-main">
-    <p class="text-center page-text font-weight-bold">Nuestros Servicios</p>
+    <p class="text-center page-title font-weight-bold">Nuestros Servicios</p>
   </div>
   <!-- This simulates the services grid -->
   <div class="container">
     <div class="row">
       <!-- Parking Service (Viewed on booking.com) -->
       <div class="col services-gral">
-        <i class="page-title fas fa-parking"></i>
-        <p class="page-title text-center font-weight-light">Estacionamiento</p>
+        <i class="page-text fas fa-parking"></i>
+        <p class="page-text text-center font-weight-light">Estacionamiento</p>
         <p class="service-text font-weight-lighter">Estacionamiento gratis y privado cerca. No es necesario reservar</p>
       </div>
 
       <!-- No smoking policy (Viewed on booking.com) -->
       <div class="col services-gral">
-        <i class="page-title fas fa-smoking-ban"></i>
-        <p class="page-title text-center font-weight-light">Libre de humo</p>
+        <i class="page-text fas fa-smoking-ban"></i>
+        <p class="page-text text-center font-weight-light">Libre de humo</p>
         <p class="service-text font-weight-lighter">Porque nos preocupa tu salud, todas nuestras instalaciones tienen una política de "no fumar".</p>
       </div>
 
       <!-- Services listed (Viewed on booking.com) -->
       <div class="col services-gral">
-        <i class="page-title fas fa-concierge-bell"></i>
-        <p class="page-title text-center font-weight-light">¡Siempre ahí!</p>
+        <i class="page-text fas fa-concierge-bell"></i>
+        <p class="page-text text-center font-weight-light">¡Siempre ahí!</p>
         <p class="service-text font-weight-lighter">¡Información turística y recepción las 24 horas del día!</p>
       </div>
 
@@ -151,21 +151,21 @@
 
       <!-- Free WiFi Policy (Viewed on booking.com) -->
       <div class="col services-gral">
-        <i class="page-title fas fa-wifi"></i>
-        <p class="page-title text-center font-weight-light">¡WiFi gratis!</p>
+        <i class="page-text fas fa-wifi"></i>
+        <p class="page-text text-center font-weight-light">¡WiFi gratis!</p>
         <p class="service-text font-weight-lighter">Mantente conectado. WiFi gratis en todas nuestras habitaciones.</p>
       </div>
 
       <!-- Big Rooms (More booking.com stuff) -->
       <div class="col services-gral">
-        <i class="page-title fas fa-heart"></i>
-        <p class="page-title text-center font-weight-light">Servicio de habitación diario</p>
+        <i class="page-text fas fa-heart"></i>
+        <p class="page-text text-center font-weight-light">Servicio de habitación diario</p>
         <p class="service-text font-weight-lighter">Siempre limpio, siempre listo para ti.</p>
       </div>
 
       <div class="col services-gral">
-        <i class="page-title fas fa-map-marked-alt"></i>
-        <p class="page-title text-center font-weight-light">¡Cerca de todo!</p>
+        <i class="page-text fas fa-map-marked-alt"></i>
+        <p class="page-text text-center font-weight-light">¡Cerca de todo!</p>
         <p class="service-text font-weight-lighter">Nuestra ubicación te permitirá estar cerca de muchas de las más populares atracciones de Guanajuato.<!--Sé que no está traducido tal cual--></p>
       </div>
     </div>
@@ -176,7 +176,7 @@
 <!--Gallery Section-->
 <div class="gallery-section" id="gallery">
   <div class="container gallery_main">
-    <p class="text-center page-text font-weight-bold" style="color: #000;">Galería</p>
+    <p class="text-center page-title-2 font-weight-bold">Galería</p>
   </div>
   
   <!--Gallery images-->
@@ -217,11 +217,100 @@
 <!--/.Gallery Section-->
 
 <!--Contact Section-->
-<div class="contact" id="contact"></div>
+<section class="mb-4 contact-section">
+
+    <!--Encabezado-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4 page-title-2">Contáctanos</h2>
+    <!--Descripción-->
+    <p class="text-center w-responsive mx-auto mb-5 page-text-2">¿Tienes alguna pregunta? Por favor no dudes en ponerte en contacto con nosotros.</p>
+
+    <!--Contenido-->
+    <div class="row">
+       
+        <!--Parte izquierda del formulario--> 
+        <div class="col-md-9 mb-md-0 mb-5">
+           
+            <!--Sección del Mensaje en general--> 
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                
+                <!--Nombre y Correo-->
+                <div class="row">
+                   
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Nombre</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Correo Electrónico</label>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Nombre y Correo-->
+        
+                <!--Mensaje--> 
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Mensaje</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Mensaje-->
+
+            </form>
+            <!--Sección del Mensaje en general-->
+
+            <!--Botón de enviar--> 
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+            </div>
+            <div class="status"></div>
+            <!--Botón de enviar-->
+            
+        </div>
+        <!--Parte izquierda del formulario--> 
+
+        <!--Parte derecha del formulario--> 
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Juan Valle 18, Zona Centro, 36000 Guanajuato, Gto.</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>01 473 732 2096</p>
+                </li>
+                
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@ambotics.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Parte derecha del formulario--> 
+
+    </div>
+    <!--Contenido-->
+
+</section>
 <!--/.Contact Section-->
 
 <!--Map Section-->
-<div class="location" id="map"></div>
+<main class=" m-0 p-0">
+  <div class="container-fluid m-0 p-0">
+    <!--Google map-->
+    <div id="map-container-google-4" class="z-depth-1-half map-container-4" style="height: 500px">
+      <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+        style="border:0" allowfullscreen></iframe>
+    </div>
+  </div>
+</main>
 <!--/.Map Section-->
 
 <!--/.Content-->
