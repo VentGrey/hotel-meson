@@ -264,6 +264,30 @@ input {
 
 /* End of CONTENT styling */
 
+/* Styles for MESSENGER BUBBLE */
+.back_msng-bubble {
+    position: absolute;
+    width: 70px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #380000;
+  
+    position: fixed;
+    left: 50px;
+    bottom: 10px;
+    align-items: center;
+}
+
+.msng-bubble {
+    position: relative;
+    left: 12px;
+    bottom: -7px;
+    font-size: 50px;
+    color: #fff;
+}
+
+/* Styles for MESSENGER BUBBLE */
+
 /* Styles for BOOK A ROOM section */
 .rooms-body{
   padding-top: 10%;
