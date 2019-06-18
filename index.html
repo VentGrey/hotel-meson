@@ -340,58 +340,19 @@
 <!--/.Messenger bubble-->
 
 <!--Redes Sociales-->
-<a href="#">
-  <div class="back_msng-bubble">
-    <i class="fab fa-facebook-messenger msng-bubble"></i>
-  </div>
-</a>
-<!--/.Messenger bubble-->
+<div class="box_redes">
+  <a href="#">
+    <i class="fab fa-facebook-f red-facebook"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-instagram red-insta"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-google red-google"></i>
+  </a>
+</div>
+<!--/.Redes sociales-->
 
-<!-- SCRIPTS -->
-<!-- JQuery -->
-<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="js/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="js/mdb.min.js"></script>
-<!-- Smooth Scroll JavaScript -->
-<script type="text/javascript" src="js/smooth-scroll.js"></script>
-<!-- Chatbot button -->
-<script>
-  var div = document.createElement('div');
-  div.className = 'fb-customerchat';
-  div.setAttribute('page_id', '586726805166882');
-  div.setAttribute('ref', '');
-  document.body.appendChild(div);
-  window.fbMessengerPlugins = window.fbMessengerPlugins || {
-    init: function () {
-      FB.init({
-        appId            : '1678638095724206',
-        autoLogAppEvents : true,
-        xfbml            : true,
-        version          : 'v3.0'
-      });
-    }, callable: []
-  };
-  window.fbAsyncInit = window.fbAsyncInit || function () {
-    window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
-    window.fbMessengerPlugins.init();
-  };
-  setTimeout(function () {
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) { return; }
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  }, 0);
-</script>
-
-</body>
 <!-- Footer -->
 <footer class="page-footer font-small hm_primary-color pt-4">
 
@@ -414,44 +375,7 @@
 
       <hr class="w-100 clearfix d-md-none">
 
-      <!-- Grid column -->
-<!--      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"
-      >
-        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-        <p>
-          <a href="#!">MDBootstrap</a>
-        </p>
-        <p>
-          <a href="#!">MDWordPress</a>
-        </p>
-        <p>
-          <a href="#!">BrandFlow</a>
-        </p>
-        <p>
-          <a href="#!">Bootstrap Angular</a>
-        </p>
-      </div>
-      <!-- Grid column -->
-
       <hr class="w-100 clearfix d-md-none">
-
-<!--      <!-- Grid column --
-      >
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-        <p>
-          <a href="#!">Your Account</a>
-        </p>
-        <p>
-          <a href="#!">Become an Affiliate</a>
-        </p>
-        <p>
-          <a href="#!">Shipping Rates</a>
-        </p>
-        <p>
-          <a href="#!">Help</a>
-        </p>
-      </div>
 
       <!-- Grid column -->
       <hr class="w-100 clearfix d-md-none">
@@ -530,5 +454,51 @@
 
 </footer>
 <!-- Footer -->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Smooth Scroll JavaScript -->
+<script type="text/javascript" src="js/smooth-scroll.js"></script>
+<!-- Chatbot button -->
+<script>
+  var div = document.createElement('div');
+  div.className = 'fb-customerchat';
+  div.setAttribute('page_id', '586726805166882');
+  div.setAttribute('ref', '');
+  document.body.appendChild(div);
+  window.fbMessengerPlugins = window.fbMessengerPlugins || {
+    init: function () {
+      FB.init({
+        appId            : '1678638095724206',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v3.0'
+      });
+    }, callable: []
+  };
+  window.fbAsyncInit = window.fbAsyncInit || function () {
+    window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+    window.fbMessengerPlugins.init();
+  };
+  setTimeout(function () {
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  }, 0);
+</script>
+
+</body>
 
 </html>
