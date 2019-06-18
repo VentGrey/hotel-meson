@@ -1,0 +1,22 @@
+{
+  "name": "hotel-meson",
+  "version": "1.0.0",
+  "description": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/00adae03eb844883b994ff8dc48845f4)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VentGrey/hotel-meson&amp;utm_campaign=Badge_Grade)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VentGrey/hotel-meson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VentGrey/hotel-meson/issues"
+  },
+  "homepage": "https://github.com/VentGrey/hotel-meson#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
