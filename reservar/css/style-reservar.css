@@ -1,0 +1,18 @@
+/* GENERALS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font: normal normal normal 14px/1.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  height: 100%;
+}
+/* End of GENERALS styling */
