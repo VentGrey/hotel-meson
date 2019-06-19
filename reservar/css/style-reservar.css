@@ -16,3 +16,48 @@ body {
   height: 100%;
 }
 /* End of GENERALS styling */
+
+/* NAVBAR styles */
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: #380000;
+}
+
+.navbar_link {
+  text-decoration: none;
+}
+
+.navbar_box-back {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 1.1em;
+  margin-left: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+  background-color: transparent;
+}
+
+.navbar_box-back > span {
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* End of NAVBAR styles */
+
+/* CONTENT styles */
+
+  /* Left Part Section */
+.left-part {
+  
+}
+
+  /* Right Part Section */
+
+/* End of CONTENT styles */
