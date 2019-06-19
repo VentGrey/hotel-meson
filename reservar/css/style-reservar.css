@@ -23,6 +23,7 @@ body {
   width: 100%;
   height: auto;
   background-color: #380000;
+  z-index: 100;
 }
 
 .navbar_link {
@@ -52,12 +53,31 @@ body {
 /* End of NAVBAR styles */
 
 /* CONTENT styles */
-
-  /* Left Part Section */
-.left-part {
-  
+.content-section {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  top: 5.5em;
+  background-color: red;
 }
 
-  /* Right Part Section */
+  /* Right Part */
+.right-part {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  height: 500px;
+  background-color: black;
+}
+
+  /* Left Part */
+.left-part {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  height: 500px;
+  background-color: yellow;
+}
 
 /* End of CONTENT styles */
