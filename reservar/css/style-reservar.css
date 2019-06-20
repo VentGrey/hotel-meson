@@ -37,8 +37,8 @@ body {
   height: auto;
   padding: 1.1em;
   margin-left: 1.5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
   
   background-color: transparent;
 }
@@ -58,24 +58,32 @@ body {
   text-align: center;
   width: 100%;
   height: auto;
-  top: 5.5em;
+  top: 4.8em;
   background-color: red;
 }
 
   /* Right Part */
-.right-part {
+.first-part {
   position: relative;
   display: inline-block;
-  width: 49%;
+  width: 20%;
+  height: 500px;
+  background-color: black;
+}
+
+.second-part {
+  position: relative;
+  display: inline-block;
+  width: 20%;
   height: 500px;
   background-color: black;
 }
 
   /* Left Part */
-.left-part {
+.third-part {
   position: relative;
   display: inline-block;
-  width: 49%;
+  width: 59%;
   height: 500px;
   background-color: yellow;
 }
