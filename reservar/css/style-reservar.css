@@ -68,22 +68,25 @@ body {
   position: absolute;
   list-style: none;
   width: 100%;
-  margin-top: 9em;
-  margin-bottom: 2em;
+  margin-top: 16em;
   left: 50%;
   transform: translate(-50%, 0);
   
   font-family: 'Varela Round', sans-serif;
   font-size: 18px;
-  text-transform: uppercase;
-  color: #fff;
+  text-transform: uppercase; 
   background-color: transparent;
+}
+
+.rooms-list > a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .rooms-item {
   display: block;
-  padding: 0.6em;
-  margin: 0.5em;
+  padding: 0.1em;
+  margin: 1.7em 0.5em;
   background-color: transparent;
 }
 
