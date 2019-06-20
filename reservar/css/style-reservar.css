@@ -23,7 +23,7 @@ body {
   width: 100%;
   height: auto;
   background-color: #380000;
-  z-index: 100;
+  z-index: 200;
 }
 
 .navbar_link {
@@ -52,39 +52,69 @@ body {
 
 /* End of NAVBAR styles */
 
+/* ROOMS SECTION styles */
+.rooms-section {
+  position: fixed;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  
+  background-color: #600505;
+  z-index: 100;
+}
+
+.rooms-list {
+  position: absolute;
+  list-style: none;
+  width: 100%;
+  margin-top: 9em;
+  margin-bottom: 2em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+}
+
+.rooms-item {
+  display: block;
+  padding: 0.6em;
+  margin: 0.5em;
+  background-color: transparent;
+}
+
+/* End of ROOMS SECTION styles */
+
 /* CONTENT styles */
 .content-section {
   position: absolute;
-  text-align: center;
   width: 100%;
-  height: auto;
+  height: 400%;
   top: 4.8em;
-  background-color: red;
+  left: 20%;
+  text-align: center;
+  background-color: transparent;
 }
 
-  /* Right Part */
-.first-part {
+  /* First Part */
+.datepicker-part {
   position: relative;
   display: inline-block;
-  width: 20%;
-  height: 500px;
+  width: 30%;
+  height: 100%;
   background-color: black;
 }
 
-.second-part {
+  /* Second Part */
+.gallery-part {
   position: relative;
   display: inline-block;
-  width: 20%;
-  height: 500px;
-  background-color: black;
-}
-
-  /* Left Part */
-.third-part {
-  position: relative;
-  display: inline-block;
-  width: 59%;
-  height: 500px;
+  width: 69%;
+  height: 100%;
   background-color: yellow;
 }
 
