@@ -13,7 +13,8 @@
   <!-- Page styles -->
   <link href="reservar/css/style-reservar.css" rel="stylesheet">
   <!-- Materialize CSS -->
-  <link href="materialize/css/materialize.min.css" rel="stylesheet">
+  <!--<link href="materialize/css/materialize.min.css" rel="stylesheet">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
 <body>
@@ -31,14 +32,17 @@
   <!--/.Navbar-->
   
   <!--Background Image-->
-  <div class="box-img">
+  <!--<div class="box-img">
     <img class="back-img" src="reservar/images/imagen-1.jpg" alt="background image">
-  </div>
+  </div>-->
   <!--/.Background Image-->
   
   <!--Datepicker-->
   <div class="box-datepicker">
-    
+    <div>
+      <span>Reserva Ahora</span>
+    </div> 
+    <input type="text" class="datepicker">
   </div>
   <!--/.Datepicker-->
   
@@ -46,7 +50,16 @@
   
   
   <!--Scripts-->
-  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <!--<script type="text/javascript" src="materialize/js/materialize.min.js"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+  <script>
+    const Calendar = document.querySelector('.datepicker');
+    M.Datepicker.init(Calendar, {
+      format: 'dddd/mmmm/yyyy'
+    });
+  </script>
+  
   <!--/.Scripts-->
   
 </body>
