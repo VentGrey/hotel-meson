@@ -15,11 +15,11 @@ body {
   font-weight: bold;
   height: 100%;
 }
-/* End of GENERALS styling */
+
+/* End of GENERALS styles */
 
 /* NAVBAR styles */
 .navbar {
-  position: fixed;
   width: 100%;
   height: auto;
   background-color: #380000;
@@ -36,14 +36,14 @@ body {
 
 .navbar-item {
   display: inline-block;
-  margin: 2.3em 1em;
+  margin: 1.5em 1em;
   font-family: 'Varela Round', sans-serif;
   font-size: 16px;
   background-color: transparent;
   text-transform: uppercase;
 }
 
-.btn-back {
+.hm-btn-back {
   margin-right: 35em;
 }
 
@@ -67,23 +67,202 @@ body {
 
 /* End of BACKGROUND IMAGE styles */
 
-/* DATEPICKER styles */
-.box-datepicker {
-  position: absolute;
-  width: 30%;
-  height: 250px;
-  top: 7em;
-  left: 15%;
-  padding: 2em;
-  border-radius: 5px;
-  background-color: #000;
-  opacity: 0.8;
+/* CONTAINER-DATEPICKER styles */
+.container-reservar {
+  width: 100%;
+  height: auto;
+  padding-top: 5em;
+  background-color: transparent;
 }
 
-.datepicker {
-  color: #fff;
+.box-text-main {
+  position: relative;
+  width: 70%;
+  height: auto;
+  padding: 1em 0em 0.5em 2em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: transparent;
+  border-bottom: 0.2px solid #b0b4ba;
+}
+
+.box-text-main > span {
+  color: #000;
   font-family: 'Varela Round', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+.box-datepicker {
+  position: relative;
+  width: 70%;
+  height: auto;
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: transparent;
+  border-bottom: 0.2px solid #b0b4ba;
+}
+
+.datepicker-general {
+  display: inline-block;
+  width: 20%;
+  height: 70%;
+  background-color: transparent;
+  border: 1px solid #b0b4ba;
+}
+
+.checkin-date {
+  color: #000;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
   font-weight: 400;
 }
-/* End of DATEPICKER styles */
+
+.hm-btn-search {
+  display: inline-block;
+  width: 18%;
+  height: 100%;
+  background-color: red;
+}
+
+/* End of CONTAINER-DATEPICKER styles */
+
+/* CONTAINER-ROOMS  styles */
+.container-rooms {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5em;
+  background-color: transparent;
+}
+
+  /*General Style*/
+.rooms-general {
+  position: relative;
+  width: 70%;
+  height: auto;
+  padding-top: 1.1em;
+  padding-bottom: 1.1em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: transparent;
+  border-bottom: 0.2px solid #b0b4ba;
+}
+
+    /*Information Part*/
+.room-info {
+  position: relative;
+  display: inline-block;
+  height: 240px;
+  background-color: transparent;
+}
+
+      /*Image Section*/
+.info-img {
+  width: 30%;
+}
+
+.room-img {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 1px;
+}
+
+      /*Info Section*/
+.info-main {
+  width: 45%;
+  color: #000;
+  font-family: 'Varela Round', sans-serif;
+}
+
+        /*First Part*/
+.first-part-info {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  background-color: transparent;
+}
+
+.first-part-info > span {
+  display: block;
+}
+
+.main-text-info {
+  font-size: 20px;
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+}
+
+.main-subtext-info {
+  font-size: 12px;
+  margin-bottom: 2em;
+}
+
+.main-list {
+  font-size: 12px;
+}
+
+        /*Second Part*/
+.second-part-info {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 70%;
+  padding-top: 1.2em;
+  background-color: transparent;
+  border-top: 1px solid #b0b4ba;
+}
+
+.services-list {
+  list-style: none;
+  font-size: 25px;
+  color: #9da0a5;
+}
+
+.services-item {
+  display: inline-block;
+  margin-right: 0.3em;
+}
+
+      /*Price Section*/
+.info-price {
+  width: 23.5%;
+  background-color: transparent;
+}
+
+        /*First Part*/
+.part-price {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: transparent;
+}
+
+.part-price > span {
+  display: block;
+  color: #000;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.main-text-price {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  font-size: 12px;
+}
+
+.main-subtext-price {
+  font-size: 38px;
+  letter-spacing: -2px;
+}
+
+.main-subtext-2-price {
+  font-size: 25px;
+}
+
+/* End of CONTAINER-ROOMS  styles */
