@@ -109,22 +109,16 @@ body {
 .checkin-date {
   color: #000;
   font-family: 'Varela Round', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .checkout-date {
   color: #000;
   font-family: 'Varela Round', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .habitacion {
   color: #000;
   font-family: 'Varela Round', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .datepicker-btn {
@@ -138,6 +132,14 @@ body {
   margin-left: 50%;
   transform: translate(-50%, 0);
   background-color: #b0b4ba;
+  
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+}
+
+.datepicker-btn > button:hover {
+  background-color: #600505;
+  color: #fff;
 }
 
 /* End of CONTAINER-DATEPICKER styles */
