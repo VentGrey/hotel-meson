@@ -10,11 +10,17 @@
   <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Page styles -->
+  <link href="css/style.css" rel="stylesheet">
   <link href="reservar/css/style-reservar.css" rel="stylesheet">
   <!-- Materialize CSS -->
-  <!--<link href="materialize/css/materialize.min.css" rel="stylesheet">-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,39 +28,216 @@
   <!--Navbar-->
   <div class="navbar">
     <ul class="navbar-list">
-      <li class="navbar-item btn-back"><a class="navbar-link" href="#">Volver</a></li>
-      <li class="navbar-item"><a class="navbar-link" href="#">Cuarto Sencillo</a></li>
+      <li class="navbar-item hm-btn-back"><a class="navbar-link" href="#">Volver</a></li>
+      <!--<li class="navbar-item"><a class="navbar-link" href="#">Cuarto Sencillo</a></li>
       <li class="navbar-item"><a class="navbar-link" href="#">Cuarto Doble</a></li>
       <li class="navbar-item"><a class="navbar-link" href="#">vip</a></li>
-      <li class="navbar-item"><a class="navbar-link" href="#">penthouse</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="#">penthouse</a></li>-->
     </ul>  
   </div>
   <!--/.Navbar-->
   
-  <!--Background Image-->
-  <!--<div class="box-img">
-    <img class="back-img" src="reservar/images/imagen-1.jpg" alt="background image">
-  </div>-->
-  <!--/.Background Image-->
-  
   <!--Datepicker-->
-  <div class="box-datepicker">
-    <div>
-      <span>Reserva Ahora</span>
-    </div> 
-    <input type="text" class="datepicker">
+  <div class="container-reservar">
+   
+    <div class="box-text-main">
+      <span>Reservar</span>
+    </div>
+    
+    <div class="box-datepicker">
+     
+      <div class="datepicker-general"> 
+        <input type="text" class="checkin-date">
+      </div>
+      
+      <div class="datepicker-general"> 
+        <input type="text" class="checkout-date">
+      </div>
+      
+      <div class="datepicker-general"> 
+        <input type="text" class="adults">
+      </div>
+      
+      <div class="datepicker-general"> 
+        <input type="text" class="kids">
+      </div>
+      
+      <div class="hm-btn-search"></div>
+      
+    </div>
+    
   </div>
   <!--/.Datepicker-->
+  
+  <!--Type Rooms-->
+  <div class="container-rooms">
+   
+    <div class="rooms-general room-first">
+      <div class="room-info info-img">
+        <img src="images/imagen-5.jpeg" alt="Habitación Sencilla" class="room-img">
+      </div>
+      <div class="room-info info-main">
+        <div class="first-part-info"> 
+          <span class="main-text-info">Habitación Sencilla</span>
+          <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
+          <ul class="main-list">
+            <li class="main-item">- Tamaño: 60m2</li>
+            <li class="main-item">- Camas: 1 cama matrimonial</li>
+            <li class="main-item">- Máximo: 2 personas</li>
+          </ul>
+        </div>
+        <div class="second-part-info">
+          <ul class="services-list">
+            <li class="services-item"><i class="far fa-snowflake"></i></li>
+            <li class="services-item"><i class="fas fa-wifi"></i></li>
+            <li class="services-item"><i class="fas fa-tv"></i></li>
+            <li class="services-item"><i class="fas fa-beer"></i></li>
+            <li class="services-item"><i class="fas fa-bath"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="room-info info-price">
+        <div class="part-price">
+          <span class="main-text-price">Desde</span>
+          <span class="main-subtext-price">$1,200</span>
+          <span class="main-subtext-2-price">p/noche</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="rooms-general room-first">
+      <div class="room-info info-img">
+        <img src="images/imagen-7.jpeg" alt="Habitación doble" class="room-img">
+      </div>
+      <div class="room-info info-main">
+        <div class="first-part-info"> 
+          <span class="main-text-info">Habitación Doble</span>
+          <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
+          <ul class="main-list">
+            <li class="main-item">- Tamaño: 80m2</li>
+            <li class="main-item">- Camas: 2 cama matrimoniales</li>
+            <li class="main-item">- Máximo: 4 personas</li>
+          </ul>
+        </div>
+        <div class="second-part-info">
+          <ul class="services-list">
+            <li class="services-item"><i class="far fa-snowflake"></i></li>
+            <li class="services-item"><i class="fas fa-wifi"></i></li>
+            <li class="services-item"><i class="fas fa-tv"></i></li>
+            <li class="services-item"><i class="fas fa-beer"></i></li>
+            <li class="services-item"><i class="fas fa-bath"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="room-info info-price">
+        <div class="part-price">
+          <span class="main-text-price">Desde</span>
+          <span class="main-subtext-price">$1,500</span>
+          <span class="main-subtext-2-price">p/noche</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="rooms-general room-first">
+      <div class="room-info info-img">
+        <img src="images/imagen-4.jpeg" alt="Habitación de lujo" class="room-img">
+      </div>
+      <div class="room-info info-main">
+        <div class="first-part-info"> 
+          <span class="main-text-info">Habitación de lujo</span>
+          <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
+          <ul class="main-list">
+            <li class="main-item">- Tamaño: 100m2</li>
+            <li class="main-item">- Camas: 1 cama king size y 1 cama matrimonial</li>
+            <li class="main-item">- Máximo: 4 personas</li>
+          </ul>
+        </div>
+        <div class="second-part-info">
+          <ul class="services-list">
+            <li class="services-item"><i class="far fa-snowflake"></i></li>
+            <li class="services-item"><i class="fas fa-wifi"></i></li>
+            <li class="services-item"><i class="fas fa-tv"></i></li>
+            <li class="services-item"><i class="fas fa-beer"></i></li>
+            <li class="services-item"><i class="fas fa-bath"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="room-info info-price">
+        <div class="part-price">
+          <span class="main-text-price">Desde</span>
+          <span class="main-subtext-price">$1,800</span>
+          <span class="main-subtext-2-price">p/noche</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="rooms-general room-first">
+      <div class="room-info info-img">
+        <img src="images/imagen-8.jpeg" alt="Habitación Familiar" class="room-img">
+      </div>
+      <div class="room-info info-main">
+        <div class="first-part-info"> 
+          <span class="main-text-info">Habitación Familiar</span>
+          <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
+          <ul class="main-list">
+            <li class="main-item">- Tamaño: 100m2</li>
+            <li class="main-item">- Camas: 3 cama matrimoniales</li>
+            <li class="main-item">- Máximo: 6 personas</li>
+          </ul>
+        </div>
+        <div class="second-part-info">
+          <ul class="services-list">
+            <li class="services-item"><i class="far fa-snowflake"></i></li>
+            <li class="services-item"><i class="fas fa-wifi"></i></li>
+            <li class="services-item"><i class="fas fa-tv"></i></li>
+            <li class="services-item"><i class="fas fa-beer"></i></li>
+            <li class="services-item"><i class="fas fa-bath"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="room-info info-price">
+        <div class="part-price">
+          <span class="main-text-price">Desde</span>
+          <span class="main-subtext-price">$2,000</span>
+          <span class="main-subtext-2-price">p/noche</span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <!--/.Type Rooms-->
+  
+  <!--Messenger bubble-->
+  <a href="#">
+    <div class="back_msng-bubble">
+      <i class="fab fa-facebook-messenger msng-bubble"></i>
+    </div>
+  </a>
+  <!--/.Messenger bubble-->
+
+  <!--Redes Sociales-->
+  <div class="box_redes">
+    <a href="#">
+      <i class="fab fa-facebook-f red-facebook"></i>
+    </a>
+    <a href="#">
+      <i class="fab fa-instagram red-insta"></i>
+    </a>
+    <a href="#">
+      <i class="fab fa-google red-google"></i>
+    </a>
+  </div>
+  <!--/.Redes sociales-->
   
   
   
   
   <!--Scripts-->
-  <!--<script type="text/javascript" src="materialize/js/materialize.min.js"></script>-->
+  <!--Materialize-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   
   <script>
-    const Calendar = document.querySelector('.datepicker');
+    const Calendar = document.querySelector('.checkin-date');
     M.Datepicker.init(Calendar, {
       format: 'dddd/mmmm/yyyy'
     });
