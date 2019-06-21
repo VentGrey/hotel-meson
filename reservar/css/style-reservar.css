@@ -51,21 +51,12 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+.navbar-link:hover {
+  color: #b0b4ba;  
+}
+
 /* End of NAVBAR styling */
-
-/* BACKGROUND IMAGE styles */
-.box-img {
-  width: 100%;
-  height: 100%;
-}
-
-.back-img {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-
-/* End of BACKGROUND IMAGE styles */
 
 /* CONTAINER-DATEPICKER styles */
 .container-reservar {
@@ -119,6 +110,7 @@ body {
   font-family: 'Varela Round', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  z-index: 500;
 }
 
 /* End of CONTAINER-DATEPICKER styles */
