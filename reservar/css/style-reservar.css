@@ -70,12 +70,20 @@ body {
 /* DATEPICKER styles */
 .box-datepicker {
   position: absolute;
-  width: 20%;
-  height: 450px;
-  top: 5.9em;
+  width: 30%;
+  height: 250px;
+  top: 7em;
   left: 15%;
-  transform: translate(-50%, 0);
+  padding: 2em;
+  border-radius: 5px;
   background-color: #000;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+
+.datepicker {
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 /* End of DATEPICKER styles */
