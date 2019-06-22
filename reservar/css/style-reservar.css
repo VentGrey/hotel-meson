@@ -101,9 +101,26 @@ body {
 .datepicker-general {
   display: inline-block;
   width: 25%;
-  height: 70%;
+  height: auto;
   background-color: transparent;
-  border: 1px solid #b0b4ba;
+}
+
+.datepicker-general > span {
+  color: #000;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+}
+
+.check-date {
+  width: 80%;
+  height: 45px;
+  padding-left: 1em;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  
+  color: #000;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .datepicker-btn {
