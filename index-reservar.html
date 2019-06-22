@@ -42,23 +42,12 @@
     
     <div class="box-datepicker">
      
-      <div class="datepicker-general"> 
-        <input type="text" class="checkin-date" value="Check in">
+      <div class="datepicker-general">
+        <input type="date" class="checkin-date" placeholder="Check in">
       </div>
       
-      <div class="datepicker-general"> 
-        <input type="text" class="checkout-date" value="Check out">
-      </div>
-      
-      <div class="datepicker-general">  
-        <!--<form action="" class="picker-room">
-          <select name="habitacion" id="rooms" class="select-room">
-            <option value="habitación sencilla">Habitación Sencilla</option>
-            <option value="habitación doble">Habitación Doble</option>
-            <option value="habitación de lujo">Habitación de lujo</option>
-            <option value="habitación familiar">Habitación familiar</option>
-          </select>
-        </form>-->
+      <div class="datepicker-general">
+        <input type="date" class="checkout-date" placeholder="Check out">
       </div>
       
       <div class="datepicker-general datepicker-btn">
@@ -245,14 +234,6 @@
   <!--Scripts-->
   <!--Materialize-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  
-  <script>
-    const Calendar = document.querySelector('.checkin-date');
-    M.Datepicker.init(Calendar, {
-      format: 'dddd/mmmm/yyyy'
-    });
-  </script>
-  
   <!--/.Scripts-->
   
 </body>
