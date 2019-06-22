@@ -15,8 +15,6 @@
   <!-- Page styles -->
   <link href="css/style.css" rel="stylesheet">
   <link href="reservar/css/style-reservar.css" rel="stylesheet">
-  <!-- Materialize CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
    <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -41,6 +39,16 @@
     </div>
 
     <div class="box-datepicker">
+      
+      <div class="datepicker-general md-form">
+        <input placeholder="Check in" type="text" id="date-picker-example" class="form-control datepicker">
+        <label for="date-picker-example">&nbsp;</label>
+      </div>
+      
+      <div class="datepicker-general md-form">
+        <input placeholder="Check out" type="text" id="date-picker-example" class="form-control datepicker">
+        <label for="date-picker-example">&nbsp;</label>
+      </div>
 
       <div class="datepicker-general datepicker-btn">
         <button type="button" class="btn">Pagar</button>
@@ -244,8 +252,22 @@
   
   
   <!--Scripts-->
-  <!--Materialize-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Smooth Scroll JavaScript -->
+  <script type="text/javascript" src="js/smooth-scroll.js"></script>
+  
+  <script>
+    // Data Picker Initialization
+    $('.datepicker').pickadate();
+  </script>  
+  
   <!--/.Scripts-->
   
 </body>
