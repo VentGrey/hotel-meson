@@ -101,7 +101,7 @@ body {
 .datepicker-general {
   display: inline-block;
   width: 25%;
-  height: 50px;
+  height: 70%;
   background-color: transparent;
   border: 1px solid #b0b4ba;
 }
@@ -140,19 +140,6 @@ body {
 .datepicker-btn > button:hover {
   background-color: #600505;
   color: #fff;
-}
-
-.picker-room {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  background-color: red;
-}
-
-.select-room {
-  width: 100%;
-  height: 100%;
-  background-color: red;
 }
 
 /* End of CONTAINER-DATEPICKER styles */
