@@ -1,5 +1,10 @@
- //Hab Sencilla
+//Hab Sencilla
 var i = 0;
+
+var hsPrice = 1200;
+var hdPrice = 1500;
+var hdlPrice = 1800;
+var hfPrice = 2000;
 
 function clickLinkHS() {
     i++;
@@ -85,7 +90,7 @@ function quitarHF() {
 //Price Algorithm
 
 function pagar() {
-    var m = i+j+k+l;
+    var m = ( (i * hsPrice) + (j * hdPrice) + (k * hdlPrice) +(l * hfPrice));
 
     if (m == 1) {
         document.getElementById("clicks-price").innerHTML = m;
