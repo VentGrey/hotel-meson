@@ -130,6 +130,22 @@ body {
   height: auto;
 }
 
+#clicks-hs {
+  margin-left: 1em;
+}
+
+#clicks-hd {
+  margin-left: 1em;
+}
+
+#clicks-hdl {
+  margin-left: 1em;
+}
+
+#clicks-hf {
+  margin-left: 1em;
+}
+
 .box-counter > span {
   color: #000;
   font-family: 'Varela Round', sans-serif;
