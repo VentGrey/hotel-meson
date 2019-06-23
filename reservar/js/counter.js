@@ -1,6 +1,6 @@
     //Hab Sencilla
     var i = 0;
-    
+
     function clickLinkHS() {
       i++;
       if (i == 1) {
@@ -18,10 +18,10 @@
         document.getElementById("clicks-hs").innerHTML = i;
       }
     }
-    
+
     //Hab doble
     var j = 0;
-    
+
     function clickLinkHD() {
       j++;
       if (j == 1) {
@@ -39,10 +39,10 @@
         document.getElementById("clicks-hd").innerHTML = j;
       }
     }
-    
+
     //Hab de lujo
     var k = 0;
-    
+
     function clickLinkHDL() {
       k++;
       if (k == 1) {
@@ -60,10 +60,10 @@
         document.getElementById("clicks-hdl").innerHTML = k;
       }
     }
-    
+
     //Hab Familiar
     var l = 0;
-    
+
     function clickLinkHF() {
       l++;
       if (l == 1) {
@@ -81,14 +81,14 @@
         document.getElementById("clicks-hf").innerHTML = l;
       }
     }
-    
+
 
     //Price Algorithm
     var m = 0;
-    
+
     function pagar() {
         m = i+j+k+l;
-        
+
         if (m == 1) {
             document.getElementById("clicks-price").innerHTML = m;
         }
