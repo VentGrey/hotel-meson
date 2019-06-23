@@ -157,18 +157,24 @@ body {
   width: 20%;
 }
 
-.datepicker-btn > button {
+.datepicker-btn > input {
   width: 80%;
   height: 100%;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  margin-bottom: 0.5em;
   margin-left: 50%;
   transform: translate(-50%, 0);
   background-color: #b0b4ba;
+  border: 0;
+  border-radius: 3px;
   
+  color: #222;
   font-family: 'Varela Round', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
-.datepicker-btn > button:hover {
+.datepicker-btn > input:hover {
   background-color: #600505;
   color: #fff;
 }

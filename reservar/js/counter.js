@@ -81,3 +81,18 @@
         document.getElementById("clicks-hf").innerHTML = l;
       }
     }
+    
+
+    //Price Algorithm
+    var m = 0;
+    
+    function pagar() {
+        m = i+j+k+l;
+        
+        if (m == 1) {
+            document.getElementById("clicks-price").innerHTML = m;
+        }
+        else {
+            document.getElementById("clicks-price").innerHTML = m;
+        }
+    }
