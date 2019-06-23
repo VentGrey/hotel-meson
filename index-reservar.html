@@ -52,6 +52,18 @@
       
       <div class="datepicker-general">
         <span>Habitaciones</span>
+        <div class="box-counter">
+          <span>Sencilla</span>
+        </div>
+        <div class="box-counter">
+          <span>Doble</span>
+        </div>
+        <div class="box-counter">
+          <span>de lujo</span>
+        </div>
+        <div class="box-counter">
+          <span>Familiar</span>
+        </div>
       </div>
 
       <div class="datepicker-general datepicker-btn">
@@ -76,9 +88,9 @@
           <span class="main-text-info">Habitación Sencilla</span>
           <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
           <ul class="main-list">
-            <li class="main-item">- Tamaño: 60m2</li>
-            <li class="main-item">- Camas: 1 cama matrimonial</li>
-            <li class="main-item">- Máximo: 2 personas</li>
+            <li class="main-item">Tamaño: 60m2</li>
+            <li class="main-item">Camas: 1 cama matrimonial</li>
+            <li class="main-item">Máximo: 2 personas</li>
           </ul>
         </div>
         <div class="second-part-info">
@@ -97,9 +109,10 @@
           <span class="main-subtext-price">$1,200</span>
           <span class="main-subtext-2-price">p/noche</span>
         </div>
-        <div class="part-available">
-          <div class="available">
-            <span>5 disponibles</span>
+        <div class="part-add">
+          <div class="add">
+            <input type="button" value="Agregar" onclick="agregarHS()">
+            <input type="button" value="Quitar" onclick="quitarHS()">
           </div>
         </div>
       </div>
@@ -115,9 +128,9 @@
           <span class="main-text-info">Habitación Doble</span>
           <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
           <ul class="main-list">
-            <li class="main-item">- Tamaño: 80m2</li>
-            <li class="main-item">- Camas: 2 cama matrimoniales</li>
-            <li class="main-item">- Máximo: 4 personas</li>
+            <li class="main-item">Tamaño: 80m2</li>
+            <li class="main-item">Camas: 2 cama matrimoniales</li>
+            <li class="main-item">Máximo: 4 personas</li>
           </ul>
         </div>
         <div class="second-part-info">
@@ -136,9 +149,10 @@
           <span class="main-subtext-price">$1,500</span>
           <span class="main-subtext-2-price">p/noche</span>
         </div>
-        <div class="part-available">
-          <div class="available">
-            <span>3 disponibles</span>
+        <div class="part-add">
+          <div class="add" id="btnHD">
+            <input type="button" value="Agregar" onclick="agregar()">
+            <input type="button" value="Quitar" onclick="quitar()">
           </div>
         </div>
       </div>
@@ -154,9 +168,9 @@
           <span class="main-text-info">Habitación de lujo</span>
           <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
           <ul class="main-list">
-            <li class="main-item">- Tamaño: 100m2</li>
-            <li class="main-item">- Camas: 1 cama king size y 1 cama matrimonial</li>
-            <li class="main-item">- Máximo: 4 personas</li>
+            <li class="main-item">Tamaño: 100m2</li>
+            <li class="main-item">Camas: 1 cama king size y 1 cama matrimonial</li>
+            <li class="main-item">Máximo: 4 personas</li>
           </ul>
         </div>
         <div class="second-part-info">
@@ -178,9 +192,10 @@
           <span class="main-subtext-price">$1,800</span>
           <span class="main-subtext-2-price">p/noche</span>
         </div>
-        <div class="part-available">
-          <div class="available">
-            <span>1 disponibles</span>
+        <div class="part-add">
+          <div class="add" id="btnHDL">
+            <input type="button" value="Agregar" onclick="agregar()">
+            <input type="button" value="Quitar" onclick="quitar()">
           </div>
         </div>
       </div>
@@ -196,9 +211,9 @@
           <span class="main-text-info">Habitación Familiar</span>
           <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
           <ul class="main-list">
-            <li class="main-item">- Tamaño: 100m2</li>
-            <li class="main-item">- Camas: 3 cama matrimoniales</li>
-            <li class="main-item">- Máximo: 6 personas</li>
+            <li class="main-item">Tamaño: 100m2</li>
+            <li class="main-item">Camas: 3 cama matrimoniales</li>
+            <li class="main-item">Máximo: 6 personas</li>
           </ul>
         </div>
         <div class="second-part-info">
@@ -219,9 +234,10 @@
           <span class="main-subtext-price">$2,000</span>
           <span class="main-subtext-2-price">p/noche</span>
         </div>
-        <div class="part-available">
-          <div class="available">
-            <span>1 disponibles</span>
+        <div class="part-add">
+          <div class="add" id="btnHF">
+            <input type="button" value="Agregar" onclick="agregar()">
+            <input type="button" value="Quitar" onclick="quitar()">
           </div>
         </div>
       </div>
@@ -268,9 +284,16 @@
   <script type="text/javascript" src="js/smooth-scroll.js"></script>
   
   <script>
-    // Data Picker Initialization
-    $('.datepicker').pickadate();
-  </script>  
+    var countClickHS = 0;
+    
+    function agregarHS() {
+      countClickHS += 1;
+    };
+    
+    function quitarHS() {
+      countClickHS -= 1;
+    };
+  </script>
   
   <!--/.Scripts-->
   
