@@ -294,24 +294,10 @@ input {
 }
 
 /* Map Section */
-.map-section {
-    width: 85%;
-    height: 20%;
-}
-
-.map-container-4 {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-
-.map-container-4 iframe {
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.container-map {
+  width: 100%;
+  height: 80%;
+  background-color: red;
 }
 
 /* End of CONTENT styling */
@@ -384,11 +370,3 @@ input {
 }
 
 /* End of REDES SOCIALES styling */
-
-/* Styles for BOOK A ROOM section */
-.rooms-body{
-  padding-top: 10%;
-  height: 100%;
-  background-color: #F2EFE9;
-}
-/* End of BOOK A ROOM styling */
