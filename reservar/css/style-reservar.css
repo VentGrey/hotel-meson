@@ -224,6 +224,25 @@ body {
   border-radius: 1px;
 }
 
+.room-message {
+  position: absolute;
+  width: auto;
+  height: auto;
+  bottom: 0.8em;
+  padding: 0.3em 1em;
+  background-color: #000;
+  opacity: 0.65;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
       /*Info Section*/
 .info-main {
   width: 45%;
@@ -245,13 +264,18 @@ body {
 
 .main-text-info {
   font-size: 20px;
-  margin-top: 1em;
-  margin-bottom: 0.7em;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
 }
 
 .main-subtext-info {
   font-size: 12px;
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
+}
+
+.main-subtext-info-available {
+  font-size: 12px;
+  margin-bottom: 1.5em;
 }
 
 .main-list {
