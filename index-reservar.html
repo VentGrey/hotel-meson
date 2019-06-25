@@ -67,7 +67,7 @@
       </div>
       
       <div class="datepicker-general datepicker-btn">
-        <input type="button" value="Pagar" onclick="pagar();">
+        <input type="button" value="Pagar" onclick="pagar(); pagarHS(); pagarHD(); pagarHDL(); pagarHF();">
         <span id="clicks-price">0</span>
       </div>
 
@@ -115,7 +115,7 @@
         <div class="part-add">
           <div class="add">
             <input type="button" value="Agregar" onclick="clickLinkHS();">
-            <input type="button" value="Quitar" onclick="quitarHS();">
+            <input type="button" value="Borrar" onclick="resetHS();">
           </div>
         </div>
       </div>
@@ -131,6 +131,7 @@
         <div class="first-part-info">
           <span class="main-text-info">Habitación Doble</span>
           <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
+          <span class="main-subtext-info-available"><span id="clicks-ava-hd">6</span> habitaciones disponibles</span>
           <ul class="main-list">
             <li class="main-item">Tamaño: 80m2</li>
             <li class="main-item">Camas: 2 cama matrimoniales</li>
@@ -156,7 +157,7 @@
         <div class="part-add">
           <div class="add" id="btnHD">
             <input type="button" value="Agregar" onclick="clickLinkHD();">
-            <input type="button" value="Quitar" onclick="quitarHD();">
+            <input type="button" value="Borrar" onclick="resetHD();">
           </div>
         </div>
       </div>
@@ -172,6 +173,7 @@
         <div class="first-part-info"> 
           <span class="main-text-info">Habitación de lujo</span>
           <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
+          <span class="main-subtext-info-available"><span id="clicks-ava-hdl">6</span> habitaciones disponibles</span>
           <ul class="main-list">
             <li class="main-item">Tamaño: 100m2</li>
             <li class="main-item">Camas: 1 cama king size y 1 cama matrimonial</li>
@@ -200,7 +202,7 @@
         <div class="part-add">
           <div class="add" id="btnHDL">
             <input type="button" value="Agregar" onclick="clickLinkHDL();">
-            <input type="button" value="Quitar" onclick="quitarHDL();">
+            <input type="button" value="Borrar" onclick="resetHDL();">
           </div>
         </div>
       </div>
@@ -216,6 +218,7 @@
         <div class="first-part-info"> 
           <span class="main-text-info">Habitación Familiar</span>
           <span class="main-subtext-info">Y cuando yo te vi, te vi, te vi, te vi...</span>
+          <span class="main-subtext-info-available"><span id="clicks-ava-hf">6</span> habitaciones disponibles</span>
           <ul class="main-list">
             <li class="main-item">Tamaño: 100m2</li>
             <li class="main-item">Camas: 3 cama matrimoniales</li>
@@ -243,7 +246,7 @@
         <div class="part-add">
           <div class="add" id="btnHF">
             <input type="button" value="Agregar" onclick="clickLinkHF();">
-            <input type="button" value="Quitar" onclick="quitarHF();">
+            <input type="button" value="Borrar" onclick="resetHF();">
           </div>
         </div>
       </div>
