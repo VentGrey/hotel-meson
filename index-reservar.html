@@ -82,7 +82,7 @@
     <!--Habitación Sencilla-->
     <div class="rooms-general">
       <div class="room-info info-img">
-        <img src="images/imagen-5.jpeg" alt="Habitación Sencilla" class="room-img">
+        <a href="#img1"><img src="images/imagen-1.jpg" alt="Habitación Sencilla" class="room-img"></a>
       </div>
       <div class="room-info info-main">
         <div class="first-part-info">
@@ -118,6 +118,15 @@
         </div>
       </div>
     </div>
+    
+    <div class="modal" id="img1">
+      <div class="imagen">
+        <a onclick="atras();">&#60;</a>
+        <a href=""><img src="images/imagen-1.jpg" id="imagen"></a>
+        <a onclick="adelante();">></a>
+      </div>
+      <a class="cerrar" href="">x</a>
+    </div>
   
     <!--/.Hab Sencilla-->
     
@@ -151,6 +160,7 @@
   
   <!--Scripts-->
   <script src="reservar/js/counter.js"></script>
+  <script src="reservar/js/galeria.js"></script>
   
 </body>
 
