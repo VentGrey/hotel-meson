@@ -3,20 +3,20 @@ var hdPrice = 1500;
 var hdlPrice = 1800;
 var hfPrice = 2000;
 
-var hsAva = 6;
-var hdAva = 6;
-var hdlAva = 6;
-var hfAva = 6;
+var hsAva = 11;
+var hdAva = 10;
+var htAva = 5;
+var hcAva = 1;
 
 //Hab Sencilla
 var i = 0;
 
 function clickLinkHS() {
     i++;
-    if (i <= 6) {
+    if (i <= 11) {
         document.getElementById("clicks-hs").innerHTML = i;
     } else {
-        i = 6;
+        i = 11;
         
         document.getElementById("clicks-hs").innerHTML = i;
     }
@@ -24,13 +24,13 @@ function clickLinkHS() {
 
 function resetHS() {
     i = 0;
-    hsAva = 6;
+    hsAva = 11;
     
     document.getElementById("clicks-hs").innerHTML = i;
     document.getElementById("clicks-ava-hs").innerHTML = hsAva;
 }
 
-//Hab doble
+/*Hab doble
 var j = 0;
 
 function clickLinkHD() {
@@ -94,12 +94,12 @@ function resetHF() {
     
     document.getElementById("clicks-hf").innerHTML = l;
     document.getElementById("clicks-ava-hf").innerHTML = hfAva;
-}
+}*/
 
 //Price Algorithm
 
 function pagar() {
-    var m = ( (i * hsPrice) + (j * hdPrice) + (k * hdlPrice) +(l * hfPrice));
+    var m = i * hsPrice;
 
     if (m == 1) {
         document.getElementById("clicks-price").innerHTML = m;
@@ -119,7 +119,7 @@ function pagarHS() {
     }
 }
 
-//Available Hab Doble
+/*Available Hab Doble
 function pagarHD() {
     o = hdAva - j;
     
@@ -150,4 +150,4 @@ function pagarHF() {
     } else {
         document.getElementById("clicks-ava-hf").innerHTML = q;
     }
-}
+}*/
