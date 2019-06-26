@@ -17,7 +17,7 @@ function clickLinkHS() {
         document.getElementById("clicks-hs").innerHTML = i;
     } else {
         i = 11;
-        
+
         document.getElementById("clicks-hs").innerHTML = i;
     }
 }
@@ -25,7 +25,7 @@ function clickLinkHS() {
 function resetHS() {
     i = 0;
     hsAva = 11;
-    
+
     document.getElementById("clicks-hs").innerHTML = i;
     document.getElementById("clicks-ava-hs").innerHTML = hsAva;
 }
@@ -39,7 +39,7 @@ function clickLinkHD() {
         document.getElementById("clicks-hd").innerHTML = j;
     } else {
         j = 6;
-        
+
         document.getElementById("clicks-hd").innerHTML = j;
     }
 }
@@ -47,7 +47,7 @@ function clickLinkHD() {
 function resetHD() {
     j = 0;
     hdAva = 6;
-    
+
     document.getElementById("clicks-hd").innerHTML = j;
     document.getElementById("clicks-ava-hd").innerHTML = hdAva;
 }
@@ -61,7 +61,7 @@ function clickLinkHDL() {
         document.getElementById("clicks-hdl").innerHTML = k;
     } else {
         k = 6;
-        
+
         document.getElementById("clicks-hdl").innerHTML = k;
     }
 }
@@ -69,7 +69,7 @@ function clickLinkHDL() {
 function resetHDL() {
     k = 0;
     hdlAva = 6;
-    
+
     document.getElementById("clicks-hdl").innerHTML = k;
     document.getElementById("clicks-ava-hdl").innerHTML = hdlAva;
 }
@@ -83,7 +83,7 @@ function clickLinkHF() {
         document.getElementById("clicks-hf").innerHTML = l;
     } else {
         l = 6;
-        
+
         document.getElementById("clicks-hf").innerHTML = l;
     }
 }
@@ -91,7 +91,7 @@ function clickLinkHF() {
 function resetHF() {
     l = 0;
     hfAva = 6;
-    
+
     document.getElementById("clicks-hf").innerHTML = l;
     document.getElementById("clicks-ava-hf").innerHTML = hfAva;
 }*/
@@ -111,7 +111,7 @@ function pagar() {
 //Available Hab Sencilla
 function pagarHS() {
     n = hsAva - i;
-    
+
     if (n <= 0) {
         document.getElementById("clicks-ava-hs").innerHTML = 0;
     } else {
@@ -122,7 +122,7 @@ function pagarHS() {
 /*Available Hab Doble
 function pagarHD() {
     o = hdAva - j;
-    
+
     if (o <= 0) {
         document.getElementById("clicks-ava-hd").innerHTML = 0;
     } else {
@@ -133,7 +133,7 @@ function pagarHD() {
 //Available Hab de lujo
 function pagarHDL() {
     p = hdlAva - k;
-    
+
     if (p <= 0) {
         document.getElementById("clicks-ava-hdl").innerHTML = 0;
     } else {
@@ -144,7 +144,7 @@ function pagarHDL() {
 //Available Hab Familiar
 function pagarHF() {
     q = hfAva - l;
-    
+
     if (q <= 0) {
         document.getElementById("clicks-ava-hf").innerHTML = 0;
     } else {
