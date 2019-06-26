@@ -443,7 +443,6 @@ img {
 
 .cerrar {
   display: block;
-  background: #fff;
   width: 25px;
   height: 25px;
   margin: 10px auto;
@@ -451,7 +450,7 @@ img {
   text-decoration: none;
   font-size: 25px;
   font-weight: 400;
-  color: #000;
+  color: #fff;
   padding: 0;
   border-radius: 50%;
   line-height: 25px;
