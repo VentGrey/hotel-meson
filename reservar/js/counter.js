@@ -126,7 +126,7 @@ else {
 }
 document.getElementById("checkOut").min = año1+'-'+mes1+'-'+dia1;
 
-//Days of stay
+/*Days of stay
 function compare() {
     let startDate = document.getElementById("checkIn").value;
     let endDate = document.getElementById("checkOut").value;
@@ -142,11 +142,26 @@ function compare() {
 
     let daysRented = endDate - startDate;
     return daysRented;
-}
+}*/
 
 //Price Algorithm
 
 function pagar() {
+    let startDate = document.getElementById("checkIn").value;
+    let endDate = document.getElementById("checkOut").value;
+
+    if ((new Date(startDate).getTime() > new Date(endDate).getTime())) {
+        // Si la fecha de inicio es mayor que la fecha de terminación enviar
+        // un error.
+
+        alert("La fecha de checkout no puede ser menor a la de checkin");
+    } else if ((new Date(startDate).getTime() == new Date(endDate).getTime())) {
+        alert("La fecha no puede ser la misma para el día de check in y check out");
+    }
+
+    let daysRented = endDate - startDate;
+    alert(daysRented);
+    
     var m = daysRented * (i * hsPrice);
 
     if (m == 1) {
