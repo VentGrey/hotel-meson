@@ -159,7 +159,7 @@ function pagar() {
         alert("La fecha no puede ser la misma para el día de check in y check out");
     }
 
-    let daysRented = endDate - startDate;
+    let daysRented = (((new Date (endDate).getTime() - new Date (startDate).getTime()) / 1000) / 86400);
     alert(daysRented);
     
     var m = daysRented * (i * hsPrice);
