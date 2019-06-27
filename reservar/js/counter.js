@@ -156,7 +156,15 @@ function compare() {
     let start_date = document.getElementById("checkIn").value;
     let end_date = document.getElementById("checkOut").value;
 
-    if ((new Date(start_date).getTime() < new Date(end_date).getTime())) {
-        // Código de comparación aquí adentro
+    if ((new Date(start_date).getTime() > new Date(end_date).getTime())) {
+        // Si la fecha de inicio es mayor que la fecha de terminación enviar
+        // un error.
+
+        alert("La fecha de checkout no puede ser menor a la de checkin");
+    } else if ((new Date(start_date).getTime() == new Date(end_date).getTime())) {
+        alert("La fecha no puede ser la misma para el día de check in y check out");
     }
+
+    let days_rented = end_date - start_date;
+
 }
