@@ -166,5 +166,5 @@ function compare() {
     }
 
     let days_rented = end_date - start_date;
-
+    return days_rented;
 }
