@@ -1,3 +1,4 @@
+//Variables Generales
 var hsPrice = 1200;
 var hdPrice = 1500;
 var hdlPrice = 1800;
@@ -7,6 +8,11 @@ var hsAva = 11;
 var hdAva = 10;
 var htAva = 5;
 var hcAva = 1;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Son las funciones que agregan una habitación y que resetean el contador
 
 //Hab Sencilla
 var i = 0;
@@ -30,7 +36,7 @@ function resetHS() {
     document.getElementById("clicks-ava-hs").innerHTML = hsAva;
 }
 
-/*Hab doble
+//Hab doble
 var j = 0;
 
 function clickLinkHD() {
@@ -94,7 +100,12 @@ function resetHF() {
 
     document.getElementById("clicks-hf").innerHTML = l;
     document.getElementById("clicks-ava-hf").innerHTML = hfAva;
-}*/
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Desactiva los días que ya pasaron para que el cliente no pueda elegirlos
 
 //To disable the past days (check in)
 var fecha = new Date();
@@ -126,42 +137,26 @@ else {
 }
 document.getElementById("checkOut").min = año1+'-'+mes1+'-'+dia1;
 
-/*Days of stay
-function compare() {
-    let startDate = document.getElementById("checkIn").value;
-    let endDate = document.getElementById("checkOut").value;
-
-    if ((new Date(startDate).getTime() > new Date(endDate).getTime())) {
-        // Si la fecha de inicio es mayor que la fecha de terminación enviar
-        // un error.
-
-        alert("La fecha de checkout no puede ser menor a la de checkin");
-    } else if ((new Date(startDate).getTime() == new Date(endDate).getTime())) {
-        alert("La fecha no puede ser la misma para el día de check in y check out");
-    }
-
-    let daysRented = endDate - startDate;
-    return daysRented;
-}*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Price Algorithm
 
 function pagar() {
+    //Verifica que el check out no sea menor o igual al check in
     let startDate = document.getElementById("checkIn").value;
     let endDate = document.getElementById("checkOut").value;
 
     if ((new Date(startDate).getTime() > new Date(endDate).getTime())) {
-        // Si la fecha de inicio es mayor que la fecha de terminación enviar
-        // un error.
-
         alert("La fecha de checkout no puede ser menor a la de checkin");
     } else if ((new Date(startDate).getTime() == new Date(endDate).getTime())) {
         alert("La fecha no puede ser la misma para el día de check in y check out");
     }
-
+    //Convierte el timestamp a días
     let daysRented = (((new Date (endDate).getTime() - new Date (startDate).getTime()) / 1000) / 86400);
-    alert(daysRented);
     
+    //Saca el pago total multiplicando el número de días por la cantidad de 
+    //habitaciones y el precio de cada una de ellas
     var m = daysRented * (i * hsPrice);
 
     if (m == 1) {
@@ -170,6 +165,11 @@ function pagar() {
         document.getElementById("clicks-price").innerHTML = m;
     }
 }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Es la función que permite saber cuántas habitaciones disponibles quedan
 
 //Available Hab Sencilla
 function pagarHS() {
@@ -182,7 +182,7 @@ function pagarHS() {
     }
 }
 
-/*Available Hab Doble
+//Available Hab Doble
 function pagarHD() {
     o = hdAva - j;
 
@@ -213,4 +213,4 @@ function pagarHF() {
     } else {
         document.getElementById("clicks-ava-hf").innerHTML = q;
     }
-}*/
+}
