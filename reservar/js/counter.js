@@ -96,10 +96,58 @@ function resetHF() {
     document.getElementById("clicks-ava-hf").innerHTML = hfAva;
 }*/
 
+//To disable the past days (check in)
+var fecha = new Date();
+var año  = fecha.getFullYear();
+var dia = fecha.getDate();
+var _mes = fecha.getMonth();
+_mes = _mes + 1;
+      
+if(_mes < 10) {
+    var mes = "0" + _mes;
+}
+else {
+    var mes = _mes.toString;
+}
+document.getElementById("checkIn").min = año+'-'+mes+'-'+dia;
+
+//To disable past days (check out)
+var fecha1 = new Date();
+var año1  = fecha1.getFullYear();
+var dia1 = fecha1.getDate();
+var _mes1 = fecha1.getMonth();
+_mes1 = _mes1 + 1;
+      
+if(_mes1 < 10) {
+    var mes1 = "0" + _mes1;
+}
+else {
+    var mes1 = _mes1.toString;
+}
+document.getElementById("checkOut").min = año1+'-'+mes1+'-'+dia1;
+
+//Days of stay
+function compare() {
+    let startDate = document.getElementById("checkIn").value;
+    let endDate = document.getElementById("checkOut").value;
+
+    if ((new Date(startDate).getTime() > new Date(endDate).getTime())) {
+        // Si la fecha de inicio es mayor que la fecha de terminación enviar
+        // un error.
+
+        alert("La fecha de checkout no puede ser menor a la de checkin");
+    } else if ((new Date(startDate).getTime() == new Date(endDate).getTime())) {
+        alert("La fecha no puede ser la misma para el día de check in y check out");
+    }
+
+    let daysRented = endDate - startDate;
+    return daysRented;
+}
+
 //Price Algorithm
 
 function pagar() {
-    var m = i * hsPrice;
+    var m = daysRented * (i * hsPrice);
 
     if (m == 1) {
         document.getElementById("clicks-price").innerHTML = m;
@@ -151,20 +199,3 @@ function pagarHF() {
         document.getElementById("clicks-ava-hf").innerHTML = q;
     }
 }*/
-
-function compare() {
-    let start_date = document.getElementById("checkIn").value;
-    let end_date = document.getElementById("checkOut").value;
-
-    if ((new Date(start_date).getTime() > new Date(end_date).getTime())) {
-        // Si la fecha de inicio es mayor que la fecha de terminación enviar
-        // un error.
-
-        alert("La fecha de checkout no puede ser menor a la de checkin");
-    } else if ((new Date(start_date).getTime() == new Date(end_date).getTime())) {
-        alert("La fecha no puede ser la misma para el día de check in y check out");
-    }
-
-    let days_rented = end_date - start_date;
-    return days_rented;
-}
