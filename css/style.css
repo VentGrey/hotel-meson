@@ -302,7 +302,8 @@ input {
 }
 
 .container-map > div {
-  width: 700px;
+  width: 1000px;
+  height: 500px;
   margin-left: 50%;
   transform: translate(-50%, 0);
 }
@@ -396,16 +397,28 @@ input {
     height: 75%;
   }
   
-  .page-title_cel {
+  .page-title {
     font-size: 20px;
   }
   
-  .page-text_cel {
-    font-size: 15px;
+  .page-text {
+    font-size: 16px;
+  }
+  
+  .page-title-2 {
+    font-size: 20px;
+  }
+  
+  .page-text-2 {
+    font-size: 14px;
   }
   
   .btn-hm {
     margin-top: 1em;
+  }
+  
+  .service-text {
+    font-size: 15px;
   }
   
   /*Navbar*/
@@ -459,5 +472,31 @@ input {
   
   .rooms-container > p {
     font-size: 15px;
+  }
+  
+  /*Services*/
+  .services-gral {
+    padding-bottom: 1em;
+  }
+  
+  /*Gallery*/
+  .gallery_main {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .slider {
+    width: 95%;
+  }
+  
+  /*Contact*/
+  .contact-section {
+    width: 95%;
+  }
+  
+  /*Map*/
+  .container-map > div {
+    width: 95%;
+    height: 400px;
   }
 }
