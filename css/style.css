@@ -1,317 +1,313 @@
-/* To use fonts in font-family:
-- 'Varela Round', sans-serif;
-- 'Source Sans Pro', sans-serif;
-*/
-
 /* GENERALS */
 html {
-    height: 100%;
+  height: 100%;
+  font-size: 16px;  
 }
 body {
-    font: normal normal normal 14px/1.2em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    height: 100%;
+  font: normal normal normal 14px/1.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  height: 100%;
 }
 
 input {
-  text-align: center;
-}
+    text-align: center;
+  }
 
 .page-title {
-  color: #FAFAFA;
-  font-size: 1.5em;
-  letter-spacing: 2px;
-}
+    color: #FAFAFA;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+  }
 
 .page-text {
-  color: #FAFAFA;
-  font-size: 1.4em;
-}
+    color: #FAFAFA;
+    font-size: 1.4em;
+  }
 
 .page-title-2 {
-  color: #000;
-  font-size: 1.5em;
-  letter-spacing: 2px;
-}
+    color: #000;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+  }
 
 .page-text-2 {
-  color: #000;
-  font-size: 1.2em;
-}
+    color: #000;
+    font-size: 1.2em;
+  }
 
 .service-text {
-  color: #FAFAFA;
-  font-size: 1.15em;
-  letter-spacing: 1.5px;
-}
+    color: #FAFAFA;
+    font-size: 1.15em;
+    letter-spacing: 1.5px;
+  }
 
 .btn-hm {
-    border: 2px solid #000;
-    border-radius: 3px;
-    margin-top: 2.5em;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
-}
+      border: 2px solid #000;
+      border-radius: 3px;
+      margin-top: 2.5em;
+      margin-left: 50%;
+      transform: translate(-50%, 0);
+  }
 
 .btn-hm-2 {
-    border: 1.5px solid #fafafa;
-    border-radius: 3px;
-    margin-left: 5em;
-}
+      border: 1.5px solid #fafafa;
+      border-radius: 3px;
+      margin-left: 5em;
+  }
 
 /* Colors */
 .hm_primary-color {
-    background-color: #380000;
-}
+      background-color: #380000;
+  }
 
 
 /* End of GENERALS */
 
 /* Styles for NAVBAR section */
 .hm_navbar {
-    padding-left: 50%;
-    padding-top: 1.4em;
-    padding-bottom: 1.4em;
-}
+      padding-left: 50%;
+      padding-top: 1.4em;
+      padding-bottom: 1.4em;
+  }
 
 .hm_navbar-list {
-    transform: translate(-50%, 0);
-}
+      transform: translate(-50%, 0);
+  }
 
 .hm_navbar-item {
-    margin-left: 1.1em;
-    margin-right: 1.1em;
-}
+      margin-left: 1.1em;
+      margin-right: 1.1em;
+  }
 /* End of NAVBAR styling */
 
 /* Help Container */
 .help-container {
-    width: 100%;
-    height: 5.1em;
-    background-color: transparent;
-}
+      width: 100%;
+      height: 5.1em;
+      background-color: transparent;
+  }
 
 /* Styles for CONTENT section */
 /* Content Section General Style */
 .text {
-    height: auto;
-    background-color: #600505;
-    text-align: center;
-}
+      height: auto;
+      background-color: #600505;
+      text-align: center;
+  }
 
 .img {
-    width: 70%;
-    height: 95%;
-    margin: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  width: 70%;
+  height: 95%;
+  margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
   /* Home Section */
 .text_home-section {
-    height: auto;
-}
+      height: auto;
+  }
 
 .box_home-logo {
-    display: inline-block;
-    width: 30%;
-    margin-top: 1.1em;
-    margin-bottom: 1.1em;
-    padding: 0.4em;
-    border: 2px solid #ba771f;
-}
+      display: inline-block;
+      width: 30%;
+      margin-top: 1.1em;
+      margin-bottom: 1.1em;
+      padding: 0.4em;
+      border: 2px solid #ba771f;
+  }
 
 .home_logo {
-    display: block;
-    color: #fafafa;
-}
+      display: block;
+      color: #fafafa;
+  }
 
 .logo-main {
-    margin-bottom: 0.3em;
-    text-transform: uppercase;
-    font-size: 30px;
-    letter-spacing: 8px;
-    font-family: 'Varela Round', sans-serif;
-    font-weight: 400;
-}
+      margin-bottom: 0.3em;
+      text-transform: uppercase;
+      font-size: 30px;
+      letter-spacing: 8px;
+      font-family: 'Varela Round', sans-serif;
+      font-weight: 400;
+  }
 
 .logo-sec {
-    font-size: 19px;
-    font-family: 'Bad Script', cursive;
-    letter-spacing: 3px;
-}
+      font-size: 19px;
+      font-family: 'Bad Script', cursive;
+      letter-spacing: 3px;
+  }
 
 .box_home-linea {
-    display: inline-block;
-    width: 34%;
-    margin-bottom: 2em;
-    padding: 0.2em;
-    border-top: 2px solid #ba771f;
-    border-bottom: 2px solid #ba771f;
-}
+      display: inline-block;
+      width: 34%;
+      margin-bottom: 2em;
+      padding: 0.2em;
+      border-top: 2px solid #ba771f;
+      border-bottom: 2px solid #ba771f;
+  }
 
 .home_img {
-    background-image: url(../images/imagen-1.jpg);
-    opacity: 0.85;
-}
+      background-image: url(../images/imagen-1.jpg);
+      opacity: 0.85;
+  }
 
 /* About Section */
 .text_about-section {
-    padding-top: 8em;
-    height: auto;
-}
+      padding-top: 8em;
+      height: auto;
+  }
 
 .about-container {
-    width: 50%;
-    height: auto;
-    padding-bottom: 8em;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
-}
+      width: 50%;
+      height: auto;
+      padding-bottom: 8em;
+      margin-left: 50%;
+      transform: translate(-50%, 0);
+  }
 
 /* Rooms Section */
 .rooms_img {
-    background-image: url(../images/imagen-2.jpg);
-    opacity: 0.85;
-    padding-top: 7em;
-}
+      background-image: url(../images/imagen-2.jpg);
+      opacity: 0.85;
+      padding-top: 7em;
+  }
 
 .img-rooms_inside-container {
-    width: 40%;
-    height: auto;
-    background-color: #fff;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 100;
-}
+      width: 40%;
+      height: auto;
+      background-color: #fff;
+      margin-left: 50%;
+      transform: translate(-50%, 0);
+      z-index: 100;
+  }
 
 .rooms-container {
-    padding: 2em;
-}
+      padding: 1em;
+  }
 
 .rooms-container > p {
-    color: #000;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-}
+      color: #000;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 18px;
+  }
 
 /* Services Section */
 .services-main {
-    padding-top: 3em;
-}
+      padding-top: 3em;
+  }
 
 .services-gral {
-    padding-bottom: 3em;
-}
+      padding-bottom: 3em;
+  }
 
 /* Gallery Section */
 .gallery-section {
-    width: 100%;
-    height: auto;
-    background-color: #fff;
-}
+      width: 100%;
+      height: auto;
+      background-color: #fff;
+  }
 
 .gallery_main {
-    margin-top: 3.5em;
-    margin-bottom: 3em;
-}
+      margin-top: 3.5em;
+      margin-bottom: 3em;
+  }
 
 .hm-row {
-    margin-left: 50%;
-    transform: translate(-50%, 0);
-    width: 95%;
-    margin-bottom: 1.6em;
-}
+      margin-left: 50%;
+      transform: translate(-50%, 0);
+      width: 95%;
+      margin-bottom: 1.6em;
+  }
 
 .hm-gallery_img {
-    border-radius: 3px;
-}
+      border-radius: 3px;
+  }
 
 .slider {
-    width: 55%;
-    margin: auto;
-    overflow: hidden;
-}
+      width: 55%;
+      margin: auto;
+      overflow: hidden;
+  }
 
 .slider ul {
-    display: flex;
-    padding: 0;
-    width: 800%;
-  
-    animation: cambio 40s infinite;
-}
+      display: flex;
+      padding: 0;
+      width: 800%;
+
+      animation: cambio 40s infinite;
+  }
 
 .slider li {
-    width: 100%;
-    list-style: none;
-}
+      width: 100%;
+      list-style: none;
+  }
 
 .slider img {
-    width: 100%;
-}
+      width: 100%;
+  }
 
 @keyframes cambio {
-  0% { margin-left: 0; }
-  10% { margin-left: 0; }
-  
-  12.5% { margin-left: -100%; }
-  22.5% { margin-left: -100%; }
-  
-  25% { margin-left: -200%; }
-  35% { margin-left: -200%; }
-  
-  37.5% { margin-left: -300%; }
-  50% { margin-left: -300%; }
-  
-  52.5% { margin-left: -400%; }
-  62.5% { margin-left: -400%; }
-  
-  65% { margin-left: -500%; }
-  75% { margin-left: -500%; }
-  
-  77.5% { margin-left: -600%; }
-  87.5% { margin-left: -600%; }
-  
-  89% { margin-left: -700%; }
-  97% { margin-left: -700%; }
-  
-  99% { margin-left: 0; }
-  100% { margin-left: 0; }
-}
+    0% { margin-left: 0; }
+    10% { margin-left: 0; }
+
+    12.5% { margin-left: -100%; }
+    22.5% { margin-left: -100%; }
+
+    25% { margin-left: -200%; }
+    35% { margin-left: -200%; }
+
+    37.5% { margin-left: -300%; }
+    50% { margin-left: -300%; }
+
+    52.5% { margin-left: -400%; }
+    62.5% { margin-left: -400%; }
+
+    65% { margin-left: -500%; }
+    75% { margin-left: -500%; }
+
+    77.5% { margin-left: -600%; }
+    87.5% { margin-left: -600%; }
+
+    89% { margin-left: -700%; }
+    97% { margin-left: -700%; }
+
+    99% { margin-left: 0; }
+    100% { margin-left: 0; }
+  }
 
 /* Contact Section */
 .contact-section {
-    width: 85%;
-    height: auto;
-    margin-top: 2.5em;
-    margin-left: 50%;
-    padding: 1.2em;
-    transform: translate(-50%, 0);
-    border: 3px solid #600505;
-    border-radius: 6px;
-}
+      width: 85%;
+      height: auto;
+      margin-top: 2.5em;
+      margin-left: 50%;
+      padding: 1.2em;
+      transform: translate(-50%, 0);
+      border: 3px solid #600505;
+      border-radius: 6px;
+  }
 
 /* Map Section */
 .container-map {
-  width: 100%;
-  height: auto;
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
+    width: 100%;
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
 
 .container-map > div {
-  width: 1000px;
-  height: 500px;
-  margin-left: 50%;
-  transform: translate(-50%, 0);
-}
+    width: 1000px;
+    height: 500px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
 
 .container-map > div > iframe {
-  width: 100%;
-  height: 100%;
-}
+    width: 100%;
+    height: 100%;
+  }
 
 /* End of CONTENT styling */
 
@@ -322,11 +318,11 @@ input {
     height: 65px;
     border-radius: 50%;
     background-color: #380000;
-  
+
     left: 50px;
     bottom: 10px;
     align-items: center;
-}
+  }
 
 .msng-bubble {
     position: relative;
@@ -334,7 +330,7 @@ input {
     bottom: -11px;
     font-size: 42px;
     color: #fff;
-}
+  }
 
 /* End of MESSENGER BUBBLE styling */
 
@@ -347,9 +343,10 @@ input {
     background-color: #380000;
 
     right: 0px;
-    top: 200px;
+    top: 50%;
+    transform: translate(0, -50%);
     align-items: center;
-}
+  }
 
 .red-facebook {
     position: relative;
@@ -359,7 +356,7 @@ input {
     transform: translate(-50%, 0);
     font-size: 30px;
     color: #fff;
-}
+  }
 
 .red-insta {
     position: relative;
@@ -369,7 +366,7 @@ input {
     transform: translate(-50%, 0);
     font-size: 27px;
     color: #fff;
-}
+  }
 
 .red-google {
     position: relative;
@@ -380,17 +377,13 @@ input {
     transform: translate(-50%, 0);
     font-size: 25px;
     color: #fff;
-}
-
-/* End of REDES SOCIALES styling */
+  }
 
 /****************************************************************************************************************************************************/
 /****************************************************************************************************************************************************/
 
-/* RESPONSIVE DESIGN */
-
-/* Celulares */
-@media screen and (max-width: 320px) {
+/* Celulares Vertical y horizontal */
+@media screen and (min-width: 200px) {
   /*Generales*/
   .img {
     width: 90%;
@@ -398,19 +391,19 @@ input {
   }
   
   .page-title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   
   .page-text {
-    font-size: 16px;
+    font-size: 1rem;
   }
   
   .page-title-2 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   
   .page-text-2 {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   
   .btn-hm {
@@ -418,7 +411,7 @@ input {
   }
   
   .service-text {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   
   /*Navbar*/
@@ -441,12 +434,12 @@ input {
   }
   
   .logo-main {
-    font-size: 17px;
+    font-size: 1.0625rem;
     letter-spacing: 5px;
   }
   
   .logo-sec {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   
   /*About*/
@@ -455,13 +448,13 @@ input {
   }
   
   .about-container {
-    width: 80%;
+    width: 85%;
     padding-bottom: 3em;
+    text-align: left;
   }
   
   /*Rooms*/
   .rooms_img {
-    background-image: none;
     padding-top: 0;
   }
   
@@ -471,7 +464,7 @@ input {
   }
   
   .rooms-container > p {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   
   /*Services*/
@@ -510,28 +503,250 @@ input {
   .msng-bubble {
     left: 12px;
     bottom: -8px;
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   
   /*Redes sociales*/
   .red-facebook {
     margin-top: 1em;
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 
   .red-insta {
     margin-top: 1em;
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .red-google {
     margin-top: 1.2em;
     margin-bottom: 1em;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   
   /*Footer*/
   .col-cel {
     display: none;
+  }
+}
+
+/****************************************************************************************************************************************************/
+/****************************************************************************************************************************************************/
+
+/* Tableta Vertical y Horizontal */
+@media screen and (min-width: 480px) and (min-height: 600px) {
+  /*Rooms*/
+  .img-rooms_inside-container {
+    width: 100%;
+    height: 100%%;
+    padding-top: 4em;
+  }
+  
+  .rooms-container > p {
+    font-size: 1.1rem;
+  }
+  
+  .btn-hm {
+    margin-top: 4em;
+  }
+}
+
+@media screen and (min-width: 600px) and (min-height: 480px) {
+  /*Generales*/
+  .page-title {
+    font-size: 1.45rem;
+  }
+  
+  .page-text {
+    font-size: 1.1rem;
+  }
+  
+  .page-title-2 {
+    font-size: 1.45rem;
+  }
+  
+  .page-text-2 {
+    font-size: 1.075rem;
+  }
+  
+  .btn-hm {
+    margin-top: 3em;
+  }
+  
+  /*Logo*/
+  .box_home-logo {
+    width: 55%;
+  }
+  
+  .logo-main {
+    font-size: 1.25rem;
+    letter-spacing: 5px;
+  }
+  
+  .logo-sec {
+    font-size: 1.05rem;
+  }
+  
+  /*Rooms*/
+  .img-rooms_inside-container {
+    width: 100%;
+    height: 100%%;
+    padding-top: 2.5em;
+  }
+  
+  .rooms-container > p {
+    font-size: 1.1rem;
+  }
+  
+  /*Messenger*/
+  .back_msng-bubble {
+    width: 70px;
+    height: 65px;
+    left: 50px;
+    bottom: 10px;
+  }
+
+  .msng-bubble {
+    left: 17px;
+    bottom: -11px;
+    font-size: 42px;
+  }
+  
+  /*Redes sociales*/
+  .red-facebook {
+    font-size: 30px;
+  }
+
+  .red-insta {
+    font-size: 27px;
+  }
+
+  .red-google {
+    font-size: 25px;
+  }
+}
+
+/****************************************************************************************************************************************************/
+/****************************************************************************************************************************************************/
+
+/* Pantallas Grandes Vertical y horizontal */
+@media screen and (min-width: 600px) and (min-height: 800px) {
+  /*Rooms*/
+  .img-rooms_inside-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 7em;
+  }
+  
+  .rooms-container > p {
+    font-size: 1.4rem;
+  }
+  
+  .btn-hm {
+    margin-top: 4em;
+  }
+}
+
+@media screen and (min-width: 800px) and (min-height: 600px) {
+  /*Rooms*/
+  .img-rooms_inside-container {
+    width: 50%;
+    height: 100%;
+    padding-top: 4em;
+  }
+  
+  .rooms-container > p {
+    font-size: 1.1rem;
+  }
+  
+  .btn-hm {
+    margin-top: 3em;
+  }
+}
+
+/****************************************************************************************************************************************************/
+/****************************************************************************************************************************************************/
+
+/* Laptops y superiores */
+@media screen and (min-width: 900px) and (min-height: 600px) {
+  .page-title {
+    font-size: 1.5em;
+  }
+
+  .page-text {
+    font-size: 1.4em;
+  }
+
+  .page-title-2 {
+    font-size: 1.5em;
+  }
+
+  .page-text-2 {
+    font-size: 1.2em;
+  }
+
+  .service-text {
+    font-size: 1.15em;
+  }
+  
+  /*Logo*/
+  .box_home-logo {
+    width: 30%;
+  }
+  
+  .logo-main {
+    font-size: 30px;
+  }
+  
+  .logo-sec {
+    font-size: 19px;
+  }
+  
+  .box_home-linea {
+    display: inline-block;
+  }
+  
+  /*About*/
+  .text_about-section {
+    padding-top: 8em;
+  }
+  
+  .about-container {
+    width: 50%;
+    padding-bottom: 8em;
+  }
+  
+  /*Rooms*/
+  .img-rooms_inside-container {
+    width: 40%;
+  }
+  
+  .rooms-container > p {
+    font-size: 20px;
+  }
+  
+  .btn-hm {
+    margin-top: 4em;
+  }
+  
+  /*Gallery*/
+  .gallery_main {
+    margin-top: 3.5em;
+    margin-bottom: 3em;
+  }
+  
+  .slider {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  /*Navbar*/
+  .navbar {
+    display: block;
+  }
+  
+  /*Help Container*/
+  .help-container {
+    display: block;
   }
 }
