@@ -341,7 +341,7 @@ input {
 /* Styles for REDES SOCIALES */
 .box_redes {
     position: fixed;
-    width: 50px;
+    width: auto;
     height: auto;
     border-radius: 3px;
     background-color: #380000;
@@ -498,5 +498,40 @@ input {
   .container-map > div {
     width: 95%;
     height: 400px;
+  }
+  
+  /*Messenger*/
+  .back_msng-bubble {
+    width: 50px;
+    height: 45px;
+    left: 30px;
+  }
+
+  .msng-bubble {
+    left: 12px;
+    bottom: -8px;
+    font-size: 30px;
+  }
+  
+  /*Redes sociales*/
+  .red-facebook {
+    margin-top: 1em;
+    font-size: 25px;
+  }
+
+  .red-insta {
+    margin-top: 1em;
+    font-size: 22px;
+  }
+
+  .red-google {
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+    font-size: 20px;
+  }
+  
+  /*Footer*/
+  .col-cel {
+    display: none;
   }
 }
