@@ -81,7 +81,7 @@
   <div class="container-rooms">
 
     <!--Habitación Sencilla-->
-    <div class="rooms-general">
+    <div class="rooms-general" id="hab-sencilla">
       <div class="room-info info-img">
         <a href="#img1"><img src="images/imagen-1.jpg" alt="Habitación Sencilla" class="room-img"></a>
       </div>
@@ -107,7 +107,6 @@
       </div>
       <div class="room-info info-price">
         <div class="part-price">
-          <span class="main-text-price">Desde</span>
           <span class="main-subtext-price">$1,200</span>
           <span class="main-subtext-2-price">p/noche</span>
         </div>
@@ -126,7 +125,7 @@
         <a href=""><img src="images/imagen-1.jpg" id="imagen"></a>
         <a onclick="adelante();">></a>
       </div>
-      <a class="cerrar" href="">x</a>
+      <a class="cerrar" href="#hab-sencilla">x</a>
     </div>
     <!--/.Hab Sencilla-->
 
@@ -161,7 +160,6 @@
   <!--Scripts-->
   <script src="reservar/js/counter.js"></script>
   <script src="reservar/js/galeria.js"></script>
-  <script src="reservar/js/compare.js"></script>
 </body>
 
 </html>

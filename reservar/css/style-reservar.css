@@ -203,7 +203,7 @@ img {
   height: auto;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
-  background-color: red;
+  background-color: transparent;
   border-bottom: 0.2px solid #b0b4ba;
 }
 
@@ -278,7 +278,7 @@ img {
 
 .services-list {
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #9da0a5;
 }
 
@@ -296,55 +296,47 @@ img {
 
         /*First Part*/
 .part-price {
-  position: absolute;
+  position: relative;
   width: 100%;
-  height: 60%;
+  height: auto;
   text-align: center;
   background-color: transparent;
 }
 
 .part-price > span {
-  display: block;
+  display: inline-block;
   color: #000;
   font-family: 'Varela Round', sans-serif;
 }
 
-.main-text-price {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  font-size: 12px;
-}
-
 .main-subtext-price {
-  font-size: 38px;
-  letter-spacing: -2px;
+  font-size: 1.7rem;
+  margin-right: 0.5em;
 }
 
 .main-subtext-2-price {
-  font-size: 25px;
+  font-size: 1.3rem;
 }
 
         /*Second Part*/
 .part-add {
-  position: absolute;
+  position: relative;
   width: 100%;
-  height: 25%;
-  top: 60%;
+  height: auto;
   text-align: center;
   background-color: transparent;
 }
 
 .add {
   position: relative;
-  width: 70%;
+  width: 100%;
   height: auto;
-  margin-left: 50%;
-  transform: translate(-50%, 0);
 }
 
 .add > input {
-  width: 100%;
-  height: 100%;
+  display: inline-block;
+  width: 47%;
+  height: 3em;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   margin-bottom: 0.5em;
@@ -354,7 +346,7 @@ img {
   border-radius: 3px;
   color: #fff;
   font-family: 'Varela Round', sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
       /* Gallery Part */
@@ -382,7 +374,7 @@ img {
 .modal:target {
   display: block;
   position: fixed;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.95);
   top: 0;
   left: 0;
   padding-top: 100px;
@@ -392,7 +384,7 @@ img {
 
 .imagen {
   width: 100%;
-  height: 70%;
+  height: 50%;
   
   display: flex;
   justify-content: center;
@@ -414,7 +406,7 @@ img {
 }
 
 .imagen img {
-  width: 700px;
+  width: 100%;
   height: 100%;
   max-width: 100%;
   border: 2px solid #fff;
@@ -499,5 +491,15 @@ img {
   
   .room-info {
     width: 240px;
+  }
+  
+  .main-text-price {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 12px;
+  }
+  
+  .part-price > span {
+    display: block;
   }
 }
