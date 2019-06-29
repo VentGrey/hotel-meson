@@ -26,7 +26,8 @@
   <!--Navbar-->
   <div class="navbar">
     <ul class="navbar-list">
-      <li class="navbar-item hm-btn-back"><a class="navbar-link" href="index.html">Volver a página principal</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="index.html">Volver a página principal</a></li>
+      <li class="navbar-item"><a class="navbar-link-cel" href="index.html">Volver</a></li>
     </ul>
   </div>
   <!--/.Navbar-->
@@ -50,25 +51,25 @@
         <input placeholder="Check out" type="date" id="checkOut" class="check-date">
       </div>
 
-      <div class="datepicker-general">
+      <div class="datepicker-general datepicker-counter">
         <span>Habitaciones</span>
         <div class="box-counter">
-          <span>Sencilla<span id="clicks-hs">0</span></span>
+          <span>Sencilla<span id="clicks-hs" class="click">0</span></span>
         </div>
         <div class="box-counter">
-          <span>Doble<span id="clicks-hd">0</span></span>
+          <span>Doble<span id="clicks-hd" class="click">0</span></span>
         </div>
         <div class="box-counter">
-          <span>de lujo<span id="clicks-hdl">0</span></span>
+          <span>de lujo<span id="clicks-hdl" class="click">0</span></span>
         </div>
         <div class="box-counter">
-          <span>Familiar<span id="clicks-hf">0</span></span>
+          <span>Familiar<span id="clicks-hf" class="click">0</span></span>
         </div>
       </div>
 
       <div class="datepicker-general datepicker-btn">
-        <input type="button" value="Pagar" onclick="pagar(); pagarHS(); pagarHD(); pagarHDL(); pagarHF();">
-        <span id="clicks-price">0</span>
+        <input type="button" value="Reservar" onclick="pagar(); pagarHS(); pagarHD(); pagarHDL(); pagarHF();">
+        <!--<span id="clicks-price">0</span>-->
       </div>
 
     </div>
@@ -94,7 +95,7 @@
             <li class="main-item">Máximo: 2 personas</li>
           </ul>
         </div>
-        <div class="second-part-info">
+        <!--<div class="second-part-info">
           <ul class="services-list">
             <li class="services-item"><i class="far fa-snowflake" title="A/C"></i></li>
             <li class="services-item"><i class="fas fa-wifi" title="Wi-Fi"></i></li>
@@ -102,9 +103,9 @@
             <li class="services-item"><i class="fas fa-beer" title="Minibar"></i></li>
             <li class="services-item"><i class="fas fa-bath" title="Jacuzi"></i></li>
           </ul>
-        </div>
+        </div>-->
       </div>
-      <div class="room-info info-price">
+      <!--<div class="room-info info-price">
         <div class="part-price">
           <span class="main-text-price">Desde</span>
           <span class="main-subtext-price">$1,200</span>
@@ -116,7 +117,7 @@
             <input type="button" value="Borrar" onclick="resetHS();">
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
 
     <div class="modal" id="img1">
