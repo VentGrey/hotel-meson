@@ -12,6 +12,6 @@ function atras() {
   num--;
   if (num < 1)
     num = 6;
-  var imagen = document.getElementById("imagen");
+  var imagen = document.getElementById("imagenh");
   imagen.src="images/imagen-hs-"+num+".jpeg";
 }
