@@ -33,7 +33,7 @@
   <!--/.Navbar-->
 
   <!--Datepicker-->
-  <div class="container-reservar">
+  <!--<div class="container-reservar">
 
     <div class="box-text-main">
       <span>Reservar</span>
@@ -60,21 +60,21 @@
           <span>Doble<span id="clicks-hd" class="click">0</span></span>
         </div>
         <div class="box-counter">
-          <span>de lujo<span id="clicks-hdl" class="click">0</span></span>
+          <span>de lujo<span id="clicks-ht" class="click">0</span></span>
         </div>
         <div class="box-counter">
-          <span>Familiar<span id="clicks-hf" class="click">0</span></span>
+          <span>Familiar<span id="clicks-hc" class="click">0</span></span>
         </div>
       </div>
 
       <div class="datepicker-general datepicker-btn">
         <input type="button" value="Reservar" onclick="pagar(); pagarHS(); pagarHD(); pagarHDL(); pagarHF();">
-        <!--<span id="clicks-price">0</span>-->
+        <span id="clicks-price">0</span>
       </div>
 
     </div>
 
-  </div>
+  </div>-->
   <!--/.Datepicker-->
 
   <!--Type Rooms-->
@@ -88,7 +88,7 @@
       <div class="room-info info-main">
         <div class="first-part-info">
           <span class="ir_page-title">Habitación Sencilla</span>
-          <span class="ir_page-text"><span id="clicks-ava-hs">11</span> habitaciones disponibles</span>
+          <!--<span class="ir_page-text"><span id="clicks-ava-hs">11</span> habitaciones disponibles</span>-->
           <ul class="main-list">
             <li class="main-item">Tamaño: 14 - 17 mts.</li> 
             <li class="main-item">Camas: 1 cama matrimonial</li>
@@ -112,8 +112,8 @@
         </div>
         <div class="part-add">
           <div class="add">
-            <input type="button" value="Agregar" onclick="clickLinkHS();">
-            <input type="button" value="Borrar" onclick="resetHS();">
+            <a href="#">Reservar</a>
+            <!--<input type="button" value="Borrar" onclick="resetHS();">-->
           </div>
         </div>
       </div>
@@ -121,9 +121,9 @@
 
     <div class="modal" id="imghs">
       <div class="imagen">
-        <a onclick="atras();">&#60;</a>
-        <a href=""><img src="images/imagen-hs-1.jpeg" id="imagen"></a>
-        <a onclick="adelante();">></a>
+        <a onclick="atrashs();">&#60;</a>
+        <a href=""><img src="images/imagen-hs-1.jpeg" id="imagenhs"></a>
+        <a onclick="adelantehs();">></a>
       </div>
       <a class="cerrar" href="#hab-sencilla">x</a>
     </div>
@@ -137,7 +137,7 @@
       <div class="room-info info-main">
         <div class="first-part-info">
           <span class="ir_page-title">Habitación Doble</span>
-          <span class="ir_page-text"><span id="clicks-ava-hd">10</span> habitaciones disponibles</span>
+          <!--<span class="ir_page-text"><span id="clicks-ava-hd">10</span> habitaciones disponibles</span>-->
           <ul class="main-list">
             <li class="main-item">Tamaño: 18 - 21 mts.</li> 
             <li class="main-item">Camas: 2 camas matrimoniales</li>
@@ -161,8 +161,8 @@
         </div>
         <div class="part-add">
           <div class="add">
-            <input type="button" value="Agregar" onclick="clickLinkHD();">
-            <input type="button" value="Borrar" onclick="resetHD();">
+            <a href="#">Reservar</a>
+            <!--<input type="button" value="Borrar" onclick="resetHD();">-->
           </div>
         </div>
       </div>
@@ -170,11 +170,11 @@
 
     <div class="modal" id="imghd">
       <div class="imagen">
-        <a onclick="atras();">&#60;</a>
-        <a href=""><img src="images/imagen-hd-1.jpeg" id="imagen"></a>
-        <a onclick="adelante();">></a>
+        <a onclick="atrashd();">&#60;</a>
+        <a href=""><img src="images/imagen-hd-1.jpeg" id="imagenhd"></a>
+        <a onclick="adelantehd();">></a>
       </div>
-      <a class="cerrar" href="#hab-doble">x</a>
+      <a class="cerrar" href="#hab-sencilla">x</a>
     </div>
     <!--/.Hab Doble-->
     
@@ -186,9 +186,9 @@
       <div class="room-info info-main">
         <div class="first-part-info">
           <span class="ir_page-title">Habitación Triple</span>
-          <span class="ir_page-text"><span id="clicks-ava-ht">5</span> habitaciones disponibles</span>
+          <!--<span class="ir_page-text"><span id="clicks-ava-ht">5</span> habitaciones disponibles</span>-->
           <ul class="main-list">
-            <li class="main-item">Tamaño: 14 - 17 mts.</li> 
+            <li class="main-item">Tamaño: 18 - 21 mts.</li> 
             <li class="main-item">Camas: 3 camas matrimoniales</li>
             <li class="main-item">Máximo: 6 personas</li>
           </ul>
@@ -210,20 +210,20 @@
         </div>
         <div class="part-add">
           <div class="add">
-            <input type="button" value="Agregar" onclick="clickLinkHT();">
-            <input type="button" value="Borrar" onclick="resetHT();">
+            <a href="#">Reservar</a>
+            <!--<input type="button" value="Borrar" onclick="resetHT();">-->
           </div>
         </div>
       </div>
     </div>
 
-    <div class="modal" id="img1">
+    <div class="modal" id="imght">
       <div class="imagen">
-        <a onclick="atras();">&#60;</a>
-        <a href=""><img src="images/imagen-hs-1.jpeg" id="imagen"></a>
-        <a onclick="adelante();">></a>
+        <a onclick="atrasht();">&#60;</a>
+        <a href=""><img src="images/imagen-ht-1.jpeg" id="imagenht"></a>
+        <a onclick="adelanteht();">></a>
       </div>
-      <a class="cerrar" href="#hab-sencilla">x</a>
+      <a class="cerrar" href="#hab-doble">x</a>
     </div>
     <!--/.Hab Triple-->
     
@@ -235,7 +235,7 @@
       <div class="room-info info-main">
         <div class="first-part-info">
           <span class="ir_page-title">Habitación Cuádruple</span>
-          <span class="ir_page-text"><span id="clicks-ava-hc">1</span> habitación disponible</span>
+          <!--<span class="ir_page-text"><span id="clicks-ava-hc">1</span> habitación disponible</span>-->
           <ul class="main-list">
             <li class="main-item">Tamaño: 20 - 25 mts.</li> 
             <li class="main-item">Camas: 4 camas matrimoniales</li>
@@ -259,20 +259,20 @@
         </div>
         <div class="part-add">
           <div class="add">
-            <input type="button" value="Agregar" onclick="clickLinkHC();">
-            <input type="button" value="Borrar" onclick="resetHC();">
+            <a href="#">Reservar</a>
+            <!--<input type="button" value="Borrar" onclick="resetHC();">-->
           </div>
         </div>
       </div>
     </div>
 
-    <div class="modal" id="img1">
+    <div class="modal" id="imghc">
       <div class="imagen">
-        <a onclick="atras();">&#60;</a>
-        <a href=""><img src="images/imagen-hs-1.jpeg" id="imagen"></a>
-        <a onclick="adelante();">></a>
+        <a onclick="atrashc();">&#60;</a>
+        <a href=""><img src="images/imagen-hc-1.jpeg" id="imagenhc"></a>
+        <a onclick="adelantehc();">></a>
       </div>
-      <a class="cerrar" href="#hab-sencilla">x</a>
+      <a class="cerrar" href="#hab-triple">x</a>
     </div>
     <!--/.Hab Cuádruple-->
 
@@ -300,9 +300,6 @@
     </a>
   </div>
   <!--/.Redes sociales-->
-
-
-
 
   <!--Scripts-->
   <script src="js/counter.js"></script>
