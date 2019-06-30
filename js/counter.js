@@ -1,8 +1,8 @@
 //Variables Generales
 var hsPrice = 1200;
 var hdPrice = 1500;
-var hdlPrice = 1800;
-var hfPrice = 2000;
+var htPrice = 1800;
+var hcPrice = 2000;
 
 var hsAva = 11;
 var hdAva = 10;
@@ -41,10 +41,10 @@ var j = 0;
 
 function clickLinkHD() {
     j++;
-    if (j <= 6) {
+    if (j <= 10) {
         document.getElementById("clicks-hd").innerHTML = j;
     } else {
-        j = 6;
+        j = 10;
 
         document.getElementById("clicks-hd").innerHTML = j;
     }
@@ -52,54 +52,54 @@ function clickLinkHD() {
 
 function resetHD() {
     j = 0;
-    hdAva = 6;
+    hdAva = 10;
 
     document.getElementById("clicks-hd").innerHTML = j;
     document.getElementById("clicks-ava-hd").innerHTML = hdAva;
 }
 
-//Hab de lujo
+//Hab Triple
 var k = 0;
 
-function clickLinkHDL() {
+function clickLinkHT() {
     k++;
-    if (k <= 6) {
-        document.getElementById("clicks-hdl").innerHTML = k;
+    if (k <= 5) {
+        document.getElementById("clicks-ht").innerHTML = k;
     } else {
-        k = 6;
+        k = 5;
 
-        document.getElementById("clicks-hdl").innerHTML = k;
+        document.getElementById("clicks-ht").innerHTML = k;
     }
 }
 
-function resetHDL() {
+function resetHT() {
     k = 0;
-    hdlAva = 6;
+    htAva = 5;
 
-    document.getElementById("clicks-hdl").innerHTML = k;
-    document.getElementById("clicks-ava-hdl").innerHTML = hdlAva;
+    document.getElementById("clicks-ht").innerHTML = k;
+    document.getElementById("clicks-ava-ht").innerHTML = htAva;
 }
 
-//Hab Familiar
+//Hab Cuádruple
 var l = 0;
 
-function clickLinkHF() {
+function clickLinkHC() {
     l++;
-    if (l <= 6) {
-        document.getElementById("clicks-hf").innerHTML = l;
+    if (l <= 1) {
+        document.getElementById("clicks-hc").innerHTML = l;
     } else {
-        l = 6;
+        l = 1;
 
-        document.getElementById("clicks-hf").innerHTML = l;
+        document.getElementById("clicks-hc").innerHTML = l;
     }
 }
 
-function resetHF() {
+function resetHC() {
     l = 0;
-    hfAva = 6;
+    hcAva = 1;
 
-    document.getElementById("clicks-hf").innerHTML = l;
-    document.getElementById("clicks-ava-hf").innerHTML = hfAva;
+    document.getElementById("clicks-hc").innerHTML = l;
+    document.getElementById("clicks-ava-hc").innerHTML = hcAva;
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -157,9 +157,12 @@ function pagar() {
     
     //Saca el pago total multiplicando el número de días por la cantidad de 
     //habitaciones y el precio de cada una de ellas
-    var m = daysRented * (i * hsPrice);
+    var m = daysRented * ((i * hsPrice)+(j * hdPrice)+(k * htPrice)+(l * hcPrice));
 
-    if (m == 1) {
+    if (m = NaN) {
+        alert("Por favor elija fechas para su reserva");
+        document.getElementById("clicks-price").innerHTML = 0;
+    }else if (m == 1) {
         document.getElementById("clicks-price").innerHTML = m;
     } else {
         document.getElementById("clicks-price").innerHTML = m;
