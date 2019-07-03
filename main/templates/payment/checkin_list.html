@@ -12,10 +12,10 @@
             <thead>
             <tr>
                 <th>Check-In</th>
-                <th>Reservation</th>
-                <th>Rooms</th>
-                <th>Paid Amount</th>
-                <th>Check-In Date Time</th>
+                <th>Reservación</th>
+                <th>Habitaciones</th>
+                <th>Cantidad Pagada</th>
+                <th>Hora de Check In</th>
                 <th>Checkout?</th>
             </tr>
             </thead>
@@ -39,7 +39,7 @@
 
                         {% else %}
                             <a class="btn btn-secondary"
-                               href="{% url 'check_out-detail' check_in.checkout.id %}">Details</a>
+                               href="{% url 'check_out-detail' check_in.checkout.id %}">Detalles</a>
                         {% endif %}
                     </td>
                 </tr>
@@ -50,15 +50,15 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title">Confirm Checkout</h4>
+                        <h4 class="modal-title">Confirmar CheckOut</h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body">
-                        <h5>Do you want to confirm checkout?</h5>
+                        <h5>Deseas confirmar este checkout?</h5>
                     </div>
                     <div class="modal-footer">
                         <button type="submit" class="btn btn-success" form="checkout">
-                            Yes
+                            Si
                         </button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
                     </div>
@@ -66,7 +66,7 @@
             </div>
         </div>
     {% else %}
-        <p>There are no check-ins.</p>
+        <p>No existen check-ins.</p>
     {% endif %}
     {% block additional-javascript %}
         <script>

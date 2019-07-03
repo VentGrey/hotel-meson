@@ -8,13 +8,13 @@
         <table class="table table-hover">
             <thead>
             <tr>
-                <th>Reservation ID</th>
-                <th>Customer</th>
+                <th>ID de Reservación</th>
+                <th>Cliente</th>
                 <th>Staff</th>
-                <th>No of Children</th>
-                <th>No of Adults</th>
-                <th>Rooms</th>
-                <th>Reservation Date Time</th>
+                <th>Número de niños</th>
+                <th>Número de adultos</th>
+                <th>Habitaciones</th>
+                <th>Tiempo de reservacion</th>
                 <th>Check In?</th>
             </tr>
             </thead>
@@ -43,7 +43,7 @@
 
                     {% else %}
                         <a class="btn btn-secondary"
-                           href="{% url 'check_in-detail' reservation.checkin.id %}">Details</a>
+                           href="{% url 'check_in-detail' reservation.checkin.id %}">Detalles</a>
                     {% endif %}</td>
                 </tr>
             {% endfor %}
@@ -53,15 +53,15 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title">Confirm Check-In</h4>
+                        <h4 class="modal-title">Confirmar Check-In</h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body">
-                        <h5>Do you want to confirm check-in?</h5>
+                        <h5>Desea confirmar el check-in?</h5>
                     </div>
                     <div class="modal-footer">
                         <button type="submit" class="btn btn-success" form="checkin">
-                            Yes
+                            Si
                         </button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
                     </div>
@@ -69,7 +69,7 @@
             </div>
         </div>
     {% else %}
-        <p>There are no reservations.</p>
+        <p>No hay reservaciones.</p>
     {% endif %}
 {% endblock %}
 {% block additional-javascript %}

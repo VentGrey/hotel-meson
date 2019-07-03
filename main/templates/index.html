@@ -7,44 +7,44 @@
     <div class="row">
         <div class="card .col-md-3">
             <div class="card-body">
-                <div class="card-header bg-primary text-white"> Total Rooms:</div>
+                <div class="card-header bg-primary text-white"> Habitaciones totales:</div>
                 <div class="card-body bg-dark text-white"> {{ total_num_rooms }}</div>
             </div>
         </div>
 
         <div class="card .col-md-3">
             <div class="card-body">
-                <div class="card-header bg-primary text-white"> Available Rooms:</div>
+                <div class="card-header bg-primary text-white"> Habitaciones disp:</div>
                 <div class="card-body bg-dark text-white"> {{ available_num_rooms }}</div>
             </div>
         </div>
 
         <div class="card .col-md-3">
             <div class="card-body">
-                <div class="card-header bg-primary text-white"> Total Reservations:</div>
+                <div class="card-header bg-primary text-white"> Reservaciones totales:</div>
                 <div class="card-body bg-dark text-white"> {{ total_num_reservations }}</div>
             </div>
         </div>
 
         <div class="card .col-md-3">
             <div class="card-body">
-                <div class="card-header bg-primary text-white"> Total Staffs:</div>
+                <div class="card-header bg-primary text-white"> Empleados totales:</div>
                 <div class="card-body bg-dark text-white">  {{ total_num_staffs }} </div>
             </div>
         </div>
 
         <div class="card .col-md-3">
             <div class="card-body">
-                <div class="card-header bg-primary text-white"> Total Customers:</div>
+                <div class="card-header bg-primary text-white"> Clientes totales:</div>
                 <div class="card-body bg-dark text-white">{{ total_num_customers }}</div>
             </div>
         </div>
         {% if user.is_authenticated %}
             <div class="card .col-md-3">
                 <div class="card-body">
-                    <div class="card-header bg-primary text-white"> Last Reservation:</div>
+                    <div class="card-header bg-primary text-white"> Última reservación:</div>
                     {% if last_reserved_by.reservation_id %}
-                        <div class="card-body bg-dark text-white">Reservation for: <a
+                        <div class="card-body bg-dark text-white">Reservación para: <a
                                 href="{% url 'customer-detail' last_reserved_by.customer.customer_id %}" class="text-white">{{ last_reserved_by.customer }}</a>
                         </div>
                         <div class="card-body bg-primary text-white">
@@ -55,7 +55,7 @@
                             {% endif %}
                         </div>
                     {% else %}
-                        <div class="card-body bg-dark text-white">Not Yet</div>
+                        <div class="card-body bg-dark text-white">Aún no</div>
                     {% endif %}
                 </div>
             </div>
