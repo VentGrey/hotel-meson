@@ -76,12 +76,12 @@ class Signup(forms.Form):
         widget=forms.EmailInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter your email'),
+                'placeholder': _('Ingrese su Email'),
             }
         )
     )
     username = forms.CharField(
-        label=_("Username"),
+        label=_("Nombre de usuario"),
         max_length=32,
         widget=forms.TextInput(
             attrs={
@@ -100,11 +100,11 @@ class Signup(forms.Form):
         )
     )
     password2 = forms.CharField(
-        label=_("Password confirmation"),
+        label=_("Confirmar contraseña"),
         widget=forms.PasswordInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Confirm Password')
+                'placeholder': _('Confirmar contraseña')
             }
         ),
         help_text=_("Enter the same password as above, for verification."))
