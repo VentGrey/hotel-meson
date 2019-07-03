@@ -12,51 +12,51 @@ class Signup(forms.Form):
     This is the signup form.
     """
     error_messages = {
-        'password_mismatch': _("The two password fields didn't match."),
-        'id_not_found': _("This ID is not available."),
-        'info_not_matched': _("The information didn't match."),
-        'username_exists': _("The username already exists."),
-        'staff_username_exists': _("This staff already has an account please login to it."),
+        'password_mismatch': _("La contraseña no es la misma en los campos."),
+        'id_not_found': _("Este ID no está disponible."),
+        'info_not_matched': _("La información no concuerda."),
+        'username_exists': _("El username ya existe."),
+        'staff_username_exists': _("Este usuario ya posee una cuenta, por favor ingrese."),
     }
 
     staff_id = forms.IntegerField(
         label=_('ID'),
-        help_text=_("Enter your staff ID"),
+        help_text=_("Ingrese su ID de empleado"),
         widget=forms.NumberInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter your ID'),
+                'placeholder': _('Ingrese su ID'),
             }
         )
     )
     first_name = forms.CharField(
-        label=_("First Name"),
+        label=_("Nombre"),
         max_length=50,
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter your first name'),
+                'placeholder': _('Escriba su nombre'),
             }
         )
     )
     middle_name = forms.CharField(
-        label=_('Middle Name'),
+        label=_('Segundo Nombre'),
         required=False,
         max_length=50,
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter your middle name'),
+                'placeholder': _('Ingrese su segundo nombre'),
             }
         )
     )
     last_name = forms.CharField(
-        label=_("Last Name"),
+        label=_("Apellido"),
         max_length=50,
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter your last name'),
+                'placeholder': _('Ingrese su apellido'),
             }
         )
     )
