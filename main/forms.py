@@ -107,7 +107,7 @@ class Signup(forms.Form):
                 'placeholder': _('Confirmar contraseña')
             }
         ),
-        help_text=_("Enter the same password as above, for verification."))
+        help_text=_("Ingrese la misma contraseña en los dos campos."))
 
     def clean(self):
         staff_id = self.cleaned_data.get('staff_id')
@@ -174,7 +174,7 @@ class ReservationForm(forms.Form):
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter first name'),
+                'placeholder': _('Ingrese el Nombre'),
             }
         )
     )
@@ -185,7 +185,7 @@ class ReservationForm(forms.Form):
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter middle name'),
+                'placeholder': _('Ingrese el segundo nombre'),
             }
         )
     )
@@ -195,7 +195,7 @@ class ReservationForm(forms.Form):
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter last name'),
+                'placeholder': _('Ingrese los apellidos'),
             }
         )
     )
@@ -205,7 +205,7 @@ class ReservationForm(forms.Form):
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter contact number'),
+                'placeholder': _('Ingrese el número de teléfono'),
             }
         )
     )
@@ -216,7 +216,7 @@ class ReservationForm(forms.Form):
         widget=forms.EmailInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter email'),
+                'placeholder': _('Ingrese el email'),
             }
         )
     )
@@ -226,7 +226,7 @@ class ReservationForm(forms.Form):
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter address'),
+                'placeholder': _('Ingrese la dirección'),
             }
         )
     )
@@ -234,7 +234,7 @@ class ReservationForm(forms.Form):
         widget=forms.NumberInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter number of children'),
+                'placeholder': _('Ingrese el número de niños a registrar'),
             }
         )
     )
@@ -242,7 +242,7 @@ class ReservationForm(forms.Form):
         widget=forms.NumberInput(
             attrs={
                 'class': 'form-control',
-                'placeholder': _('Enter number of adults'),
+                'placeholder': _('Ingrese el número de adultos alojados'),
             }
         )
     )
