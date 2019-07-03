@@ -65,28 +65,28 @@
                 {% block sidebar-items %}
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'index' %}">Hotel
-                                Status</a>
+                            <a class="nav-link" href="{% url 'index' %}">Status
+                                del Hotel</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'guest-list' %}">Guests</a>
+                            <a class="nav-link" href="{% url 'guest-list' %}">Huéspedes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'rooms' %}">Rooms</a>
+                            <a class="nav-link" href="{% url 'rooms' %}">Habitaciones</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{% url 'payment-index' %}">Payments</a>
+                            <a class="nav-link" href="{% url 'payment-index' %}">Pagos</a>
                         </li>
                     </ul>
                     {% if user.is_authenticated %}
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" href="{% url 'reserve' %}">Reserve</a>
+                                <a class="nav-link" href="{% url 'reserve' %}">Reservar</a>
                             </li>
                         </ul>
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" href="{% url 'reservations' %}">Reservations</a>
+                                <a class="nav-link" href="{% url 'reservations' %}">Reservaciones</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{% url 'check_in-list' %}">Check-ins</a>
@@ -98,7 +98,7 @@
                     {% endif %}
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Customer Feedback</a>
+                            <a class="nav-link" href="#">Feedback de los clientes</a>
                         </li>
                     </ul>
                     <ul class="nav nav-pills flex-column">
@@ -106,15 +106,14 @@
                             {% if user.is_authenticated %}
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">{{ user.first_name }} {{ user.last_name }}</a>
-                                    <a class="nav-link" href="{% url 'logout' %}?next={{ request.path }}">Logout</a>
+                                    <a class="nav-link" href="{% url 'logout' %}?next={{ request.path }}">Salir</a>
                                 </li>
                             {% else %}
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{% url 'login' %}?next={{ request.path }}">Login</a>
+                                    <a class="nav-link" href="{% url 'login' %}?next={{ request.path }}">Iniciar Sesión</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{% url 'signup' %}?next={{ request.path }}">Don't have an
-                                        account?</a>
+                                    <a class="nav-link" href="{% url 'signup' %}?next={{ request.path }}">Crear una cuenta</a>
                                 </li>
                             {% endif %}
                         {% endblock %}
