@@ -1,0 +1,157 @@
+/* GENERALS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  font: normal normal normal 14px/1.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  height: 100%;
+}
+/* End of GENERALS styles */
+
+/* NAVBAR styles */
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: #380000;
+  z-index: 100;
+}
+
+.navbar-list {
+  display: inline-block;
+  width: auto;
+  list-style: none;
+  margin-left: 0;
+  background-color: transparent;
+}
+
+.navbar-item {
+  display: block;
+  margin: 1em 0 0 0;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.95rem;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.navbar-link {
+  display: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-link-cel {
+  display: block;
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-link:hover {
+  color: #b0b4ba;
+}
+
+.navbar-link-cel:hover {
+  color: #b0b4ba;
+}
+/* End of NAVBAR styling */
+
+/* Form styling */
+.form {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  padding: 1em 2em 2em 2em;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  background-color: #600505;
+  opacity: 0.95;
+  border-radius: 3px;
+}
+
+.form > span {
+  display: block;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1rem;
+}
+
+.form > label {
+  display: inline-block;
+  width: 45%;
+  
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.form > input {
+  display: inline-block;
+  width: 50%;
+  border: none;
+  margin-top: 2em;
+  
+  background-color: #fff;
+  border-radius: 3px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.1rem;
+  color: #000;
+  padding: 0.3em;
+}
+
+.btn-form {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* End of Form styling */
+
+/****************************************************************************************************************************************************/
+/****************************************************************************************************************************************************/
+
+/* Pantallas grandes Horizontal y Vertical */
+@media screen and (min-width: 800px) {
+  /*Navbar*/
+  .navbar-list {
+    margin-left: 2em;
+  }
+  
+  .navbar-item {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .navbar-link {
+    display: block;
+    height: 0;
+  }
+  
+  .navbar-link-cel {
+    display: none;
+  }
+  
+/****************************************************************************************************************************************************/
+/****************************************************************************************************************************************************/
+
+/* Pantallas grandes Horizontal y Vertical */
+@media screen and (min-width: 1000px) {
+  /*Navbar*/
+  .navbar-list {
+    margin-left: 3em;
+  }
+  
+  .navbar-item {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
