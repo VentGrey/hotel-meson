@@ -5,10 +5,8 @@ $password = $_POST['pass'];
 
 // Prevent SQLInyection
 if (isset($username) && isset($password)) {
-    $username = stripcslashes($username);
-    $password = stripcslashes($password);
-    $username = sqlite_escape_string($username);
-    $password = sqlite_escape_string($password);
+    $username = sqlite_escape_string(stripcslashes($username));
+    $password = sqlite_escape_string(stripcslashes($password));
 } else {
     echo "Ocurrió un error y no se procesaron las variables correctamente";
 }
