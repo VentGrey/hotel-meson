@@ -20,6 +20,6 @@ $row = $result -> fetchArray();
 if ($row['username'] == $username && $row['password'] == $password) {
     header("Location: index.php");
 } else {
-    echo "Fallo al iniciar sesión";
+    header("Location: failed.php");;
 }
 ?>
