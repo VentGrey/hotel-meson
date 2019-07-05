@@ -26,8 +26,8 @@
   <!--Navbar-->
   <div class="navbar">
     <ul class="navbar-list">
-      <li class="navbar-item"><a class="navbar-link" href="index.html">Volver a página principal</a></li>
-      <li class="navbar-item"><a class="navbar-link-cel" href="index.html">Volver</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="index.php">Volver a página principal</a></li>
+      <li class="navbar-item"><a class="navbar-link-cel" href="index.php">Volver</a></li>
     </ul>
   </div>
   <!--/.Navbar-->

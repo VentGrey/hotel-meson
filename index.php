@@ -59,7 +59,7 @@
           </li>
 
           <li class="nav-item hm_navbar-item">
-            <a class="nav-link scroll-link btn-hm-2" href="index-reservar.html">Reservar</a>
+            <a class="nav-link scroll-link btn-hm-2" href="index-reservar.php">Reservar</a>
           </li>
 
         </ul>
@@ -124,7 +124,7 @@
         <!--Our rooms are perfect for you. They have individual beds, flat screen TV with PayTV, free WiFi
         and many other things that will make your stay very pleasent-->
       </p>
-      <a class="btn btn-hm" href="index-reservar.html">Reservar<!--Book A Room--></a>
+      <a class="btn btn-hm" href="index-reservar.php">Reservar<!--Book A Room--></a>
     </div>
   </div>
 </div>

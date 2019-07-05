@@ -1,3 +1,5 @@
 function enviar() {
-    document.getElementById("resultado").innerHTML = 3;
+    var name = document.getElementById("name").value;
+    
+    document.getElementById("resultado").innerHTML = name;
 }

@@ -26,19 +26,19 @@
   <!--Navbar-->
   <div class="navbar">
     <ul class="navbar-list">
-      <li class="navbar-item"><a class="navbar-link" href="index-reservar.html">Volver a método de pago</a></li>
-      <li class="navbar-item"><a class="navbar-link-cel" href="index-reservar.html">Volver</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="index-reservar.php">Volver a método de pago</a></li>
+      <li class="navbar-item"><a class="navbar-link-cel" href="index-reservar.php">Volver</a></li>
     </ul>
   </div>
   <!--/.Navbar-->
 
   <!--Content-->
-  <form action="" class="form">
+  <form action="" class="form" method="">
   
     <span>Favor de revisar bien sus datos, ya que en dado caso de ser erróneos, no habrá reembolso.</span>
    
     <label for="name">Nombre</label>
-    <input type="text" id="name" name="name" placeholder="Escriba su nombre(s)" maxlength="20" class="input-first">
+    <input type="text" id="name" name="name" placeholder="Escriba su nombre(s)" maxlength="20">
     
     <label for="lastname">Apellido</label>
     <input type="text" id="lastname" name="lastname" placeholder="Escriba sus apellidos" maxlength="30">
