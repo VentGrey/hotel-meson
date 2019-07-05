@@ -49,12 +49,10 @@
     <label for="mail">Correo de contacto</label>
     <input type="email" id="mail" name="mail" placeholder="Escriba un e-mail de contacto">
     
-    <input type="submit" value="Enviar" class="btn-form" onclick="enviar();">
+    <input type="submit" value="Enviar" class="btn-form" onclick="enviarForm();">
     
-    <span id="name">0</span>
-    <span id="lastname">0</span>
-    <span id="phone">0</span>
-    <span id="mail">0</span>
+    <span id="click-name">0</span>
+    <span id="click-lastname">0</span>
     
   </form>
   <!--/.Content-->
@@ -82,7 +80,13 @@
   <!--/.Redes sociales-->
 
   <!--Scripts-->
-  <script src="js/form.js"></script>
+  <script>
+    function enviarForm() {
+      var terrence = 1;
+      document.getElementById("click-name").innerHTML = terrence;
+      document.getElementById("click-lastname").innerHTML = terrence;
+    }
+  </script>
   
 </body>
 
