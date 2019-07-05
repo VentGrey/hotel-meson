@@ -13,7 +13,7 @@
                 </p>
                 <p>
                     <label>Contraseña:</label>
-                    <input type="password" id="pass" />
+                    <input type="password" id="password" name="password" />
                 </p>
                 <p>
                     <input type="submit" id="btn" value="login" />

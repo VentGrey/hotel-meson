@@ -1,7 +1,7 @@
 <?php
 // Get values from login form in login.php file
 $username = $_POST['user'];
-$password = $_POST['pass'];
+$password = $_POST['password'];
 
 // Prevent SQLInyection
 if (isset($username) && isset($password)) {
@@ -13,8 +13,7 @@ if (isset($username) && isset($password)) {
 // Conectarse a la BD
 $db = new SQLite3('login.sqlite3');
 
-$result = sqlite_query("SELECT * FROM users WHERE username = '$username' AND password = '$password'")
-        or die("Fallo al conectar con la base de datos".sqlite_error_string());
+$result = $db -> query("SELECT * FROM users WHERE username = '$username' AND password = '$password'");
 
 $row = sqlite_fetch_array($result);
 
