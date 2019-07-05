@@ -15,7 +15,7 @@ $db = new SQLite3('login.sqlite3');
 
 $result = $db -> query("SELECT * FROM users WHERE username = '$username' AND password = '$password'");
 
-$row = SQLite3Result::fetchArray($result);
+$row = $result -> fetchArray();
 
 if ($row['username'] == $username && $row['password'] == $password) {
     header("Location: index.php");
