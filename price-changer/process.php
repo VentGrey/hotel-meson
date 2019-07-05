@@ -11,7 +11,7 @@ if (isset($username) && isset($password)) {
     echo "Ocurrió un error y no se procesaron las variables correctamente";
 }
 // Conectarse a la BD
-$db = new SQLite('../login');
+$db = new SQLite3('login.sqlite3');
 
 $result = sqlite_query("SELECT * FROM users WHERE username = '$username' AND password = '$password'")
         or die("Fallo al conectar con la base de datos".sqlite_error_string());
