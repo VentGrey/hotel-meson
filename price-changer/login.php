@@ -9,9 +9,14 @@
             <form action="process.php" method="POST">
                 <p>
                     <label>Usuario:</label>
-                    <input type="text" id="pass" name="pass" />
+                    <input type="text" id="user" name="user" />
                 </p>
                 <p>
+                    <label>Contraseña:</label>
+                    <input type="password" id="pass" />
+                </p>
+                <p>
+                    <input type="submit" id="btn" value="login" />
                 </p>
             </form>
         </div>
