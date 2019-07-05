@@ -32,9 +32,10 @@
     </div>
 
     <div class="container">
+        <img style="float: left; margin-top: 20%;" src="assets/img/fail.png" width="350px" height="350px">
     </div>
     <div class="container">
-        <h1 class="x1 text-center"> ¡OOPS! ¡La contraseña es incorrecta! </h1>
+        <h1 style="float: left; margin-top: 30%;" class="text-center"> ¡OOPS! ¡La contraseña es incorrecta! </h1>
     </div>
 
     <!--Scripts-->
