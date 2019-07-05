@@ -14,9 +14,6 @@
 
 <body>
     <div>
-      
-    </div>
-    <div>
       <nav class="navbar navbar-light navbar-expand-md shadow-sm d-flex justify-content-xl-center align-items-xl-center bounce animated navigation-clean" style="background-color: #380000;">
         <div class="container">
           <a class="navbar-brand text-center shadow-sm d-xl-flex" href="#" style="font-family: Montserrat, sans-serif;color: #FAFAFA;">MESÓN DE JUAN VALLE</a>
@@ -30,10 +27,14 @@
         </div>
       </nav>
     </div>
-    
+
     <h1 class="display-3 text-lowercase text-center">Cambiar Precios de las habitaciones.</h1>
     <p>Seleccione la habitación cuyo precio desea cambiar:</p>
-    
+
+    <div class="container">
+        <form>
+        </form>
+    </div>
     <!--Scripts-->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
