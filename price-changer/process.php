@@ -1,7 +1,7 @@
 <?php
 // Get values from login form in login.php file
-$username = $_POST['username'];
-$password = $_POST['password'];
+$username = $_POST['user'];
+$password = $_POST['pass'];
 
 // Prevent SQLInyection
 $username = stripcslashes($username);
