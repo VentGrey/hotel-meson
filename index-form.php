@@ -33,25 +33,23 @@
   <!--/.Navbar-->
 
   <!--Content-->
-  <form action="" class="form" method="">
+  <form action="datosGet.php" class="form" method="get">
   
     <span>Favor de revisar bien sus datos, ya que en dado caso de ser erróneos, no habrá reembolso.</span>
    
     <label for="name">Nombre</label>
-    <input type="text" id="name" name="name" placeholder="Escriba su nombre(s)" maxlength="20">
+    <input type="text" name="nombre" placeholder="Escriba su nombre(s)">
     
     <label for="lastname">Apellido</label>
-    <input type="text" id="lastname" name="lastname" placeholder="Escriba sus apellidos" maxlength="30">
+    <input type="text" name="apellido" placeholder="Escriba sus apellidos">
     
     <label for="phone">No. de contacto</label>
-    <input type="tel" id="phone" name="phone" placeholder="Escriba un número de contacto">
+    <input type="tel" name="phone" placeholder="Escriba un número de contacto">
     
     <label for="mail">Correo de contacto</label>
-    <input type="email" id="mail" name="mail" placeholder="Escriba un e-mail de contacto">
+    <input type="email" name="mail" placeholder="Escriba un e-mail de contacto">
     
     <input type="submit" value="Enviar" class="btn-form" onclick="enviar()">
-    
-    <span id="resultado">nombre</span>
     
   </form>
   <!--/.Content-->
