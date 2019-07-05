@@ -5,8 +5,8 @@ $password = $_POST['password'];
 
 // Prevent SQLInyection
 if (isset($username) && isset($password)) {
-    $username = sqlite_escape_string(stripcslashes($username));
-    $password = sqlite_escape_string(stripcslashes($password));
+    $username = SQLite3::escapeString($username);
+    $password = SQLite3::escapeString($password);
 } else {
     echo "Ocurrió un error y no se procesaron las variables correctamente";
 }
@@ -15,7 +15,7 @@ $db = new SQLite3('login.sqlite3');
 
 $result = $db -> query("SELECT * FROM users WHERE username = '$username' AND password = '$password'");
 
-$row = sqlite_fetch_array($result);
+$row = SQLite3Result::fetchArray($result);
 
 if ($row['username'] == $username && $row['password'] == $password) {
     header("Location: index.php");
