@@ -4,11 +4,14 @@ $username = $_POST['user'];
 $password = $_POST['pass'];
 
 // Prevent SQLInyection
-$username = stripcslashes($username);
-$password = stripcslashes($password);
-$username = sqlite_escape_string($username);
-$password = sqlite_escape_string($password);
-
+if (isset($username) && isset($password)) {
+    $username = stripcslashes($username);
+    $password = stripcslashes($password);
+    $username = sqlite_escape_string($username);
+    $password = sqlite_escape_string($password);
+} else {
+    echo "Ocurrió un error y no se procesaron las variables correctamente";
+}
 // Conectarse a la BD
 $db = new SQLite('../login');
 
@@ -18,7 +21,7 @@ $result = sqlite_query("SELECT * FROM users WHERE username = '$username' AND pas
 $row = sqlite_fetch_array($result);
 
 if ($row['username'] == $username && $row['password'] == $password) {
-    echo "¡Sesión inciada correctamente! Bienvenid@ ".$row['username'];
+    header("Location: index.php");
 } else {
     echo "Fallo al iniciar sesión";
 }
