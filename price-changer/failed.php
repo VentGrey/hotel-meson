@@ -34,7 +34,7 @@
     <div class="container">
     </div>
     <div class="container">
-        <p class="text-center"> OOPS! El login falló! </p>
+        <h1 class="x1 text-center"> ¡OOPS! ¡La contraseña es incorrecta! </h1>
     </div>
 
     <!--Scripts-->
