@@ -33,25 +33,42 @@
   <!--/.Navbar-->
 
   <!--Content-->
-  <form action="datosGet.php" class="form" method="get">
-  
+  <form action="datosGet.php" class="form-user" method="post">
+
     <span>Favor de revisar bien sus datos, ya que en dado caso de ser erróneos, no habrá reembolso.</span>
-   
+
     <label for="name">Nombre</label>
     <input type="text" name="nombre" placeholder="Escriba su nombre(s)">
-    
+
     <label for="lastname">Apellido</label>
     <input type="text" name="apellido" placeholder="Escriba sus apellidos">
-    
+
     <label for="phone">No. de contacto</label>
     <input type="tel" name="phone" placeholder="Escriba un número de contacto">
-    
+
     <label for="mail">Correo de contacto</label>
     <input type="email" name="mail" placeholder="Escriba un e-mail de contacto">
-    
-    <input type="submit" value="Enviar" class="btn-form" onclick="enviar()">
-    
+
   </form>
+
+  <form action="datosGet.php" class="form-details" method="post">
+
+    <label for="no-kids">Número de niños</label>
+    <input type="number" name="no-kids" min="0">
+
+    <label for="no-adults">Número de adultos</label>
+    <input type="number" name="no-adults" min="0">
+
+    <label for="check-in">Check in</label>
+    <input type="date" name="check-in" class="check-date">
+
+    <label for="check-out">Check out</label>
+    <input type="date" name="check-out" class="check-date">
+
+    <input type="submit" value="Enviar" class="btn-form">
+
+  </form>
+
   <!--/.Content-->
 
   <!--Messenger bubble-->
@@ -78,7 +95,7 @@
 
   <!--Scripts-->
   <script src="js/form.js"></script>
-  
+
 </body>
 
 </html>
