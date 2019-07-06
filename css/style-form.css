@@ -87,7 +87,7 @@ body {
   font-size: 1rem;
 }
 
-.form-user > label {
+.label {
   display: inline-block;
   width: 45%;
 
@@ -96,7 +96,29 @@ body {
   color: #fff;
 }
 
-.form-user > input {
+.label-half {
+  display: inline-block;
+  width: 45%;
+
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.input {
+  display: inline-block;
+  width: 50%;
+  border: none;
+
+  background-color: #fff;
+  border-radius: 3px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.1rem;
+  color: #000;
+  padding: 0.3em;
+}
+
+.input-half {
   display: inline-block;
   width: 50%;
   border: none;
