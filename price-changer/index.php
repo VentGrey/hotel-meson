@@ -29,10 +29,18 @@
     </div>
 
     <h1 class="display-3 text-lowercase text-center">Cambiar Precios de las habitaciones.</h1>
-    <p>Seleccione la habitación cuyo precio desea cambiar:</p>
 
     <div class="container">
-        <form>
+        <form action="write_sroom.php" method="POST" id="sroom">
+            <label>Seleccione que habitación desea cambiar:</label>
+            <select name="id">
+                <option value="" selected>Seleccione el tipo de habitacion</option>
+                <option value="1" >Hab. Sencilla</option>
+                <option value="2">Hab. Doble</option>
+                <option value="3">Hab. Triple</option>
+                <option value="4">Hab. Cuádruple</option>
+            </select>
+<button type="button" id="Guardar_precio" >Guardar</button>
         </form>
     </div>
     <!--Scripts-->
