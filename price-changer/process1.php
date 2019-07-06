@@ -3,23 +3,23 @@
 $id;
 $price;
 
-if (isset($_POST['id']) && isset($_POST['price'])) {
-     $id = $_POST['id'];
-     $price = $_POST['price'];
-  $id = SQLite3::escapeString($id);
+if (isset($_POST['id'], $_POST['price'])) {
+    $id = $_POST['id'];
+    $price = $_POST['price'];
+    $id = SQLite3::escapeString($id);
     $price = SQLite3::escapeString($price);
-} else {
-    echo "Ocurrió un error y no se procesaron las variables correctamente";
-}
-// Conectarse a la BD
-$db = new SQLite3('login.sqlite3');
+    $db = new SQLite3('../backend/db.sqlite3');
+    // Conectarse a la BD
+    $sql = "UPDATE main_roomtype SET price = '$price'  WHERE id='$id' ";
 
-$sql = "UPDATE main_roomtype SET price = '$price',  WHERE id='$id' ";
-
-$ret = $db->exec($sql);
+    $ret = $db->exec($sql);
    if(!$ret) {
       echo "Error en la consulta";
    } else {
-      echo "Actualizacon correcta";
+      echo "Datos actualizados correctamente. Puede cerrar esta ventana o regresar a editar los precios.";
    }
+} else {
+    echo "Ocurrió un error y no se procesaron las variables correctamente";
+}
+
 ?>
