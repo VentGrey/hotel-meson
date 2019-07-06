@@ -33,39 +33,45 @@
   <!--/.Navbar-->
 
   <!--Content-->
-  <form action="datosGet.php" class="form-user" method="post">
+  <form action="datosPost.php" class="form" method="post">
 
-    <span>Favor de revisar bien sus datos, ya que en dado caso de ser erróneos, no habrá reembolso.</span>
+    <div class="form-user">
+      <span>Favor de revisar bien sus datos, ya que en dado caso de ser erróneos, no habrá reembolso.</span>
 
-    <label for="name">Nombre</label>
-    <input type="text" name="nombre" placeholder="Escriba su nombre(s)">
+      <label for="name" class="label">Nombre</label>
+      <input type="text" name="nombre" placeholder="Escriba su nombre" class="input">
 
-    <label for="lastname">Apellido</label>
-    <input type="text" name="apellido" placeholder="Escriba sus apellidos">
+      <label for="second" class="label">Segundo nombre</label>
+      <input type="text" name="segundo" placeholder="Escriba su segundo nombre" class="input">
 
-    <label for="phone">No. de contacto</label>
-    <input type="tel" name="phone" placeholder="Escriba un número de contacto">
+      <label for="lastname" class="label">Apellido</label>
+      <input type="text" name="apellido" placeholder="Escriba sus apellidos" class="input">
 
-    <label for="mail">Correo de contacto</label>
-    <input type="email" name="mail" placeholder="Escriba un e-mail de contacto">
+      <label for="phone" class="label-half">No. de contacto</label>
+      <input type="tel" name="phone" placeholder="Número de contacto" class="input-half">
 
-  </form>
+      <label for="mail" class="label-half">Correo de contacto</label>
+      <input type="email" name="mail" placeholder="E-mail de contacto" class="input-half">
 
-  <form action="datosGet.php" class="form-details" method="post">
+      <label for="address" class="label">Dirección</label>
+      <input type="text" name="address" placeholder="Escriba una dirección" class="input-half">
+    </div>
 
-    <label for="no-kids">Número de niños</label>
-    <input type="number" name="no-kids" min="0">
+    <div class="form-details">
+      <label for="no-kids">Número de niños</label>
+      <input type="number" name="no-kids" min="0">
 
-    <label for="no-adults">Número de adultos</label>
-    <input type="number" name="no-adults" min="0">
+      <label for="no-adults">Número de adultos</label>
+      <input type="number" name="no-adults" min="0">
 
-    <label for="check-in">Check in</label>
-    <input type="date" name="check-in" class="check-date">
+      <label for="check-in">Check in</label>
+      <input type="date" name="check-in" class="check-date">
 
-    <label for="check-out">Check out</label>
-    <input type="date" name="check-out" class="check-date">
+      <label for="check-out">Check out</label>
+      <input type="date" name="check-out" class="check-date">
 
-    <input type="submit" value="Enviar" class="btn-form">
+      <input type="submit" value="Enviar" class="btn-form">
+    </div>
 
   </form>
 
