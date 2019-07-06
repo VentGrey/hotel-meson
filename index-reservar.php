@@ -7,6 +7,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Hotel Mesón - reservar</title>
   <!-- Fonts -->
+
   <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -19,6 +20,8 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="js/precios.js"></script>
 </head>
 
 <body>
@@ -90,7 +93,7 @@
           <span class="ir_page-title">Habitación Sencilla</span>
           <!--<span class="ir_page-text"><span id="clicks-ava-hs">11</span> habitaciones disponibles</span>-->
           <ul class="main-list">
-            <li class="main-item">Tamaño: 14 - 17 mts.</li> 
+            <li class="main-item">Tamaño: 14 - 17 mts.</li>
             <li class="main-item">Camas: 1 cama matrimonial</li>
             <li class="main-item">Máximo: 2 personas</li>
           </ul>
@@ -107,7 +110,7 @@
       </div>
       <div class="room-info info-price">
         <div class="part-price">
-          <span class="main-subtext-price">$1,200</span>
+          <span class="main-subtext-price" id="p1">$1,200</span>
           <span class="main-subtext-2-price">p/noche</span>
         </div>
         <div class="part-add">
@@ -128,7 +131,7 @@
       <a class="cerrar" href="#hab-sencilla">x</a>
     </div>
     <!--/.Hab Sencilla-->
-    
+
     <!--Habitación Doble-->
     <div class="rooms-general" id="hab-doble">
       <div class="room-info info-img">
@@ -139,7 +142,7 @@
           <span class="ir_page-title">Habitación Doble</span>
           <!--<span class="ir_page-text"><span id="clicks-ava-hd">10</span> habitaciones disponibles</span>-->
           <ul class="main-list">
-            <li class="main-item">Tamaño: 18 - 21 mts.</li> 
+            <li class="main-item">Tamaño: 18 - 21 mts.</li>
             <li class="main-item">Camas: 2 camas matrimoniales</li>
             <li class="main-item">Máximo: 4 personas</li>
           </ul>
@@ -156,7 +159,7 @@
       </div>
       <div class="room-info info-price">
         <div class="part-price">
-          <span class="main-subtext-price">$1,500</span>
+          <span class="main-subtext-price" id="p2">$1,500</span>
           <span class="main-subtext-2-price">p/noche</span>
         </div>
         <div class="part-add">
@@ -177,7 +180,7 @@
       <a class="cerrar" href="#hab-sencilla">x</a>
     </div>
     <!--/.Hab Doble-->
-    
+
     <!--Habitación Triple-->
     <div class="rooms-general" id="hab-triple">
       <div class="room-info info-img">
@@ -188,7 +191,7 @@
           <span class="ir_page-title">Habitación Triple</span>
           <!--<span class="ir_page-text"><span id="clicks-ava-ht">5</span> habitaciones disponibles</span>-->
           <ul class="main-list">
-            <li class="main-item">Tamaño: 18 - 21 mts.</li> 
+            <li class="main-item">Tamaño: 18 - 21 mts.</li>
             <li class="main-item">Camas: 3 camas matrimoniales</li>
             <li class="main-item">Máximo: 6 personas</li>
           </ul>
@@ -205,7 +208,7 @@
       </div>
       <div class="room-info info-price">
         <div class="part-price">
-          <span class="main-subtext-price">$1,800</span>
+          <span class="main-subtext-price" id ="p3">$1,800</span>
           <span class="main-subtext-2-price">p/noche</span>
         </div>
         <div class="part-add">
@@ -226,7 +229,7 @@
       <a class="cerrar" href="#hab-doble">x</a>
     </div>
     <!--/.Hab Triple-->
-    
+
     <!--Habitación Cuádruple-->
     <div class="rooms-general" id="hab-cuadruple">
       <div class="room-info info-img">
@@ -237,7 +240,7 @@
           <span class="ir_page-title">Habitación Cuádruple</span>
           <!--<span class="ir_page-text"><span id="clicks-ava-hc">1</span> habitación disponible</span>-->
           <ul class="main-list">
-            <li class="main-item">Tamaño: 20 - 25 mts.</li> 
+            <li class="main-item">Tamaño: 20 - 25 mts.</li>
             <li class="main-item">Camas: 4 camas matrimoniales</li>
             <li class="main-item">Máximo: 8 personas</li>
           </ul>
@@ -254,7 +257,7 @@
       </div>
       <div class="room-info info-price">
         <div class="part-price">
-          <span class="main-subtext-price">$2,000</span>
+          <span class="main-subtext-price" id="p4">$2,000</span>
           <span class="main-subtext-2-price">p/noche</span>
         </div>
         <div class="part-add">
