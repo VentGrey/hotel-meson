@@ -35,7 +35,6 @@
   </div>
   <!--/.Navbar-->
 
-  <!--Datepicker-->
   <!--<div class="container-reservar">
 
     <div class="box-text-main">
@@ -307,6 +306,8 @@
   <!--Scripts-->
   <!--<script src="js/counter.js"></script>-->
   <script src="js/galeria.js"></script>
+  <script src="https://js.stripe.com/v3/"></script>
+
 </body>
 
 </html>
