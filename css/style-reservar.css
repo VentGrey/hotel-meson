@@ -401,7 +401,7 @@ img {
 /*Help Container*/
 .help-container {
   width: 100%;
-  height:10em;
+  height:9em;
 }
 
 /*Parte de pagar*/
@@ -410,15 +410,15 @@ img {
   width: 100%;
   bottom: 0;
   background-color: #fff;
-  border-top: 1px solid #000;
+  border-top: 1px solid #b0b4ba;
 }
 
 .form-number > span {
   display: block;
-  width: 65%;
-  height: 3em;
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
+  width: 75%;
+  height: auto;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
   margin-bottom: 0.4em;
   margin-left: 50%;
   transform: translate(-50%, 0);
@@ -431,35 +431,32 @@ img {
 .box-number {
   width: 75%;
   height: auto;
-  background-color: yellow;
   margin-left: 50%;
   transform: translate(-50%, 0);
 }
 
-.form-number > label {
+.number-label {
   display: inline-block;
-  width: 20%;
-  height: 3em;
+  width: auto;
+  height: auto;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
+  margin-right: 1em;
   margin-bottom: 1em;
-  margin-left: 50%;
-  transform: translate(-50%, 0);
 
   color: #000;
   font-family: 'Varela Round', sans-serif;
   font-size: 15px;
 }
 
-.hab-input {
+.number-input {
   display: inline-block;
-  width: 25%%;
-  height: 3em;
+  width: 6%;
+  height: 2.3em;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
+  margin-right: 2.3em;
   margin-bottom: 0.5em;
-  margin-left: 50%;
-  transform: translate(-50%, 0);
 
   background-color: #600505;
   border: 0;

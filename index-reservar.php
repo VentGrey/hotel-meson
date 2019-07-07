@@ -279,8 +279,17 @@
       <span>Elija el número de habitaciones que desea reservar por cada habitación.</span>
 
       <div class="box-number">
-        <label for="num-habdob">Habitación Doble</label>
-        <input type="number" min="0" max="10" name="num-habdob" class="hab-input">
+        <label for="num-habsen" class="number-label">Habitación Sencilla</label>
+        <input type="number" min="0" max="11" name="num-habsen" class="number-input">
+
+        <label for="num-habdob" class="number-label">Habitación Doble</label>
+        <input type="number" min="0" max="10" name="num-habdob" class="number-input">
+
+        <label for="num-habtri" class="number-label">Habitación Triple</label>
+        <input type="number" min="0" max="5" name="num-habtri" class="number-input">
+
+        <label for="num-habcua" class="number-label">Habitación Cuádruple</label>
+        <input type="number" min="0" max="1" name="num-habcua" class="number-input">
       </div>
 
       <input type="submit" name="" value="Pagar" class="pagar-btn">
@@ -296,7 +305,7 @@
       $num_habtri = $_POST['num-habtri'];
       $num_habcua = $_POST['num-habcua'];
 
-      $total = 0;
+      $total = (($precio_habsen*$num_habsen)+($precio_habdob*$num_habdob)+($precio_habtri*$num_habtri)+($precio_habcua*$num_habcua));
       echo$total;
       ?>
     </form>
