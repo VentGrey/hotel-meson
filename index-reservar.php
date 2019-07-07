@@ -113,8 +113,21 @@
           <span class="main-subtext-2-price">p/noche</span>
         </div>
         <div class="part-add">
-          <div class="add">
-            <a href="#">Reservar</a>
+            <div class="add">
+                <form action="/charge" method="post" id="payment-form">
+                    <div class="form-row">
+                        <label for="card-element">
+                            Credit or debit card
+                        </label>
+                        <div id="card-element">
+                            <!-- A Stripe Element will be inserted here. -->
+                        </div>
+                        <!-- Used to display form errors. -->
+                        <div id="card-errors" role="alert"></div>
+                    </div>
+
+                    <button>Reservar</button>
+                </form>
             <!--<input type="button" value="Borrar" onclick="resetHS();">-->
           </div>
         </div>
