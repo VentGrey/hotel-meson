@@ -164,7 +164,7 @@
         </div>
         <div class="part-add">
           <div class="add">
-            <a href="#">Reservar</a>
+            <button type="submit">Reservar</button>
             <!--<input type="button" value="Borrar" onclick="resetHD();">-->
           </div>
         </div>
