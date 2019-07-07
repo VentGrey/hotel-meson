@@ -130,7 +130,7 @@ img {
   background-color: #fff;
   border: 1px solid #bbb;
   border-radius: 4px;
-  
+
   color: #000;
   font-size: 0.95rem;
   font-family: 'Varela Round', sans-serif;
@@ -173,7 +173,7 @@ img {
   background-color: #b0b4ba;
   border: 0;
   border-radius: 3px;
-  
+
   color: #222;
   font-family: 'Varela Round', sans-serif;
   font-size: 18px;
@@ -237,7 +237,7 @@ img {
   height: auto;
   left: 50%;
   transform: translate(-50%, 0);
-  
+
   color: #000;
   font-family: 'Varela Round', sans-serif;
 }
@@ -299,6 +299,7 @@ img {
   position: relative;
   width: 100%;
   height: auto;
+  margin-top: 3em;
   text-align: center;
   background-color: transparent;
 }
@@ -310,47 +311,12 @@ img {
 }
 
 .main-subtext-price {
-  font-size: 1.7rem;
+  font-size: 2rem;
   margin-right: 0.5em;
 }
 
 .main-subtext-2-price {
-  font-size: 1.3rem;
-}
-
-        /*Second Part*/
-.part-add {
-  position: relative;
-  width: 100%;
-  height: auto;
-  text-align: center;
-  background-color: transparent;
-}
-
-.add {
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-
-.add > button {
-  display: inline-block;
-  width: 47%;
-  height: 3em;
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
-  margin-bottom: 0.5em;
-  
-  background-color: #600505;
-  border: 0;
-  border-radius: 3px;
-  color: #fff;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 1rem;
-}
-
-.add > button:hover {
-  color: #b0b4ba;
+  font-size: 1.5rem;
 }
 
       /* Gallery Part */
@@ -360,7 +326,7 @@ img {
   list-style: none;
   padding: 20px;
   box-sizing: border-box;
-  
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -389,7 +355,7 @@ img {
 .imagen {
   width: 100%;
   height: 50%;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -432,6 +398,94 @@ img {
   line-height: 25px;
 }
 
+/*Help Container*/
+.help-container {
+  width: 100%;
+  height:10em;
+}
+
+/*Parte de pagar*/
+.form-number {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #fff;
+  border-top: 1px solid #000;
+}
+
+.form-number > span {
+  display: block;
+  width: 65%;
+  height: 3em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  margin-bottom: 0.4em;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+
+  color: #000;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+}
+
+.box-number {
+  width: 75%;
+  height: auto;
+  background-color: yellow;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.form-number > label {
+  display: inline-block;
+  width: 20%;
+  height: 3em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  margin-bottom: 1em;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+
+  color: #000;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+}
+
+.hab-input {
+  display: inline-block;
+  width: 25%%;
+  height: 3em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  margin-bottom: 0.5em;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+
+  background-color: #600505;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1rem;
+}
+
+.pagar-btn {
+  display: block;
+  width: 40%;
+  height: 3em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  margin-bottom: 0.5em;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+
+  background-color: #600505;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1rem;
+}
 /* End of CONTAINER-ROOMS  styles */
 
 /****************************************************************************************************************************************************/
@@ -441,50 +495,50 @@ img {
   .check-date {
     padding-left: 20%;
   }
-  
+
   /*Botón de reservar*/
   .datepicker-btn > input {
     width: 35%;
   }
-  
+
   /*Imagen*/
   .room-img {
     width: 75%;
   }
-  
+
   /*Información*/
   .info-main {
     width: 45%;
     left: 8%;
     transform: translate(0, 0);
   }
-  
+
   /*Precio*/
   .info-price {
     width: 40%;
     left: 7%;
   }
-  
+
   .part-price > span {
     display: block;
   }
-  
+
   .main-subtext-price {
     margin-bottom: 0.2em;
   }
-  
+
   .add > input {
     display: block;
     width: 80%;
     margin-left: 50%;
     transform: translate(-50%, 0);
   }
-  
+
   /*Carrusel*/
   .modal:target {
     padding-top: 20px;
   }
-  
+
   .imagen {
     height: 85%;
   }
@@ -510,54 +564,54 @@ img {
   .navbar-list {
     margin-left: 2em;
   }
-  
+
   .navbar-item {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
   }
-  
+
   .navbar-link {
     display: block;
     height: 0;
   }
-  
+
   .navbar-link-cel {
     display: none;
   }
-  
+
   /*Reservar*/
   .box-text-main {
     width: 95%;
     padding: 0.5em 0em 0.5em 2em;
   }
-  
+
   .box-text-main > span {
     font-size: 1.25rem;
   }
-  
+
   .box-datepicker {
     width: 95%;
     left: 50%;
     transform: translate(-50%, 0);
   }
-  
+
   .datepicker-general {
     display: inline-block;
     width: 32%;
     margin-top: 10px;
     margin-bottom: 5em;
   }
-  
+
   .datepicker-counter {
     position: absolute;
     top: 7%;
     left: 66%;
   }
-  
+
   .box-counter {
     width: 45%;
   }
-  
+
   .datepicker-btn {
     position: absolute;
     width: 30%;
@@ -565,11 +619,11 @@ img {
     left: 48%;
     transform: translate(-50%, 0);
   }
-  
+
   .datepicker-btn > input {
     width: 90%;
   }
-  
+
   /*Container room*/
   .rooms-general {
     width: 95%;
@@ -578,40 +632,40 @@ img {
     left: 50%;
     transform: translate(-50%, 0);
   }
-  
+
   .info-img {
     position: absolute;
     width: 33%;
   }
-  
+
   .room-img {
     width: 100%;
   }
-  
+
   .info-main {
     position: absolute;
     width: 37%;
     margin-top: 3%;
     left: 37%;
   }
-  
+
   .services-list {
     font-size: 1.5rem;
     border-top: 1px solid #b0b4ba;
   }
-  
+
   .info-price {
     position: absolute;
     width: 30%;
     margin-top: 3%;
     left: 70%;
   }
-  
+
   /*Carrusel*/
   .modal:target {
     padding-top: 130px;
   }
-  
+
   .imagen {
     height: 80%;
   }
@@ -626,71 +680,71 @@ img {
   .navbar-list {
     margin-left: 3em;
   }
-  
+
   .navbar-item {
     margin-top: 2em;
     margin-bottom: 2em;
   }
-  
+
   /*Reservar*/
   .box-text-main {
     width: 75%;
     padding: 2em 0em 0.5em 2em;
   }
-  
+
   .box-text-main > span {
     font-size: 1.4rem;
   }
-  
+
   .box-datepicker {
     width: 75%;
   }
-  
+
   .datepicker-btn {
     width: 25%;
   }
-  
+
   /*Container room*/
   .rooms-general {
     width: 75%;
   }
-  
+
   .info-main {
     margin-top: 1%;
   }
-  
+
   .ir_page-title {
     font-size: 1.35rem;
   }
-  
+
   .services-list {
     font-size: 1.8rem;
     padding-top: 0.3em;
   }
-  
+
   .info-price {
     margin-top: 1%;
   }
-  
+
   .main-subtext-price {
     font-size: 2.7rem;
     margin-bottom: 0;
   }
-  
+
   .main-subtext-2-price {
     font-size: 1.5rem;
     margin-bottom: 0.5em;
   }
-  
+
   .add > input {
     width: 70%;
   }
-  
+
   /*Carrusel*/
   .modal:target {
     padding-top: 130px;
   }
-  
+
   .imagen {
     height: 80%;
   }

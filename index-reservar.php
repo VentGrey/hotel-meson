@@ -114,21 +114,6 @@
         </div>
         <div class="part-add">
             <div class="add">
-                <form action="/charge" method="post" id="payment-form">
-                    <div class="form-row">
-                        <label for="card-element">
-                            Credit or debit card
-                        </label>
-                        <div id="card-element">
-                            <!-- A Stripe Element will be inserted here. -->
-                        </div>
-                        <!-- Used to display form errors. -->
-                        <div id="card-errors" role="alert"></div>
-                    </div>
-
-                    <button>Reservar</button>
-                </form>
-            <!--<input type="button" value="Borrar" onclick="resetHS();">-->
           </div>
         </div>
       </div>
@@ -176,8 +161,6 @@
         </div>
         <div class="part-add">
           <div class="add">
-            <button type="submit">Reservar</button>
-            <!--<input type="button" value="Borrar" onclick="resetHD();">-->
           </div>
         </div>
       </div>
@@ -225,8 +208,6 @@
         </div>
         <div class="part-add">
           <div class="add">
-            <a href="#">Reservar</a>
-            <!--<input type="button" value="Borrar" onclick="resetHT();">-->
           </div>
         </div>
       </div>
@@ -274,8 +255,6 @@
         </div>
         <div class="part-add">
           <div class="add">
-            <a href="#">Reservar</a>
-            <!--<input type="button" value="Borrar" onclick="resetHC();">-->
           </div>
         </div>
       </div>
@@ -290,6 +269,38 @@
       <a class="cerrar" href="#hab-triple">x</a>
     </div>
     <!--/.Hab Cuádruple-->
+
+    <!--Help Container-->
+    <div class="help-container"></div>
+    <!--/.Help Container-->
+
+    <!--Counter-->
+    <form name="f1" action="<?=$_SERVER["PHP_SELF"]?>" method="post" class="form-number">
+      <span>Elija el número de habitaciones que desea reservar por cada habitación.</span>
+
+      <div class="box-number">
+        <label for="num-habdob">Habitación Doble</label>
+        <input type="number" min="0" max="10" name="num-habdob" class="hab-input">
+      </div>
+
+      <input type="submit" name="" value="Pagar" class="pagar-btn">
+
+      <?php
+      $precio_habsen = 1200;
+      $precio_habdob = 1500;
+      $precio_habtri = 1800;
+      $precio_habcua = 2000;
+
+      $num_habsen = $_POST['num-habsen'];
+      $num_habdob = $_POST['num-habdob'];
+      $num_habtri = $_POST['num-habtri'];
+      $num_habcua = $_POST['num-habcua'];
+
+      $total = 0;
+      echo$total;
+      ?>
+    </form>
+    <!--/.Counter-->
 
   </div>
   <!--/.Type Rooms-->
