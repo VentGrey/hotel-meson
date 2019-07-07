@@ -333,7 +333,7 @@ img {
   height: auto;
 }
 
-.add > a {
+.add > button {
   display: inline-block;
   width: 47%;
   height: 3em;
@@ -349,7 +349,7 @@ img {
   font-size: 1rem;
 }
 
-.add > a:hover {
+.add > button:hover {
   color: #b0b4ba;
 }
 
