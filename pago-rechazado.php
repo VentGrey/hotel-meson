@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="icon" type="imagen" href="images/icono-1.ico">
   <title>Pago Rechazado</title>
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
@@ -21,10 +22,10 @@
   <div class="message">
     <span>Tu pago ha sido rechazado</span>
     <span>Por favor revisa que tengas el saldo necesario para realizar el pago</span>
-  </div>  
+  </div>
 </div>
 <!--/.Mensaje-->
-  
+
 </body>
 
 </html>
