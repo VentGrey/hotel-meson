@@ -53,8 +53,6 @@
       <label for="mail" class="label-half">Correo de contacto</label>
       <input type="email" name="mail" placeholder="E-mail de contacto" class="input-half">
 
-      <label for="address" class="label">Dirección</label>
-      <input type="text" name="address" placeholder="Escriba una dirección" class="input-half">
     </div>
 
     <div class="form-details">
