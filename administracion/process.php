@@ -18,8 +18,12 @@ $result = $db -> query("SELECT * FROM users WHERE username = '$username' AND pas
 $row = $result -> fetchArray();
 
 if ($row['username'] == $username && $row['password'] == $password) {
-    header("Location: index.php");
-} else {
-    header("Location: failed.php");;
+    if($row['username'] == "admin"){
+        header("Location: index-admin.php");
+    } else if($row['username'] == "recepcion"){
+        header("Location: index-recepcion.php");
+    } else {
+        header("Location: failed.php");
+    }
 }
 ?>

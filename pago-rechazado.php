@@ -22,6 +22,7 @@
   <div class="message">
     <span>Tu pago ha sido rechazado</span>
     <span>Por favor revisa que tengas el saldo necesario para realizar el pago</span>
+    <span>De igual forma asegúrate de que tu compra no rebasa los $10,000 MXN por seguridad de transacción</span>
   </div>
 </div>
 <!--/.Mensaje-->
