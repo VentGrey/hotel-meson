@@ -10,8 +10,6 @@
   $date_checkin = $_POST['check-in'];
   $date_checkout = $_POST['check-out'];
 
-  $staff = 1;
-
   //Database.
   $database = new SQLite3('administracion/login.sqlite3');
 
