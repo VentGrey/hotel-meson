@@ -277,6 +277,7 @@
 
     <!--Counter-->
     <form name="f1" action="<?=$_SERVER["PHP_SELF"]?>" method="post" class="form-number">
+
       <span>Elija el número de habitaciones que desea reservar por cada habitación.</span>
 
       <div class="box-number">
@@ -293,7 +294,20 @@
         <input type="number" min="0" max="1" name="num-habcua" class="number-input">
       </div>
 
-      <input type="submit" name="" value="Pagar" class="pagar-btn">
+      <div class="box-card">
+        <label for="card-element" class="card-label">
+          Tarjeta de crédito o débito
+        </label>
+        <div id="card-element" class="card-element">
+          <!-- A Stripe Element will be inserted here. -->
+        </div>
+
+        <!-- Used to display form errors. -->
+        <div id="card-errors" role="alert"></div>
+      </div>
+
+      <!--<input type="submit" name="" value="Pagar" class="pagar-btn">-->
+      <button class="pagar-btn">Submit Payment</button>
 
       <?php
       $precio_habsen = 1200;
