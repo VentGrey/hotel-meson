@@ -67,13 +67,10 @@ body {
 
 /* Form User styling */
 .form-user {
-  position: absolute;
-  width: 45%;
+  width: 100%;
   height: auto;
-  padding: 1em 2em 2em 2em;
-  top: 55%;
-  left: 3%;
-  transform: translate(0, -50%);
+  padding: 0.5em 2em 2em 2em;
+  margin-top: 0.5em;
 
   background-color: #600505;
   opacity: 0.95;
@@ -82,54 +79,55 @@ body {
 
 .form-user > span {
   display: block;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 
   color: #fff;
   font-family: 'Varela Round', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .label {
-  display: inline-block;
-  width: 45%;
+  display: block;
+  width: 100%;
 
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   color: #fff;
 }
 
 .label-half {
-  display: inline-block;
-  width: 45%;
+  display: block;
+  width: 100%;
 
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   color: #fff;
 }
 
 .input {
   display: inline-block;
-  width: 50%;
+  width: 100%;
   border: none;
+  margin-bottom: 0.5em;
 
   background-color: #fff;
   border-radius: 3px;
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #000;
   padding: 0.3em;
 }
 
 .input-half {
   display: inline-block;
-  width: 50%;
+  width: 100%;
   border: none;
-  margin-top: 2em;
+  margin-bottom: 0.5em;
 
   background-color: #fff;
   border-radius: 3px;
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #000;
   padding: 0.3em;
 }
@@ -137,45 +135,35 @@ body {
 
 /* Form Details styling */
 .form-details {
-  position: absolute;
-  width: 45%;
+  width: 100%;
   height: auto;
-  padding: 0 2em 1.7em 2em;
-  top: 55%;
-  left: 51%;
-  transform: translate(0, -50%);
+  padding: 0.5em 2em 2em 2em;
+  margin-top: 0.5em;
 
   background-color: #600505;
   opacity: 0.95;
   border-radius: 3px;
 }
 
-.form-details > span {
-  display: block;
-  color: #fff;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 1rem;
-}
-
 .form-details > label {
-  display: inline-block;
-  width: 45%;
+  display: block;
+  width: 100%;
 
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   color: #fff;
 }
 
 .form-details > input {
   display: inline-block;
-  width: 50%;
+  width: 100%;
   border: none;
-  margin-top: 2em;
+  margin-bottom: 0.5em;
 
   background-color: #fff;
   border-radius: 3px;
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #000;
   padding: 0.3em;
 }
@@ -191,24 +179,127 @@ body {
 
 /* Pantallas grandes Horizontal y Vertical */
 @media screen and (min-width: 800px) {
-  /*Navbar*/
-  .navbar-list {
-    margin-left: 2em;
+  /* Form User styling */
+  .form-user {
+    position: absolute;
+    width: 45%;
+    height: auto;
+    padding: 1em 2em 2em 2em;
+    top: 55%;
+    left: 3%;
+    transform: translate(0, -50%);
+
+    background-color: #600505;
+    opacity: 0.95;
+    border-radius: 3px;
   }
 
-  .navbar-item {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-  }
-
-  .navbar-link {
+  .form-user > span {
     display: block;
-    height: 0;
+    margin-bottom: 2em;
+
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
   }
 
-  .navbar-link-cel {
-    display: none;
+  .label {
+    display: inline-block;
+    width: 45%;
+
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
   }
+
+  .label-half {
+    display: inline-block;
+    width: 45%;
+
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+  .input {
+    display: inline-block;
+    width: 50%;
+    border: none;
+
+    background-color: #fff;
+    border-radius: 3px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    padding: 0.3em;
+  }
+
+  .input-half {
+    display: inline-block;
+    width: 50%;
+    border: none;
+    margin-top: 2em;
+
+    background-color: #fff;
+    border-radius: 3px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    padding: 0.3em;
+  }
+  /* End of Form User styling */
+
+  /* Form Details styling */
+  .form-details {
+    position: absolute;
+    width: 45%;
+    height: auto;
+    padding: 0 2em 1.7em 2em;
+    top: 55%;
+    left: 51%;
+    transform: translate(0, -50%);
+
+    background-color: #600505;
+    opacity: 0.95;
+    border-radius: 3px;
+  }
+
+  .form-details > span {
+    display: block;
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+  }
+
+  .form-details > label {
+    display: inline-block;
+    width: 45%;
+
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+  .form-details > input {
+    display: inline-block;
+    width: 50%;
+    border: none;
+    margin-top: 2em;
+
+    background-color: #fff;
+    border-radius: 3px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    padding: 0.3em;
+  }
+
+  .btn-form {
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
+  /* End of Form Details styling */
+}
 
 /****************************************************************************************************************************************************/
 /****************************************************************************************************************************************************/
