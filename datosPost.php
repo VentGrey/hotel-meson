@@ -15,7 +15,7 @@
 
   //Insertar información del Cliente.
   if(isset($nombre)) {
-    $database->exec("INSERT INTO customers(customer_id, first_name,
+    $database->exec("INSERT INTO customers(first_name,
                     second_name, last_name, phone_number, mail, children,
                     adults, checkin, checkout)
                     VALUES('$nombre', '$segundo', '$apellidos', '$telefono',
