@@ -19,9 +19,9 @@ $row = $result -> fetchArray();
 
 if ($row['username'] == $username && $row['password'] == $password) {
     if($row['username'] == "admin"){
-        header("Location: admin/index.php");
+        header("Location: index-admin.php");
     } else if($row['username'] == "recepcion"){
-        header("Location: recepcion/index.php");
+        header("Location: index-recepcion.php");
     } else {
         header("Location: failed.php");
     }
