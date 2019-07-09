@@ -31,19 +31,6 @@
     <h1 class="display-3 text-center">Reservaciones por página Web.</h1>
 
     <div class="container">
-        <form action="process1.php" method="POST" id="sroom">
-            <label>Seleccione que habitación desea cambiar:</label>
-            <select name="id">
-                <option value="" selected>Seleccione el tipo de habitacion</option>
-                <option value="1" >Hab. Sencilla</option>
-                <option value="2">Hab. Doble</option>
-                <option value="3">Hab. Triple</option>
-                <option value="4">Hab. Cuádruple</option>
-            </select>
-            <br><label>Ingrese el precio de la habitacion</label>
-            <input type="number" name="price" id="price"/>
-            <input type="submit" id="btn" value="Aceptar" />
-        </form>
     </div>
     <!--Scripts-->
     <script src="assets/js/jquery.min.js"></script>
