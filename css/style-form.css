@@ -82,6 +82,8 @@ body {
 
 .form-user > span {
   display: block;
+  margin-bottom: 2em;
+
   color: #fff;
   font-family: 'Varela Round', sans-serif;
   font-size: 1rem;
@@ -138,7 +140,7 @@ body {
   position: absolute;
   width: 45%;
   height: auto;
-  padding: 1em 2em 2em 2em;
+  padding: 0 2em 1.7em 2em;
   top: 55%;
   left: 51%;
   transform: translate(0, -50%);

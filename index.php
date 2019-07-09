@@ -101,7 +101,7 @@
       El Mesón de Juan Valle está localizado en Guanajuato capital y gracias a su ubicación, se
       encuentra a 150 metros del Jardín Principal y a 300 metros del Jardín de la Unión. De igual
       forma, tiene muchas de las atracciones más populares cerca, como el Callejón del Beso. <br>
-      Hay WiFi gratis en todas las habitaciones y servicio de estacionamiento gratis. <br>
+      Hay WiFi gratis en todas las habitaciones y servicio de estacionamiento gratis con valet parking. <br>
       Ven y vive unas vacaciones inolvidables.
       <!--El Mesón de Juan Valle is located in the capital of Guanajuato, and thanks to its location,
       It is 150 meters from the Main Garden and 300 meters from the Jardín de la Unión. Similarly,
@@ -119,7 +119,7 @@
   <div class="img-rooms_inside-container container_cel">
     <div class="rooms-container">
       <p class="lead page-title text-justify font-weight-lighter text-wrap">
-        Nuestras habitaciones son perfectas para ti. Tienen camas individuales, televisión de pantalla
+        Nuestras habitaciones son perfectas para ti. Tienen camas matrimoniales, televisión de pantalla
         plana con TV de paga, WiFi gratis en cada una de ellas y muchas otras cosas que harán que tu
         estancia aquí sea muy placentera.
         <!--Our rooms are perfect for you. They have individual beds, flat screen TV with PayTV, free WiFi
@@ -143,7 +143,7 @@
       <div class="col services-gral">
         <i class="page-text fas fa-parking"></i>
         <p class="page-text text-center font-weight-light">Estacionamiento</p>
-        <p class="service-text font-weight-lighter">Estacionamiento gratis y privado cerca. No es necesario reservar</p>
+        <p class="service-text font-weight-lighter">Estacionamiento gratis y privado. No es necesario reservar. Tenemos servicio de valet parking.</p>
       </div>
 
       <!-- No smoking policy (Viewed on booking.com) -->
@@ -322,11 +322,8 @@
 
 <!--Redes Sociales-->
 <div class="box_redes">
-  <a href="#">
+  <a href="https://www.facebook.com/hotelmesondejuanvalle/" target="_blank">
     <i class="fab fa-facebook-f red-facebook"></i>
-  </a>
-  <a href="#">
-    <i class="fab fa-instagram red-insta"></i>
   </a>
   <a href="https://www.google.com/search?q=hotel+meson+juan+valle&client=firefox-b-e&biw=1366&bih=635&source=lnms&sa=X&ved=0ahUKEwjb-M7x84rjAhVba80KHS8xD_YQ_AUICygA" target="_blank">
     <i class="fab fa-google red-google"></i>
@@ -346,7 +343,7 @@
       <!-- Grid column -->
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <div class="container">
-          <img "height="100px" width="100px" src="images/logo.png">
+          <img height="100px" width="100px" src="images/logo.png">
         </div>
       </div>
       <!-- Grid column -->
@@ -396,7 +393,7 @@
       <div class="col-md-5 col-lg-4 ml-lg-0">
 
         <!-- Social buttons -->
-        <div class="text-center text-md-right">
+        <!--<div class="text-center text-md-right">
           <ul class="list-unstyled list-inline">
             <li class="list-inline-item">
               <a class="btn-floating btn-sm rgba-white-slight mx-1">
@@ -419,7 +416,7 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div>-->
 
       </div>
       <!-- Grid column -->
