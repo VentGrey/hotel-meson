@@ -14,7 +14,7 @@
   $staff = 1;
 
   //Database.
-  $database = new SQLite3('db.sqlite3');
+  $database = new SQLite3('backend/db.sqlite3');
 
   //Insertar información del Cliente.
   if(isset($nombre)) {
