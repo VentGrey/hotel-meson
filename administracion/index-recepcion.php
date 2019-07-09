@@ -31,6 +31,17 @@
     <h1 class="display-3 text-center">Reservaciones por página Web.</h1>
 
     <div class="container">
+        <?php
+        // Conectarse a la BD
+        $db = new SQLite3('login.sqlite3');
+        $result = $db -> query("SELECT * FROM customers;");
+
+        echo "<table>"; // start a table tag in the HTML
+        while($row = $result -> fetchArray()) {
+            echo "<tr><td>" . $row['customer_id'] . "</td><td>" . $row['first_name'] . "</td></tr>";  //$row['index'] the index here is a field name
+        }
+        echo "</table>"; //Close the table in HTML
+        ?>
     </div>
     <!--Scripts-->
     <script src="assets/js/jquery.min.js"></script>
