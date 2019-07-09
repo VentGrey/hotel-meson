@@ -353,7 +353,7 @@
 
   <!--Scripts-->
   <!--<script src="js/counter.js"></script>-->
-  <script src="js/galeria.js"></script>
+  <script src="../js/galeria.js"></script>
   <script src="https://js.stripe.com/v3/"></script>
 
   <!-- Warning GIANT SCRIPT INCOMING -->
