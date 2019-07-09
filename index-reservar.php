@@ -36,48 +36,6 @@
   </div>
   <!--/.Navbar-->
 
-  <!--<div class="container-reservar">
-
-    <div class="box-text-main">
-      <span>Reservar</span>
-    </div>
-
-    <div class="box-datepicker">
-
-      <div class="datepicker-general">
-        <span>Check in</span>
-        <input placeholder="Check in" type="date" id="checkIn" class="check-date">
-      </div>
-
-      <div class="datepicker-general">
-        <span>Check out</span>
-        <input placeholder="Check out" type="date" id="checkOut" class="check-date">
-      </div>
-
-      <div class="datepicker-general datepicker-counter">
-        <span>Habitaciones</span>
-        <div class="box-counter">
-          <span>Sencilla<span id="clicks-hs" class="click">0</span></span>
-        </div>
-        <div class="box-counter">
-          <span>Doble<span id="clicks-hd" class="click">0</span></span>
-        </div>
-        <div class="box-counter">
-          <span>de lujo<span id="clicks-ht" class="click">0</span></span>
-        </div>
-        <div class="box-counter">
-          <span>Familiar<span id="clicks-hc" class="click">0</span></span>
-        </div>
-      </div>
-
-      <div class="datepicker-general datepicker-btn">
-        <input type="button" value="Reservar" onclick="pagar(); pagarHS(); pagarHD(); pagarHDL(); pagarHF();">
-        <span id="clicks-price">0</span>
-      </div>
-
-    </div>
-
-  </div>-->
   <!--/.Datepicker-->
 
   <!--Type Rooms-->
