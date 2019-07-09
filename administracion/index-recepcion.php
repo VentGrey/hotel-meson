@@ -37,8 +37,26 @@
         $result = $db -> query("SELECT * FROM customers;");
 
         echo "<table class=\"table\">"; // start a table tag in the HTML
+        echo "<tr>
+                <th scope=\"col\">#</th>
+                <th scope=\"col\">Nombre</th>
+                <th scope=\"col\">Segundo Nombre</th>
+                <th scope=\"col\">Apellidos</th>
+                <th scope=\"col\">Teléfono de contacto</th>
+                <th scope=\"col\">Correo Electrónico</th>
+                <th scope=\"col\">Niños a alojar</th>
+                <th scope=\"col\">Adultos a alojar</th>
+                <th scope=\"col\">Check-in</th>
+                <th scope=\"col\">Check-out</th>
+            </tr>";
         while($row = $result -> fetchArray()) {
-            echo "<tr><td>" . $row['customer_id'] . "</td><td>" . $row['first_name'] . "</td></tr>";  //$row['index'] the index here is a field name
+            echo "<tr><td>" . $row['customer_id'] . "</td><td>" . 
+            $row['first_name'] . "</td><td>" . $row['second_name'] .
+             "</td><td>" . $row['last_name'] . "</td><td>" . 
+             $row['phone_number']. "</td><td>" . $row['mail'] . 
+             "</td><td>" . $row['children'] . "</td><td>" . 
+             $row['adults'] . "</td><td>" . $row['checkin'] . 
+             "</td><td>" . $row['checkout'] ."</td></tr>"; 
         }
         echo "</table>"; //Close the table in HTML
         ?>
