@@ -253,7 +253,7 @@
       </div>
 
       <div class="box-card">
-          <form action="/charge" method="post" id="payment-form">
+          <form action="CreateCharge.php" method="post" id="payment-form">
               <label for="card-element" class="card-label">
                   Tarjeta de crédito o débito
               </label>
