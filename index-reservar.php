@@ -306,8 +306,8 @@
         <div id="card-errors" role="alert"></div>
       </div>
 
-      <!--<input type="submit" name="" value="Pagar" class="pagar-btn">-->
-      <button class="pagar-btn">Submit Payment</button>
+      <input type="submit" name="" value="Submit Payment" class="pagar-btn">
+      <!--<button class="pagar-btn">Submit Payment</button>-->
 
       <?php
       $precio_habsen = 1200;
@@ -353,7 +353,7 @@
 
   <!--Scripts-->
   <!--<script src="js/counter.js"></script>-->
-  <script src="js/galeria.js"></script>
+  <script src="../js/galeria.js"></script>
   <script src="https://js.stripe.com/v3/"></script>
 
   <!-- Warning GIANT SCRIPT INCOMING -->
