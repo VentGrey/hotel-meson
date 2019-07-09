@@ -13,7 +13,7 @@
   $staff = 1;
 
   //Database.
-  $database = new SQLite3('price-changer/login.sqlite3');
+  $database = new SQLite3('administracion/login.sqlite3');
 
   //Insertar información del Cliente.
   if(isset($nombre)) {
