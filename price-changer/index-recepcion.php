@@ -28,7 +28,7 @@
       </nav>
     </div>
 
-    <h1 class="display-3 text-lowercase text-center">Cambiar Precios de las habitaciones.</h1>
+    <h1 class="display-3 text-center">Reservaciones por página Web.</h1>
 
     <div class="container">
         <form action="process1.php" method="POST" id="sroom">
