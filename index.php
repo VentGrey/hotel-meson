@@ -322,7 +322,7 @@
 
 <!--Redes Sociales-->
 <div class="box_redes">
-  <a href="https://www.facebook.com/hotelmesondejuanvalle/">
+  <a href="https://www.facebook.com/hotelmesondejuanvalle/" target="_blank">
     <i class="fab fa-facebook-f red-facebook"></i>
   </a>
   <a href="https://www.google.com/search?q=hotel+meson+juan+valle&client=firefox-b-e&biw=1366&bih=635&source=lnms&sa=X&ved=0ahUKEwjb-M7x84rjAhVba80KHS8xD_YQ_AUICygA" target="_blank">
@@ -343,7 +343,7 @@
       <!-- Grid column -->
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <div class="container">
-          <img "height="100px" width="100px" src="images/logo.png">
+          <img height="100px" width="100px" src="images/logo.png">
         </div>
       </div>
       <!-- Grid column -->
@@ -393,7 +393,7 @@
       <div class="col-md-5 col-lg-4 ml-lg-0">
 
         <!-- Social buttons -->
-        <div class="text-center text-md-right">
+        <!--<div class="text-center text-md-right">
           <ul class="list-unstyled list-inline">
             <li class="list-inline-item">
               <a class="btn-floating btn-sm rgba-white-slight mx-1">
@@ -416,7 +416,7 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div>-->
 
       </div>
       <!-- Grid column -->
