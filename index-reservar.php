@@ -253,19 +253,21 @@
       </div>
 
       <div class="box-card">
-        <label for="card-element" class="card-label">
-          Tarjeta de crédito o débito
-        </label>
-        <div id="card-element" class="card-element">
-          <!-- A Stripe Element will be inserted here. -->
-        </div>
+          <form action="/charge" method="post" id="payment-form">
+              <label for="card-element" class="card-label">
+                  Tarjeta de crédito o débito
+              </label>
+              <div id="card-element" class="card-element">
+                  <!-- A Stripe Element will be inserted here. -->
+              </div>
 
-        <!-- Used to display form errors. -->
-        <div id="card-errors" role="alert"></div>
+              <!-- Used to display form errors. -->
+              <div id="card-errors" role="alert"></div>
+
+              <input type="submit" name="" value="Submit Payment" class="pagar-btn">
+              <!--<button class="pagar-btn">Submit Payment</button>-->
+          </form>
       </div>
-
-      <input type="submit" name="" value="Submit Payment" class="pagar-btn">
-      <!--<button class="pagar-btn">Submit Payment</button>-->
 
       <?php
       $precio_habsen = 1200;
