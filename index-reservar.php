@@ -270,6 +270,9 @@
       </div>
 
       <?php
+      // Conectarse a una BD
+      $db = new SQLite3('login.sqlite3');
+
       $precio_habsen = 1200;
       $precio_habdob = 1500;
       $precio_habtri = 1800;
