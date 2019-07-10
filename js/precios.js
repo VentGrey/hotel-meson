@@ -4,7 +4,7 @@ $(document).ready(function() {
   var $Pc = $("#P3");
   var $Pd = $("#P4");
 
-  var url = "price-changer/precio_tipo.php";
+  var url = "administracion/precio_tipo.php";
   var serial="";
   $.ajax({
     type: 'POST',
