@@ -502,7 +502,7 @@ img {
 }
 
 .pagar-btn {
-  display: inline-block;
+  display: block;
   width: 20%;
   height: 2.7em;
   margin-bottom: 1em;
