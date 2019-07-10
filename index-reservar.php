@@ -276,12 +276,6 @@
           </div>
         </div>
 
-              <label for="correo" class="card-label">Correo para recibir recibo de compra</label>
-              
-              <div class="card-element">
-                <input type="email" name="correo" class="card-element" placeholder="Escriba un correo para recibo de compra">
-              </div>
-
         <input type="submit" name="" value="Submit Payment" class="pagar-btn">
         <!--<button class="pagar-btn">Submit Payment</button>-->
       </div>
