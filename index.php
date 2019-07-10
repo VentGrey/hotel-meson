@@ -361,7 +361,7 @@
         <p>
           <i class="fas fa-home mr-3"></i> Guanajuato Guanajuato Colonia Centro Juan valle</p>
         <p>
-          <i class="fas fa-envelope mr-3"></i> contact@ambotics.com</p>
+          <i class="fas fa-envelope mr-3"></i>ambotics19@gmail.com</p>
         <p>
           <i class="fas fa-phone mr-3"></i> +52 1 473 152 0860</p>
       </div>
