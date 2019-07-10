@@ -236,7 +236,7 @@
     <!--Counter-->
     <form name="f1" action="CreateCharge.php" method="post" id="payment-form" class="form-number">
 
-      <span>Elija el número de habitaciones que desea reservar por cada habitación.</span>
+      <span>Elija el número de habitaciones que desea reservar por cada habitación y el número de noches</span>
 
       <div class="box-number">
         <label for="num-habsen" class="number-label">Habitación Sencilla</label>
@@ -263,6 +263,11 @@
               <div id="card-element" class="card-element">
                   <!-- A Stripe Element will be inserted here. -->
               </div>
+
+            <div class="box-card">
+              <label for="correo" class="card-label">Correo para recibir recibo de compra</label>
+              <input type="email" name="correo" class="card-element" placeholder="Escriba un correo para recibo de compra">
+            </div>
 
               <!-- Used to display form errors. -->
               <div id="card-errors" role="alert"></div>
