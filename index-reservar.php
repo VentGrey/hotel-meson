@@ -250,6 +250,9 @@
 
         <label for="num-habcua" class="number-label">Habitación Cuádruple</label>
         <input type="number" min="0" max="1" name="num-habcua" class="number-input">
+
+        <label for="num-dias" class="number-label">Número de noches</label>
+        <input type="number" min="0" name="num-dias" class="number-input">
       </div>
 
       <div class="box-card">
@@ -302,8 +305,9 @@
       $num_habdob = $_POST['num-habdob'];
       $num_habtri = $_POST['num-habtri'];
       $num_habcua = $_POST['num-habcua'];
+      $num_dias = $_POST['num-dias'];
 
-      $total = (($precio_habsen*$num_habsen)+($precio_habdob*$num_habdob)+($precio_habtri*$num_habtri)+($precio_habcua*$num_habcua));
+      $total = $num_dias * (($precio_habsen*$num_habsen)+($precio_habdob*$num_habdob)+($precio_habtri*$num_habtri)+($precio_habcua*$num_habcua));
       echo$total;
       ?>
     </form>
