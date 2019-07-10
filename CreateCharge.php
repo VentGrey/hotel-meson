@@ -12,6 +12,7 @@ $precio_habsen; //Variable para el precio de la Sencilla.
 $precio_habdob; //Variable para el precio de la Doble.
 $precio_habtri; //Variable para el precio de la Triple.
 $precio_habcua; //Variable para el precio de la Cuádruple.
+$num_dias; //Numero de dias//
 //Consulta para agarrar los datos de la tabla de precios.
 $statement = $forPrDB->query("SELECT * FROM main_roomtype");
 while($row = $statement->fetchArray()) { //While para cada fila de tabla.
@@ -30,19 +31,63 @@ while($row = $statement->fetchArray()) { //While para cada fila de tabla.
   }
 }
 
-$num_habsen = $_POST['num-habsen'];
-$num_habdob = $_POST['num-habdob'];
-$num_habtri = $_POST['num-habtri'];
-$num_habcua = $_POST['num-habcua'];
-$num_dias = $_POST['num-dias'];
+
+
+
+
+
+if (isset($_POST['num-habsen'])){
+  $num_habsen = $_POST['num-habsen'];
+  if($num_habsen ==""){
+    $num_habsen = 0;
+  }else{}
+}else{$num_habsen = 0;}
+
+if(isset($_POST['num-habdob'])){
+  $num_habdob = $_POST['num-habdob'];
+  if($num_habdob ==""){
+    $num_habdob = 0;
+  }else{}
+}else{$num_habdob = 0;}
+
+if(isset($_POST['num-habtri'])){
+  $num_habtri = $_POST['num-habtri'];
+  if($num_habtri ==""){
+    $num_habtri = 0;
+  }else{}
+}else{$num_habtri = 0;}
+
+if(isset($_POST['num-habcua'])){
+  $num_habcua = $_POST['num-habcua'];
+  if($num_habcua ==""){
+    $num_habcua = 0;
+  }else{}
+}else{$num_habcua = 0;}
+
+if(isset($_POST['num-dias'])){
+  $num_dias = $_POST['num-dias'];
+  if($num_dias ==""){
+    $num_dias = 0;
+  }else{}
+}else{$num_dias = 0;}
+//Seccion para el correo
+$correo="";
+if(isset($_POST['correo'])){
+  $correo = $_POST['correo'];
+}else{/*No hacemos nada*/}
+
+//echo gettype($num_habcua);
 
 $total = $num_dias * (($precio_habsen*$num_habsen)+($precio_habdob*$num_habdob)+($precio_habtri*$num_habtri)+($precio_habcua*$num_habcua));
 $total = ($total*100);
+echo $total;
 
 
+$token="";
+if(isset($_POST["stripeToken"])){
+  $token = $_POST["stripeToken"];
+}else{}
 
-
-$token = $_POST["stripeToken"];
 $precio_total = $total;
 
 $charge = \Stripe\Charge::create([
