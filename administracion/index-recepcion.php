@@ -43,7 +43,6 @@
                 <th scope=\"col\">Segundo Nombre</th>
                 <th scope=\"col\">Apellidos</th>
                 <th scope=\"col\">Teléfono de contacto</th>
-                <th scope=\"col\">Correo Electrónico</th>
                 <th scope=\"col\">Niños a alojar</th>
                 <th scope=\"col\">Adultos a alojar</th>
                 <th scope=\"col\">Check-in</th>
@@ -53,8 +52,7 @@
             echo "<tr><td>" . $row['customer_id'] . "</td><td>" . 
             $row['first_name'] . "</td><td>" . $row['second_name'] .
              "</td><td>" . $row['last_name'] . "</td><td>" . 
-             $row['phone_number']. "</td><td>" . $row['mail'] . 
-             "</td><td>" . $row['children'] . "</td><td>" . 
+             $row['phone_number']. "</td><td>" . $row['children'] . "</td><td>" . 
              $row['adults'] . "</td><td>" . $row['checkin'] . 
              "</td><td>" . $row['checkout'] ."</td></tr>"; 
         }
