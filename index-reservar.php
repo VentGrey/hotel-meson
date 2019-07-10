@@ -265,6 +265,7 @@
               </div>
 
               <label for="correo" class="card-label">Correo para recibir recibo de compra</label>
+              
               <div class="card-element">
                 <input type="email" name="correo" class="card-element" placeholder="Escriba un correo para recibo de compra">
               </div>

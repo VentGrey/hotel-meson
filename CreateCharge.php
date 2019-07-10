@@ -91,10 +91,12 @@ if(isset($_POST["stripeToken"])){
 $precio_total = $total;
 
 $charge = \Stripe\Charge::create([
-    "amount" => $precio_total,
-    "currency" => "mxn",
-    "description" => "Pago en mi tienda...",
-    "source" => $token
+    'amount' => $precio_total,
+    'currency' => 'mxn',
+    'description' => 'Habitación(es) por noche.',
+    'source' => $token,
+    'receipt_email' => $correo
+
 ]);
 
 echo "<pre>", print_r($charge), "</pre>";
