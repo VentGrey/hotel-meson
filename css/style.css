@@ -1,7 +1,7 @@
 /* GENERALS */
 html {
   height: 100%;
-  font-size: 16px;  
+  font-size: 16px;
 }
 body {
   font: normal normal normal 14px/1.2em;
@@ -379,6 +379,18 @@ input {
     color: #fff;
   }
 
+  .container-logo-ambotics {
+    width: auto;
+    height: auto;
+    padding-top: 6em;
+    padding-left: 6em;
+  }
+
+  .logo-ambotics {
+    width: 100px;
+    height: 100px;
+  }
+
 /****************************************************************************************************************************************************/
 /****************************************************************************************************************************************************/
 
@@ -389,110 +401,110 @@ input {
     width: 90%;
     height: 75%;
   }
-  
+
   .page-title {
     font-size: 1.25rem;
   }
-  
+
   .page-text {
     font-size: 1rem;
   }
-  
+
   .page-title-2 {
     font-size: 1.25rem;
   }
-  
+
   .page-text-2 {
     font-size: 0.875rem;
   }
-  
+
   .btn-hm {
     margin-top: 1em;
   }
-  
+
   .service-text {
     font-size: 0.9375rem;
   }
-  
+
   /*Navbar*/
   .navbar {
     display: none;
   }
-  
+
   /*Contenedor de apoyo*/
   .help-container {
     display: none;
   }
-  
+
   /*Logo*/
   .box_home-linea {
     display: none;
   }
-  
+
   .box_home-logo {
     width: 80%;
   }
-  
+
   .logo-main {
     font-size: 1.0625rem;
     letter-spacing: 5px;
   }
-  
+
   .logo-sec {
     font-size: 0.875rem;
   }
-  
+
   /*About*/
   .text_about-section {
     padding-top: 3em;
   }
-  
+
   .about-container {
     width: 85%;
     padding-bottom: 3em;
     text-align: left;
   }
-  
+
   /*Rooms*/
   .rooms_img {
     padding-top: 0;
   }
-  
+
   .img-rooms_inside-container {
     width: 100%;
     height: 100%;
   }
-  
+
   .rooms-container > p {
     font-size: 0.9375rem;
   }
-  
+
   /*Services*/
   .services-gral {
     padding-bottom: 1em;
   }
-  
+
   /*Gallery*/
   .gallery_main {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
   }
-  
+
   .slider {
     width: 95%;
   }
-  
+
   /*Contact*/
   .contact-section {
     width: 95%;
   }
-  
+
   /*Map*/
   .container-map > div {
     width: 95%;
     height: 400px;
   }
-  
+
   /*Messenger*/
   .back_msng-bubble {
     width: 50px;
@@ -505,7 +517,7 @@ input {
     bottom: -8px;
     font-size: 1.875rem;
   }
-  
+
   /*Redes sociales*/
   .red-facebook {
     margin-top: 1em;
@@ -522,7 +534,7 @@ input {
     margin-bottom: 1em;
     font-size: 1.25rem;
   }
-  
+
   /*Footer*/
   .col-cel {
     display: none;
@@ -540,11 +552,11 @@ input {
     height: 100%%;
     padding-top: 4em;
   }
-  
+
   .rooms-container > p {
     font-size: 1.1rem;
   }
-  
+
   .btn-hm {
     margin-top: 4em;
   }
@@ -555,48 +567,48 @@ input {
   .page-title {
     font-size: 1.45rem;
   }
-  
+
   .page-text {
     font-size: 1.1rem;
   }
-  
+
   .page-title-2 {
     font-size: 1.45rem;
   }
-  
+
   .page-text-2 {
     font-size: 1.075rem;
   }
-  
+
   .btn-hm {
     margin-top: 3em;
   }
-  
+
   /*Logo*/
   .box_home-logo {
     width: 55%;
   }
-  
+
   .logo-main {
     font-size: 1.25rem;
     letter-spacing: 5px;
   }
-  
+
   .logo-sec {
     font-size: 1.05rem;
   }
-  
+
   /*Rooms*/
   .img-rooms_inside-container {
     width: 100%;
     height: 100%%;
     padding-top: 2.5em;
   }
-  
+
   .rooms-container > p {
     font-size: 1.1rem;
   }
-  
+
   /*Messenger*/
   .back_msng-bubble {
     width: 70px;
@@ -610,7 +622,7 @@ input {
     bottom: -11px;
     font-size: 42px;
   }
-  
+
   /*Redes sociales*/
   .red-facebook {
     font-size: 30px;
@@ -636,11 +648,11 @@ input {
     height: 100%;
     padding-top: 7em;
   }
-  
+
   .rooms-container > p {
     font-size: 1.4rem;
   }
-  
+
   .btn-hm {
     margin-top: 4em;
   }
@@ -653,11 +665,11 @@ input {
     height: 100%;
     padding-top: 4em;
   }
-  
+
   .rooms-container > p {
     font-size: 1.1rem;
   }
-  
+
   .btn-hm {
     margin-top: 3em;
   }
@@ -687,53 +699,53 @@ input {
   .service-text {
     font-size: 1.15em;
   }
-  
+
   /*Logo*/
   .box_home-logo {
     width: 30%;
   }
-  
+
   .logo-main {
     font-size: 30px;
   }
-  
+
   .logo-sec {
     font-size: 19px;
   }
-  
+
   .box_home-linea {
     display: inline-block;
   }
-  
+
   /*About*/
   .text_about-section {
     padding-top: 8em;
   }
-  
+
   .about-container {
     width: 50%;
     padding-bottom: 8em;
   }
-  
+
   /*Rooms*/
   .img-rooms_inside-container {
     width: 40%;
   }
-  
+
   .rooms-container > p {
     font-size: 20px;
   }
-  
+
   .btn-hm {
     margin-top: 4em;
   }
-  
+
   /*Gallery*/
   .gallery_main {
     margin-top: 3.5em;
     margin-bottom: 3em;
   }
-  
+
   .slider {
     width: 55%;
   }
@@ -744,7 +756,7 @@ input {
   .navbar {
     display: block;
   }
-  
+
   /*Help Container*/
   .help-container {
     display: block;

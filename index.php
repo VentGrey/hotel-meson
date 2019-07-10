@@ -341,11 +341,11 @@
     <div class="row text-center text-md-left mt-3 pb-3">
 
       <!-- Grid column -->
-      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-        <div class="container">
-          <img height="100px" width="100px" src="images/logo.png">
-        </div>
+      <div class="container-logo-ambotics">
+        <img class="logo-ambotics" src="images/logo.png">
       </div>
+
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"></div>
       <!-- Grid column -->
 
       <hr class="w-100 clearfix d-md-none col-cel">
