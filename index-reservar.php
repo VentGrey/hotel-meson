@@ -274,7 +274,8 @@
 
       <?php
       // Conectarse a una BD
-      $db = new SQLite3('login.sqlite3');
+      $db = new SQLite3('');
+
 
       //BD que servirá para manejar operaciones con los precios reales.
       $forPrDB = new SQLite3('backend/db.sqlite3');
@@ -326,10 +327,13 @@
 
   <!--Redes Sociales-->
   <div class="box_redes">
-    <a href="https://www.facebook.com/hotelmesondejuanvalle/" target="_blank">
+    <a href="#">
       <i class="fab fa-facebook-f red-facebook"></i>
     </a>
-    <a href="https://www.google.com/search?q=hotel+meson+juan+valle&client=firefox-b-e&biw=1366&bih=635&source=lnms&sa=X&ved=0ahUKEwjb-M7x84rjAhVba80KHS8xD_YQ_AUICygA" target="_blank">
+    <a href="#">
+      <i class="fab fa-instagram red-insta"></i>
+    </a>
+    <a href="#">
       <i class="fab fa-google red-google"></i>
     </a>
   </div>
