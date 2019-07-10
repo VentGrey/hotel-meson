@@ -71,121 +71,6 @@ img {
 
 /* End of NAVBAR styling */
 
-/* CONTAINER-DATEPICKER styles */
-.container-reservar {
-  width: 100%;
-  height: auto;
-  background-color: transparent;
-}
-
-.box-text-main {
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding: 0.5em 0em 0.3em 1em;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background-color: transparent;
-  border-bottom: 0.2px solid #b0b4ba;
-}
-
-.box-text-main > span {
-  color: #000;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 1.125rem;
-  font-weight: 200;
-  text-transform: capitalize;
-}
-
-.box-datepicker {
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background-color: transparent;
-  border-bottom: 0.2px solid #b0b4ba;
-}
-
-.datepicker-general {
-  display: inline-block;
-  width: 48%;
-  height: auto;
-  padding-left: 0.5em;
-  margin-bottom: 1.2em;
-  background-color: transparent;
-}
-
-.datepicker-general > span {
-  display: block;
-  color: #000;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 0.875rem;
-}
-
-.check-date {
-  width: 94%;
-  height: 45px;
-  padding-left: 0.2em;
-  background-color: #fff;
-  border: 1px solid #bbb;
-  border-radius: 4px;
-
-  color: #000;
-  font-size: 0.95rem;
-  font-family: 'Varela Round', sans-serif;
-}
-
-.datepicker-counter {
-  width: 100%;
-  margin-top: 0.8em;
-}
-
-.box-counter {
-  display: inline-block;
-  width: auto;
-  height: auto;
-  margin-right: 0.5em;
-}
-
-.box-counter > span {
-  color: #000;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 0.85rem;
-}
-
-.click {
-  margin-left: 0.3em;
-}
-
-.datepicker-btn {
-  border: none;
-  width: 100%;
-  margin-bottom: 0;
-}
-
-.datepicker-btn > input {
-  width: 60%;
-  height: 100%;
-  padding: 0.6em 0;
-  margin: 0.5em 0 0.5em 50%;
-  transform: translate(-50%, 0);
-  background-color: #b0b4ba;
-  border: 0;
-  border-radius: 3px;
-
-  color: #222;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 18px;
-}
-
-.datepicker-btn > input:hover {
-  background-color: #600505;
-  color: #fff;
-}
-
-/* End of CONTAINER-DATEPICKER styles */
-
 /* CONTAINER-ROOMS  styles */
 .container-rooms {
   position: absolute;
@@ -397,6 +282,7 @@ img {
   border-radius: 50%;
   line-height: 25px;
 }
+/* End of CONTAINER-ROOMS  styles */
 
 /*Help Container*/
 .help-container {
@@ -404,6 +290,7 @@ img {
   height:14em;
 }
 
+/* Pay Part Styling */
 /*Parte de pagar*/
 .form-number {
   position: fixed;
@@ -532,41 +419,37 @@ img {
   background-color: #380000;
   padding-bottom: 0.1em;
 }
-/* End of CONTAINER-ROOMS  styles */
+/* End of Pay Part Styling */
 
 /****************************************************************************************************************************************************/
 /****************************************************************************************************************************************************/
 
-@media screen and (min-width: 480px) {
-  .check-date {
-    padding-left: 20%;
-  }
-
-  /*Botón de reservar*/
-  .datepicker-btn > input {
-    width: 35%;
-  }
-
+@media screen and (min-width: 200px) {
   /*Imagen*/
   .room-img {
-    width: 75%;
+    width: 90%;
   }
 
   /*Información*/
   .info-main {
-    width: 45%;
-    left: 8%;
-    transform: translate(0, 0);
+    width: 100%;
+    padding-left: 1em;
+    padding-top: 0.6em;
   }
 
   /*Precio*/
   .info-price {
-    width: 40%;
-    left: 7%;
+    width: 100%;
+  }
+
+  .part-price {
+    margin-top: 0;
   }
 
   .part-price > span {
     display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
   }
 
   .main-subtext-price {
@@ -587,6 +470,29 @@ img {
 
   .imagen {
     height: 85%;
+  }
+
+  .message-cel-container {
+    width: 90%;
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .message-cel-container > span {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+  }
+
+  /*Pay Part*/
+  .help-container {
+    display: none;
+  }
+
+  .form-number {
+    display: none;
   }
 }
 
@@ -625,51 +531,6 @@ img {
     display: none;
   }
 
-  /*Reservar*/
-  .box-text-main {
-    width: 95%;
-    padding: 0.5em 0em 0.5em 2em;
-  }
-
-  .box-text-main > span {
-    font-size: 1.25rem;
-  }
-
-  .box-datepicker {
-    width: 95%;
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
-
-  .datepicker-general {
-    display: inline-block;
-    width: 32%;
-    margin-top: 10px;
-    margin-bottom: 5em;
-  }
-
-  .datepicker-counter {
-    position: absolute;
-    top: 7%;
-    left: 66%;
-  }
-
-  .box-counter {
-    width: 45%;
-  }
-
-  .datepicker-btn {
-    position: absolute;
-    width: 30%;
-    top: 6em;
-    left: 48%;
-    transform: translate(-50%, 0);
-  }
-
-  .datepicker-btn > input {
-    width: 90%;
-  }
-
   /*Container room*/
   .rooms-general {
     width: 95%;
@@ -681,7 +542,7 @@ img {
 
   .info-img {
     position: absolute;
-    width: 33%;
+    width: 35%;
   }
 
   .room-img {
@@ -692,7 +553,7 @@ img {
     position: absolute;
     width: 37%;
     margin-top: 3%;
-    left: 37%;
+    margin-left: 3em;
   }
 
   .services-list {
@@ -703,8 +564,13 @@ img {
   .info-price {
     position: absolute;
     width: 30%;
-    margin-top: 3%;
+    margin-top: 4em;
     left: 70%;
+  }
+
+  .part-price > span {
+    font-size: 1.7rem;
+    font-weight: 400;
   }
 
   /*Carrusel*/
@@ -732,31 +598,18 @@ img {
     margin-bottom: 2em;
   }
 
-  /*Reservar*/
-  .box-text-main {
-    width: 75%;
-    padding: 2em 0em 0.5em 2em;
-  }
-
-  .box-text-main > span {
-    font-size: 1.4rem;
-  }
-
-  .box-datepicker {
-    width: 75%;
-  }
-
-  .datepicker-btn {
-    width: 25%;
-  }
-
   /*Container room*/
   .rooms-general {
     width: 75%;
   }
 
+  .info-img {
+    width: 33%;
+  }
+
   .info-main {
     margin-top: 1%;
+    margin-left: 3em;
   }
 
   .ir_page-title {
@@ -769,21 +622,16 @@ img {
   }
 
   .info-price {
-    margin-top: 1%;
+    margin-top: 4em;
   }
 
-  .main-subtext-price {
-    font-size: 2.7rem;
-    margin-bottom: 0;
+  .part-price > span {
+    font-size: 2rem;
   }
 
-  .main-subtext-2-price {
-    font-size: 1.5rem;
-    margin-bottom: 0.5em;
-  }
-
-  .add > input {
-    width: 70%;
+  /*Message for celphones*/
+  .message-cel-container {
+    display: none;
   }
 
   /*Carrusel*/
@@ -793,5 +641,14 @@ img {
 
   .imagen {
     height: 80%;
+  }
+
+  /*Pay Part*/
+  .help-container {
+    display: block;
+  }
+
+  .form-number {
+    display: block;
   }
 }
