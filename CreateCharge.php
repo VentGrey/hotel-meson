@@ -99,6 +99,6 @@ $charge = \Stripe\Charge::create([
 
 ]);
 
-echo "<pre>", print_r($charge), "</pre>";
+header("Location: index-form.php");
 
 ?>
