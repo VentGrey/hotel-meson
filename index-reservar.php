@@ -36,7 +36,6 @@
   </div>
   <!--/.Navbar-->
 
-  <!--/.Datepicker-->
 
   <!--Type Rooms-->
   <div class="container-rooms">
@@ -229,6 +228,13 @@
     </div>
     <!--/.Hab Cuádruple-->
 
+    <!--Message only for celphones-->
+    <div class="message-cel-container">
+      <span>Disculpa las molestias, pero no se puede reservar a través de
+        celulares o cualquier otro dispositivo que no sea computadora. Gracias.</span>
+    </div>
+    <!--/.Message only for celphones-->
+
     <!--Help Container-->
     <div class="help-container"></div>
     <!--/.Help Container-->
@@ -255,14 +261,20 @@
         <input type="number" min="0" name="num-dias" class="number-input">
       </div>
 
-      <div class="box-card">
+      <div class="container-card">
+        <div class="box-card">
+          <label for="card-element" class="card-label">Tarjeta de crédito o débito</label>
+          <div id="card-element" class="card-element">
+              <!-- A Stripe Element will be inserted here. -->
+          </div>
+        </div>
 
-              <label for="card-element" class="card-label">
-                  Tarjeta de crédito o débito
-              </label>
-              <div id="card-element" class="card-element">
-                  <!-- A Stripe Element will be inserted here. -->
-              </div>
+        <div class="box-card">
+          <label for="correo" class="card-label">Correo para recibir recibo de compra</label>
+          <div class="card-element">
+            <input type="email" name="correo" class="card-input" placeholder="Escriba un correo para recibo de compra">
+          </div>
+        </div>
 
               <label for="correo" class="card-label">Correo para recibir recibo de compra</label>
               
@@ -270,12 +282,8 @@
                 <input type="email" name="correo" class="card-element" placeholder="Escriba un correo para recibo de compra">
               </div>
 
-              <!-- Used to display form errors. -->
-              <div id="card-errors" role="alert"></div>
-
-              <input type="submit" name="" value="Submit Payment" class="pagar-btn">
-              <!--<button class="pagar-btn">Submit Payment</button>-->
-
+        <input type="submit" name="" value="Submit Payment" class="pagar-btn">
+        <!--<button class="pagar-btn">Submit Payment</button>-->
       </div>
 
     </form>
@@ -294,13 +302,10 @@
 
   <!--Redes Sociales-->
   <div class="box_redes">
-    <a href="#">
+    <a href="https://www.facebook.com/hotelmesondejuanvalle/" target="_blank">
       <i class="fab fa-facebook-f red-facebook"></i>
     </a>
-    <a href="#">
-      <i class="fab fa-instagram red-insta"></i>
-    </a>
-    <a href="#">
+    <a href="https://www.google.com/search?q=hotel+meson+juan+valle&client=firefox-b-e&biw=1366&bih=635&source=lnms&sa=X&ved=0ahUKEwjb-M7x84rjAhVba80KHS8xD_YQ_AUICygA" target="_blank">
       <i class="fab fa-google red-google"></i>
     </a>
   </div>
