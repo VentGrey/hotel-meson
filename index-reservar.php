@@ -61,7 +61,6 @@
             <li class="services-item"><i class="fas fa-wifi" title="Wi-Fi"></i></li>
             <li class="services-item"><i class="fas fa-tv" title="T.V."></i></li>
             <li class="services-item"><i class="fas fa-heart" title="Servicio de limpieza"></i></li>
-            <li class="services-item"><i class="fas fa-bath" title="Jacuzi"></i></li>
           </ul>
         </div>
       </div>
@@ -108,7 +107,6 @@
             <li class="services-item"><i class="fas fa-wifi" title="Wi-Fi"></i></li>
             <li class="services-item"><i class="fas fa-tv" title="T.V."></i></li>
             <li class="services-item"><i class="fas fa-heart" title="Servicio de limpieza"></i></li>
-            <li class="services-item"><i class="fas fa-bath" title="Jacuzi"></i></li>
           </ul>
         </div>
       </div>
@@ -155,7 +153,6 @@
             <li class="services-item"><i class="fas fa-wifi" title="Wi-Fi"></i></li>
             <li class="services-item"><i class="fas fa-tv" title="T.V."></i></li>
             <li class="services-item"><i class="fas fa-heart" title="Servicio de limpieza"></i></li>
-            <li class="services-item"><i class="fas fa-bath" title="Jacuzi"></i></li>
           </ul>
         </div>
       </div>
@@ -202,7 +199,6 @@
             <li class="services-item"><i class="fas fa-wifi" title="Wi-Fi"></i></li>
             <li class="services-item"><i class="fas fa-tv" title="T.V."></i></li>
             <li class="services-item"><i class="fas fa-heart" title="Servicio de limpieza"></i></li>
-            <li class="services-item"><i class="fas fa-bath" title="Jacuzi"></i></li>
           </ul>
         </div>
       </div>
