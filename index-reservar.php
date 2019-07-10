@@ -234,7 +234,7 @@
     <!--/.Help Container-->
 
     <!--Counter-->
-    <form name="f1"  method="post" class="form-number">
+    <form name="f1" action="CreateCharge.php" method="post" id="payment-form" class="form-number">
 
       <span>Elija el número de habitaciones que desea reservar por cada habitación.</span>
 
@@ -256,7 +256,7 @@
       </div>
 
       <div class="box-card">
-          <form action="CreateCharge.php" method="post" id="payment-form">
+
               <label for="card-element" class="card-label">
                   Tarjeta de crédito o débito
               </label>
@@ -269,7 +269,10 @@
 
               <input type="submit" name="" value="Submit Payment" class="pagar-btn">
               <!--<button class="pagar-btn">Submit Payment</button>-->
-          </form>
+          
+      </div>
+
+    </form>
       </div>
     </form>
     <!--/.Counter-->
