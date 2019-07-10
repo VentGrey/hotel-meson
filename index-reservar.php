@@ -281,7 +281,7 @@
       $precio_habtri; //Variable para el precio de la Triple.
       $precio_habcua; //Variable para el precio de la Cuádruple.
       //Consulta para agarrar los datos de la tabla de precios.
-      $statement = $new->query("SELECT * FROM main_roomtype");
+      $statement = $forPrDB->query("SELECT * FROM main_roomtype");
       while($row = $statement->fetchArray()) { //While para cada fila de tabla.
         $row = (object) $row;
         if($row->id == 1) { //If para habitación Sencilla.
@@ -304,7 +304,7 @@
       $num_habcua = $_POST['num-habcua'];
 
       $total = (($precio_habsen*$num_habsen)+($precio_habdob*$num_habdob)+($precio_habtri*$num_habtri)+($precio_habcua*$num_habcua));
-      echo"Hola";
+      echo$total;
       ?>
     </form>
     <!--/.Counter-->
@@ -333,7 +333,7 @@
 
   <!--Scripts-->
   <!--<script src="js/counter.js"></script>-->
-  <script src="../js/galeria.js"></script>
+  <script src="js/galeria.js"></script>
   <script src="https://js.stripe.com/v3/"></script>
 
   <!-- Warning GIANT SCRIPT INCOMING -->
