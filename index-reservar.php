@@ -273,8 +273,6 @@
       </div>
 
     </form>
-      </div>
-    </form>
     <!--/.Counter-->
 
   </div>

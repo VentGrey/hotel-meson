@@ -1,5 +1,6 @@
 <?php
 
+
 require 'vendor/autoload.php';
 
 \Stripe\Stripe::setApiKey('sk_test_UqbYcqyb1MhZbYxq8XvuXn7h00imeKMLGE');
@@ -36,7 +37,7 @@ $num_habcua = $_POST['num-habcua'];
 $num_dias = $_POST['num-dias'];
 
 $total = $num_dias * (($precio_habsen*$num_habsen)+($precio_habdob*$num_habdob)+($precio_habtri*$num_habtri)+($precio_habcua*$num_habcua));
-//echo $total;
+$total = ($total*100);
 
 
 
@@ -52,4 +53,5 @@ $charge = \Stripe\Charge::create([
 ]);
 
 echo "<pre>", print_r($charge), "</pre>";
+
 ?>
