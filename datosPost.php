@@ -8,6 +8,7 @@
   //$check_date = date('j\/F\/Y H:i:s');
   $date_checkin = $_POST['check-in'];
   $date_checkout = $_POST['check-out'];
+  //
 
   //Database.
   $database = new SQLite3('administracion/login.sqlite3');
