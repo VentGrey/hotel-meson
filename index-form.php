@@ -49,9 +49,6 @@
       <label for="phone" class="label-half">No. de contacto</label>
       <input type="tel" name="phone" placeholder="Número de contacto" class="input-half">
 
-      <label for="mail" class="label-half">Correo de contacto</label>
-      <input type="email" name="mail" placeholder="E-mail de contacto" class="input-half">
-
     </div>
 
     <div class="form-details">
