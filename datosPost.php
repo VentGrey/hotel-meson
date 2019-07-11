@@ -8,10 +8,13 @@
   //$check_date = date('j\/F\/Y H:i:s');
   $date_checkin = $_POST['check-in'];
   $date_checkout = $_POST['check-out'];
+  //Clean dates value.
+  $chin = preg_replace('/[^0-9]/', '', $date_checkin);
+  $chou = preg_replace('/[^0-9]/', '', $date_checkout);
 
   //Database.
   $database = new SQLite3('administracion/login.sqlite3');
-  /*//Checar las fechas.
+  //Checar las fechas.
   $query1 = $database->query('SELECT * FROM customers'); //Realizar Consulta.
   $flaChIn = 0; //Bandera para el Check_In.
   $flaChOu = 0; //Bandera para el Check_Out.
@@ -21,13 +24,11 @@
     $stringu2 = $row->checkout; //Tomar valor de Check_out.
     $stringu1 = preg_replace('/[^0-9]/', '', $stringu1); //Limpiar valor CI.
     $stringu2 = preg_replace('/[^0-9]/', '', $stringu2); //Limpiar valor CO.
-    //echo $stringu1 . '<br>';
-    //echo $stringu2 . '<br>';
     //IF's para controlar banderas.
-    if(($date_checkin >= ($stringu1-1)) && ($date_checkin <= ($stringu2))) {
+    if(($chin >= ($stringu1-1)) && ($chin <= ($stringu2))) {
       $flaChIn += 1; //Aumentar bandera de Check_In.
     }
-    if(($date_checkout >= ($stringu1-1)) && ($date_checkout <= ($stringu2))) {
+    if(($chou >= ($stringu1-1)) && ($chou <= ($stringu2))) {
       $flaChOu += 1; //Aumentar bandera de Check_Out.
     }
   }
@@ -35,14 +36,14 @@
   if(($flaChIn > 0) && ($flaChOu > 0)) {
     echo 'No se puede hospedar durante estos días puesto que ya está lleno :(';
   } elseif($flaChIn > 0) {
-      echo 'Fecha de llegada ocupada.';
+      echo '<script>alert("Fecha de llegada ocupada.");</script>';
       echo '<br>';
-      echo 'Le recomendamos llegar unos cuantos días después.';
+      echo '<script>alert("Le recomendamos llegar unos cuantos días después.");</script>';
   } elseif($flaChOu > 0) {
-      echo 'La fecha de salida está ocupada.';
+      echo '<script>alert("La fecha de salida está ocupada.");</script>';
       echo '<br>';
-      echo 'Nos apena decirlo, pero tendrá que recortar su estancia. unu';
-  } elseif(($flaChIn < 1) && ($flaChOu < 1)) {*/
+      echo '<script>alert("Nos apena decirlo, pero tendrá que recortar su estancia. unu");</script>';
+  } else {
     //Insertar información del Cliente.
     if(isset($nombre)) {
       $database->exec("INSERT INTO customers(customer_id ,first_name,
@@ -51,8 +52,8 @@
                       VALUES(null, '$nombre', '$segundo', '$apellidos', '$telefono',
                       '$no_kids', '$no_adults', '$date_checkin',
                       '$date_checkout')");
+      header("Location: pago-exitoso.php");
     }
-  //}
+  }
 
-header("Location: pago-exitoso.php");
 ?>
