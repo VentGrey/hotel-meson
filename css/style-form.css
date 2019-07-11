@@ -19,19 +19,11 @@ body {
 /* End of GENERALS styles */
 
 .container-img {
-  width: 100%;
-  height: 100%;
-}
-
-.img {
-  width: 100%;
-  height: 100%;
-  opacity: 0.8;
+  display: none;
 }
 
 /* NAVBAR styles */
 .navbar-hmjv {
-  position: fixed;
   width: 100%;
   height: auto;
   background-color: #380000;
@@ -168,6 +160,22 @@ body {
 
 /* Pantallas grandes Horizontal y Vertical */
 @media screen and (min-width: 800px) {
+  .navbar-hmjv {
+    position: fixed;
+  }
+
+  .container-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+  }
+
   /* Form User styling */
   .form-user {
     position: absolute;
@@ -201,33 +209,10 @@ body {
     color: #fff;
   }
 
-  .label-half {
-    display: inline-block;
-    width: 45%;
-
-    font-family: 'Varela Round', sans-serif;
-    font-size: 1.2rem;
-    color: #fff;
-  }
-
   .input {
     display: inline-block;
     width: 50%;
     border: none;
-
-    background-color: #fff;
-    border-radius: 3px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 1.1rem;
-    color: #000;
-    padding: 0.3em;
-  }
-
-  .input-half {
-    display: inline-block;
-    width: 50%;
-    border: none;
-    margin-top: 2em;
 
     background-color: #fff;
     border-radius: 3px;
@@ -304,5 +289,4 @@ body {
     margin-top: 2em;
     margin-bottom: 2em;
   }
- }
 }
