@@ -262,15 +262,15 @@
                 </div>
                 <!--Mensaje-->
 
+                <!--Botón de enviar-->
+                <div class="text-center text-md-left">
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                </div>
+                <div class="status"></div>
+                <!--Botón de enviar-->
+
             </form>
             <!--Sección del Mensaje en general-->
-
-            <!--Botón de enviar-->
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
-            </div>
-            <div class="status"></div>
-            <!--Botón de enviar-->
 
         </div>
         <!--Parte izquierda del formulario-->
