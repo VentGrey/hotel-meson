@@ -8,9 +8,13 @@
   //$check_date = date('j\/F\/Y H:i:s');
   $date_checkin = $_POST['check-in'];
   $date_checkout = $_POST['check-out'];
+<<<<<<< HEAD
   //Clean dates value.
   $chin = preg_replace('/[^0-9]/', '', $date_checkin);
   $chou = preg_replace('/[^0-9]/', '', $date_checkout);
+=======
+  //
+>>>>>>> 1747246539ea3dfce16713a28ab59e223a8599c6
 
   //Database.
   $database = new SQLite3('administracion/login.sqlite3');
