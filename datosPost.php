@@ -1,3 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="icon" type="imagen" href="images/icono-1.ico">
+  <title>Hotel Mesón - error al reservar</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Page styles -->
+  <link href="css/style-reservar.css" rel="stylesheet">
+   <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--Navbar-->
+  <div class="navbar">
+    <ul class="navbar-list">
+      <li class="navbar-item"><a class="navbar-link" href="index-form.php">Volver al formulario</a></li>
+      <li class="navbar-item"><a class="navbar-link-cel" href="index-form.php">Volver</a></li>
+    </ul>
+  </div>
+  <!--/.Navbar-->
+
+</body>
+
+</html>
+
 <?php
   $nombre = $_POST['nombre'];
   $segundo = $_POST['segundo'];
@@ -8,13 +42,10 @@
   //$check_date = date('j\/F\/Y H:i:s');
   $date_checkin = $_POST['check-in'];
   $date_checkout = $_POST['check-out'];
-<<<<<<< HEAD
+
   //Clean dates value.
   $chin = preg_replace('/[^0-9]/', '', $date_checkin);
   $chou = preg_replace('/[^0-9]/', '', $date_checkout);
-=======
-  //
->>>>>>> 1747246539ea3dfce16713a28ab59e223a8599c6
 
   //Database.
   $database = new SQLite3('administracion/login.sqlite3');
@@ -37,16 +68,8 @@
     }
   }
   //IF's para checar que las fechas estén completamente disponibles.
-  if(($flaChIn > 0) && ($flaChOu > 0)) {
+  if(($flaChIn > 5) || ($flaChOu > 5)) {
     echo 'No se puede hospedar durante estos días puesto que ya está lleno :(';
-  } elseif($flaChIn > 0) {
-      echo '<script>alert("Fecha de llegada ocupada.");</script>';
-      echo '<br>';
-      echo '<script>alert("Le recomendamos llegar unos cuantos días después.");</script>';
-  } elseif($flaChOu > 0) {
-      echo '<script>alert("La fecha de salida está ocupada.");</script>';
-      echo '<br>';
-      echo '<script>alert("Nos apena decirlo, pero tendrá que recortar su estancia. unu");</script>';
   } else {
     //Insertar información del Cliente.
     if(isset($nombre)) {
