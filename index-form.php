@@ -23,13 +23,18 @@
 <body>
 
   <!--Navbar-->
-  <div class="navbar">
+  <div class="navbar-hmjv">
     <ul class="navbar-list">
       <li class="navbar-item"><a class="navbar-link" href="index-reservar.php">Volver a método de pago</a></li>
       <li class="navbar-item"><a class="navbar-link-cel" href="index-reservar.php">Volver</a></li>
     </ul>
   </div>
   <!--/.Navbar-->
+
+  <!--Background image-->
+  <div class="container-img">
+    <img src="../images/imagen-gall-1.jpg" alt="" class="img">
+  </div>
 
   <!--Content-->
   <form action="datosPost.php" class="form" method="post">
@@ -46,8 +51,8 @@
       <label for="lastname" class="label">Apellido</label>
       <input type="text" name="apellido" placeholder="Escriba sus apellidos" class="input">
 
-      <label for="phone" class="label-half">No. de contacto</label>
-      <input type="tel" name="phone" placeholder="Número de contacto" class="input-half">
+      <label for="phone" class="label">No. de contacto</label>
+      <input type="tel" name="phone" placeholder="Número de contacto" class="input">
 
     </div>
 
