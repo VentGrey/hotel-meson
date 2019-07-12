@@ -129,13 +129,13 @@ input {
       text-transform: uppercase;
       font-size: 30px;
       letter-spacing: 8px;
-      font-family: 'Varela Round', sans-serif;
+      font-family: 'Kaushan Script', cursive;
       font-weight: 400;
   }
 
 .logo-sec {
       font-size: 19px;
-      font-family: 'Bad Script', cursive;
+      font-family: 'Kaushan Script', cursive;
       letter-spacing: 3px;
   }
 
@@ -232,49 +232,40 @@ input {
   }
 
 .slider ul {
-      display: flex;
-      padding: 0;
-      width: 800%;
+  display: flex;
+  padding: 0;
+  width: 600%;
 
-      animation: cambio 40s infinite;
-  }
+  animation: cambio 30s infinite;
+}
 
 .slider li {
-      width: 100%;
-      list-style: none;
-  }
+  width: 100%;
+  list-style: none;
+}
 
 .slider img {
-      width: 100%;
-  }
+  width: 100%;
+}
 
 @keyframes cambio {
     0% { margin-left: 0; }
-    10% { margin-left: 0; }
+    13% { margin-left: 0; }
 
-    12.5% { margin-left: -100%; }
-    22.5% { margin-left: -100%; }
+    16% { margin-left: -100%; }
+    29% { margin-left: -100%; }
 
-    25% { margin-left: -200%; }
-    35% { margin-left: -200%; }
+    32% { margin-left: -200%; }
+    45% { margin-left: -200%; }
 
-    37.5% { margin-left: -300%; }
-    50% { margin-left: -300%; }
+    48% { margin-left: -300%; }
+    61% { margin-left: -300%; }
 
-    52.5% { margin-left: -400%; }
-    62.5% { margin-left: -400%; }
+    64% { margin-left: -400%; }
+    77% { margin-left: -400%; }
 
-    65% { margin-left: -500%; }
-    75% { margin-left: -500%; }
-
-    77.5% { margin-left: -600%; }
-    87.5% { margin-left: -600%; }
-
-    89% { margin-left: -700%; }
-    97% { margin-left: -700%; }
-
-    99% { margin-left: 0; }
-    100% { margin-left: 0; }
+    80% { margin-left: -500%; }
+    95% { margin-left: -500%; }
   }
 
 /* Contact Section */
@@ -434,12 +425,12 @@ input {
   }
 
   .logo-main {
-    font-size: 1.0625rem;
+    font-size: 0.875rem;
     letter-spacing: 5px;
   }
 
   .logo-sec {
-    font-size: 0.875rem;
+    font-size: 1.0625rem;
   }
 
   /*About*/
@@ -494,16 +485,26 @@ input {
   }
 
   /*Messenger*/
+  .title_msng-bubble {
+    position: fixed;
+    width: 30px;
+    left: 46px;
+    bottom: 45px;
+
+    color: #fff;
+    font-size: 13px;
+  }
+
   .back_msng-bubble {
-    width: 50px;
-    height: 45px;
+    width: 65px;
+    height: 60px;
     left: 30px;
   }
 
   .msng-bubble {
-    left: 12px;
-    bottom: -8px;
-    font-size: 1.875rem;
+    left: 18px;
+    bottom: -25px;
+    font-size: 1.88rem;
   }
 
   /*Redes sociales*/
@@ -596,12 +597,12 @@ input {
   }
 
   .logo-main {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     letter-spacing: 5px;
   }
 
   .logo-sec {
-    font-size: 1.05rem;
+    font-size: 1.25rem;
   }
 
   /*Rooms*/
@@ -616,6 +617,11 @@ input {
   }
 
   /*Messenger*/
+  .title_msng-bubble {
+    left: 68px;
+    bottom: 53px;
+  }
+
   .back_msng-bubble {
     width: 70px;
     height: 65px;
@@ -625,8 +631,8 @@ input {
 
   .msng-bubble {
     left: 17px;
-    bottom: -11px;
-    font-size: 42px;
+    bottom: -19px;
+    font-size: 38px;
   }
 
   /*Redes sociales*/
@@ -720,11 +726,12 @@ input {
   }
 
   .logo-main {
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .logo-sec {
-    font-size: 19px;
+    font-size: 35px;
+    font-weight: 400;
   }
 
   .box_home-linea {
@@ -769,6 +776,12 @@ input {
   /*Navbar*/
   .navbar {
     display: block;
+  }
+
+  /*Contact form*/
+  .li-lg {
+    width: 30%;
+    display: inline-block;
   }
 
   /*Help Container*/

@@ -10,6 +10,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -98,12 +99,12 @@
   </div>
   <div class="about-container">
     <p class="lead page-text text-justify font-weight-lighter text-wrap page-text_cel">
-      El Mesón de Juan Valle está localizado en Guanajuato capital y gracias a su ubicación, se
+      <!--El Mesón de Juan Valle está localizado en Guanajuato capital y gracias a su ubicación, se
       encuentra a 150 metros del Jardín Principal y a 300 metros del Jardín de la Unión. De igual
       forma, tiene muchas de las atracciones más populares cerca, como el Callejón del Beso. <br>
       Hay WiFi gratis en todas las habitaciones y servicio de estacionamiento gratis con valet parking. <br>
       Ven y vive unas vacaciones inolvidables.
-      <!--El Mesón de Juan Valle is located in the capital of Guanajuato, and thanks to its location,
+      El Mesón de Juan Valle is located in the capital of Guanajuato, and thanks to its location,
       It is 150 meters from the Main Garden and 300 meters from the Jardín de la Unión. Similarly,
       It has many of the most famous tourist attractions in the area, such as the Callejón del Beso
       and the Hidalgo Market.
@@ -200,11 +201,9 @@
       <li><img src="images/imagen-gall-1.jpg" alt=""></li>
       <li><img src="images/imagen-gall-2.jpg" alt=""></li>
       <li><img src="images/imagen-gall-3.jpeg" alt=""></li>
-      <li><img src="images/imagen-hs-1.jpeg" alt=""></li>
-      <li><img src="images/imagen-hd-1.jpeg" alt=""></li>
-      <li><img src="images/imagen-ht-1.jpeg" alt=""></li>
-      <li><img src="images/imagen-hc-1.jpeg" alt=""></li>
-      <li><img src="images/imagen-ht-3.jpeg" alt=""></li>
+      <li><img src="images/imagen-gall-6.jpg" alt=""></li>
+      <li><img src="images/imagen-gall-7.jpg" alt=""></li>
+      <li><img src="images/imagen-gall-8.jpg" alt=""></li>
     </ul>
   </div>
 
@@ -224,75 +223,26 @@
 
     <!--Contenido-->
     <div class="row">
-
-        <!--Parte izquierda del formulario-->
-        <div class="col-md-9 mb-md-0 mb-5">
-
-            <!--Sección del Mensaje en general-->
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                <!--Nombre y Correo-->
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Nombre</label>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Correo Electrónico</label>
-                        </div>
-                    </div>
-
-                </div>
-                <!--Nombre y Correo-->
-
-                <!--Mensaje-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Mensaje</label>
-                        </div>
-                    </div>
-                </div>
-                <!--Mensaje-->
-
-                <!--Botón de enviar-->
-                <div class="text-center text-md-left">
-                    <input type="submit" class="btn btn-primary" value="Enviar">
-                </div>
-                <div class="status"></div>
-                <!--Botón de enviar-->
-
-            </form>
-            <!--Sección del Mensaje en general-->
-
-        </div>
-        <!--Parte izquierda del formulario-->
-
         <!--Parte derecha del formulario-->
-        <div class="col-md-3 text-center">
+        <div class="col-md-12 text-center">
             <ul class="list-unstyled mb-0">
-                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p class="page-text-2">Juan Valle 18, Zona Centro, 36000 Guanajuato, Gto.</p>
+                <li class="li-lg">
+                  <i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p class="page-text-2">Juan Valle 18, Zona Centro, 36000 Guanajuato, Gto.</p>
                 </li>
 
-                <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p class="page-text-2">01 473 732 2096</p>
+                <li class="li-lg">
+                  <i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p class="page-text-2">01 473 732 2096</p>
                 </li>
 
-                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p class="page-text-2">contact@ambotics.com</p>
+                <li class="li-lg">
+                  <i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p class="page-text-2">contact@ambotics.com</p>
                 </li>
             </ul>
         </div>
         <!--Parte derecha del formulario-->
-
     </div>
     <!--Contenido-->
 
@@ -315,6 +265,7 @@
 <!--Messenger bubble-->
 <a href="#">
   <div class="back_msng-bubble">
+    <span class="title_msng-bubble">chat</span>
     <i class="fab fa-facebook-messenger msng-bubble"></i>
   </div>
 </a>
