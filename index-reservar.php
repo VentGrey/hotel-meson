@@ -78,9 +78,9 @@
 
     <div class="modal" id="imghs">
       <div class="imagen">
-        <a onclick="atrashs();">&#60;</a>
+        <div onclick="atrashs();">&#60;</div>
         <a href=""><img src="images/imagen-hs-1.jpeg" id="imagenhs"></a>
-        <a onclick="adelantehs();">></a>
+        <div href="" onclick="adelantehs();">></div>
       </div>
       <a class="cerrar" href="#hab-sencilla">x</a>
     </div>
@@ -124,9 +124,9 @@
 
     <div class="modal" id="imghd">
       <div class="imagen">
-        <a onclick="atrashd();">&#60;</a>
+        <div onclick="atrashd();">&#60;</div>
         <a href=""><img src="images/imagen-hd-1.jpeg" id="imagenhd"></a>
-        <a onclick="adelantehd();">></a>
+        <div onclick="adelantehd();">></div>
       </div>
       <a class="cerrar" href="#hab-sencilla">x</a>
     </div>
@@ -170,9 +170,9 @@
 
     <div class="modal" id="imght">
       <div class="imagen">
-        <a onclick="atrasht();">&#60;</a>
+        <div onclick="atrasht();">&#60;</div>
         <a href=""><img src="images/imagen-ht-1.jpeg" id="imagenht"></a>
-        <a onclick="adelanteht();">></a>
+        <div onclick="adelanteht();">></div>
       </div>
       <a class="cerrar" href="#hab-doble">x</a>
     </div>
@@ -216,9 +216,9 @@
 
     <div class="modal" id="imghc">
       <div class="imagen">
-        <a onclick="atrashc();">&#60;</a>
+        <div onclick="atrashc();">&#60;</div>
         <a href=""><img src="images/imagen-hc-1.jpeg" id="imagenhc"></a>
-        <a onclick="adelantehc();">></a>
+        <div onclick="adelantehc();">></div>
       </div>
       <a class="cerrar" href="#hab-triple">x</a>
     </div>

@@ -246,15 +246,19 @@ img {
   align-items: center;
 }
 
-.imagen a {
+.imagen div {
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: none;
   margin: 0 10px;
 }
 
-.imagen a:nth-child(2) {
+.imagen div:hover {
+  cursor: pointer;
+}
+
+.imagen a {
   margin: 0;
   height: 100%;
   flex-shrink: 2;
@@ -341,10 +345,10 @@ img {
   padding-top: 0.7em;
   margin-right: 2.3em;
 
-  background-color: #600505;
-  border: 0;
+  background-color: rgba(82,82,82,0.5);
+  border: 1.5px solid #000;
   border-radius: 3px;
-  color: #fff;
+  color: #000;
   font-family: 'Varela Round', sans-serif;
   font-size: 1rem;
 }
