@@ -49,19 +49,19 @@
     <h2 class="display-3 text-center">Solicitud urgente</h2>
     <h5 class="display-5 text-center">Escriba la fecha de inicio y fin de la sobreescritura de precios</h5>
     <div class="container">
-        <form action="SendMail.php">
+        <form action="SendMail.php" method="POST">
             <div class="input-group">
                 <div class="input-group-prepend">
-                    <span class="input-group-text">Fechas de inicio / fin</span>
+                    <span class="input-group-text">Fechas de Inicio / Fin</span>
                 </div>
-                <input type="date" aria-label="Checkin" class="form-control">
-                <input type="date" aria-label="Checkout" class="form-control">
+                <input id="checkin" type="date" aria-label="Checkin" class="form-control">
+                <input id="checkout" type="date" aria-label="Checkout" class="form-control">
             </div>
             <div class="input-group">
                 <div class="input-group-prepend">
                     <span id="texto" class="input-group-text">Escriba las habitaciones y los precios que desee</span>
                 </div>
-                <textarea class="form-control" aria-label="With textarea"></textarea>
+                <textarea id="message" class="form-control" aria-label="With textarea"></textarea>
             </div>
             <input class="btn btn-info" type="submit" id="btn-solicitud" value="Solicitar Cambio de Precios">
         </form>
