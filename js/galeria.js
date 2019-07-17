@@ -3,7 +3,7 @@ var numhs = 1;
 
 function adelantehs() {
   numhs++;
-  if (numhs > 6)
+  if (numhs > 5)
     numhs = 1;
   var imagenhs = document.getElementById("imagenhs");
   imagenhs.src="images/imagen-hs-"+numhs+".jpeg";
@@ -12,7 +12,7 @@ function adelantehs() {
 function atrashs() {
   numhs--;
   if (numhs < 1)
-    numhs = 6;
+    numhs = 5;
   var imagenhs = document.getElementById("imagenhs");
   imagenhs.src="images/imagen-hs-"+numhs+".jpeg";
 }
@@ -41,7 +41,7 @@ var numht = 1;
 
 function adelanteht() {
   numht++;
-  if (numht > 5)
+  if (numht > 6)
     numht = 1;
   var imagenht = document.getElementById("imagenht");
   imagenht.src="images/imagen-ht-"+numht+".jpeg";
@@ -50,7 +50,7 @@ function adelanteht() {
 function atrasht() {
   numht--;
   if (numht < 1)
-    numht = 5;
+    numht = 6;
   var imagenht = document.getElementById("imagenht");
   imagenht.src="images/imagen-ht-"+numht+".jpeg";
 }

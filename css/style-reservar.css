@@ -425,6 +425,74 @@ img {
 }
 /* End of Pay Part Styling */
 
+/* Styles for MESSENGER BUBBLE */
+.back_msng-bubble {
+    position: fixed;
+    width: 70px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #380000;
+
+    left: 50px;
+    bottom: 10px;
+    align-items: center;
+  }
+
+.msng-bubble {
+    position: relative;
+    left: 17px;
+    bottom: -11px;
+    font-size: 42px;
+    color: #fff;
+  }
+
+/* End of MESSENGER BUBBLE styling */
+
+/* Styles for REDES SOCIALES */
+.box_redes {
+    position: fixed;
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    background-color: #380000;
+    padding-right: 12px;
+    right: 0px;
+    top: 50%;
+    transform: translate(0, -50%);
+    align-items: center;
+  }
+
+.red-facebook {
+    position: relative;
+    display: block;
+    margin-top: 1em;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 30px;
+    color: #fff;
+  }
+
+.red-insta {
+    position: relative;
+    display: block;
+    margin-top: 1em;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 27px;
+    color: #fff;
+  }
+
+.red-google {
+    position: relative;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 25px;
+    color: #fff;
+  }
+
 /****************************************************************************************************************************************************/
 /****************************************************************************************************************************************************/
 
@@ -469,25 +537,16 @@ img {
 
   /*Carrusel*/
   .modal:target {
-    padding-top: 20px;
+    padding-top: 100px;
   }
 
-  .imagen {
-    height: 85%;
+  .imagen div {
+    font-size: 16px;
+    margin: 0 5px;
   }
 
-  .message-cel-container {
-    width: 90%;
-    height: auto;
-    padding-top: 3em;
-    padding-bottom: 4em;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
-  }
-
-  .message-cel-container > span {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 1rem;
+  .imagen a {
+    width: 100%;
   }
 
   /*Pay Part*/
@@ -498,7 +557,55 @@ img {
   .form-number {
     display: none;
   }
+
+  /*Messenger*/
+  .title_msng-bubble {
+    position: fixed;
+    width: 30px;
+    left: 46px;
+    bottom: 45px;
+
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+  }
+
+  .back_msng-bubble {
+    width: 65px;
+    height: 60px;
+    left: 30px;
+  }
+
+  .msng-bubble {
+    left: 18px;
+    bottom: -25px;
+    font-size: 1.88rem;
+  }
+
+  /*Redes sociales*/
+  .red-facebook {
+    margin-top: 1em;
+    font-size: 1.5625rem;
+  }
+
+  .red-insta {
+    margin-top: 1em;
+    font-size: 1.375rem;
+  }
+
+  .red-google {
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+    font-size: 1.25rem;
+  }
 }
+
+@media screen and (min-width: 480px) {
+  /*Imagen*/
+  .room-img {
+    width: 70%;
+  }
 
 /****************************************************************************************************************************************************/
 /****************************************************************************************************************************************************/

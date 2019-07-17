@@ -15,7 +15,6 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Page styles -->
-  <link href="css/style.css" rel="stylesheet">
   <link href="css/style-reservar.css" rel="stylesheet">
    <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -128,7 +127,7 @@
         <a href=""><img src="images/imagen-hd-1.jpeg" id="imagenhd"></a>
         <div onclick="adelantehd();">></div>
       </div>
-      <a class="cerrar" href="#hab-sencilla">x</a>
+      <a class="cerrar" href="#hab-doble">x</a>
     </div>
     <!--/.Hab Doble-->
 
@@ -174,7 +173,7 @@
         <a href=""><img src="images/imagen-ht-1.jpeg" id="imagenht"></a>
         <div onclick="adelanteht();">></div>
       </div>
-      <a class="cerrar" href="#hab-doble">x</a>
+      <a class="cerrar" href="#hab-triple">x</a>
     </div>
     <!--/.Hab Triple-->
 
@@ -220,16 +219,9 @@
         <a href=""><img src="images/imagen-hc-1.jpeg" id="imagenhc"></a>
         <div onclick="adelantehc();">></div>
       </div>
-      <a class="cerrar" href="#hab-triple">x</a>
+      <a class="cerrar" href="#hab-cuadruple">x</a>
     </div>
     <!--/.Hab Cuádruple-->
-
-    <!--Message only for celphones-->
-    <div class="message-cel-container">
-      <span>Disculpa las molestias, pero no se puede reservar a través de
-        celulares o cualquier otro dispositivo que no sea computadora. Gracias.</span>
-    </div>
-    <!--/.Message only for celphones-->
 
     <!--Help Container-->
     <div class="help-container"></div>
@@ -285,6 +277,7 @@
   <!--Messenger bubble-->
   <a href="#">
     <div class="back_msng-bubble">
+      <span class="title_msng-bubble">chat</span>
       <i class="fab fa-facebook-messenger msng-bubble"></i>
     </div>
   </a>
