@@ -191,13 +191,13 @@
 <!--Gallery Section-->
 <div class="gallery-section" id="gallery">
 
-  <span>Galería</span>
+  <span class="page-title-2">Galería</span>
 
-  <div class="modal" id="imghs">
+  <div class="modal">
     <div class="imagen">
-      <div onclick="atrashs();">&#60;</div>
-      <a href=""><img src="images/imagen-hs-1.jpeg" id="imagenhs"></a>
-      <div href="" onclick="adelantehs();">></div>
+      <div onclick="atras_gall();">&#60;</div>
+      <a href=""><img src="images/imagen-gall-1.jpg" id="imagen-gall"></a>
+      <div href="" onclick="adelante_gall();">></div>
     </div>
   </div>
 
@@ -374,6 +374,8 @@
 <!-- Footer -->
 
 <!-- SCRIPTS -->
+<!-- Galería -->
+<script type="text/javascript" src="js/galeria.js"></script>
 <!-- JQuery -->
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <!-- Bootstrap tooltips -->

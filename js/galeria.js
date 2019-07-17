@@ -73,3 +73,22 @@ function atrashc() {
   var imagenhc = document.getElementById("imagenhc");
   imagenhc.src="images/imagen-hc-"+numhc+".jpeg";
 }
+
+//Carrusel Index.php
+var numgall = 1;
+
+function adelante_gall() {
+  numgall++;
+  if (numgall > 9)
+    numgall = 1;
+  var imagengall = document.getElementById("imagen-gall");
+  imagengall.src="images/imagen-gall-"+numgall+".jpg";
+}
+
+function atras_gall() {
+  numgall--;
+  if (numgall < 1)
+    numgall = 9;
+  var imagengall = document.getElementById("imagen-gall");
+  imagengall.src="images/imagen-gall-"+numgall+".jpg";
+}
