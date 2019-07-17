@@ -23,7 +23,7 @@ try {
 
     //Recipients
     $mail->setFrom('ambotics19@gmail.com', 'Mailer');
-    $mail->addAddress('ellen@example.com');               // Name is optional
+    $mail->addAddress('ambotics19@gmail.com');               // Name is optional
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
