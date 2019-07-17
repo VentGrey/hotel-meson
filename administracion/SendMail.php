@@ -14,7 +14,7 @@ try {
     //Server settings
     $mail->SMTPDebug = 2;                                       // Enable verbose debug output
     $mail->isSMTP();                                            // Set mailer to use SMTP
-    $mail->Host       = 'smtp-relay.gmail.com;smtp.gmail.com;aspmx.l.google.com';  // Specify main and backup SMTP servers
+    $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
     $mail->Username   = 'ambotics19@gmail.com';                     // SMTP username
     $mail->Password   = 'Ambotics2019';                               // SMTP password
@@ -23,7 +23,7 @@ try {
 
     //Recipients
     $mail->setFrom('ambotics19@gmail.com', 'Mailer');
-    $mail->addAddress('ellen@example.com');               // Name is optional
+    $mail->addAddress('omarpurataf@gmail.com');               // Name is optional
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML

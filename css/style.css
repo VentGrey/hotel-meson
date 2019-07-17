@@ -305,7 +305,6 @@ input {
     left: 50px;
     bottom: 10px;
     align-items: center;
-    z-index: 1000;
   }
 
 .msng-bubble {
