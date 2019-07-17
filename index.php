@@ -190,27 +190,19 @@
 
 <!--Gallery Section-->
 <div class="gallery-section" id="gallery">
-  <div class="container gallery_main">
-    <p class="text-center page-title-2 font-weight-bold">Galería</p>
+
+  <span>Galería</span>
+
+  <div class="modal" id="imghs">
+    <div class="imagen">
+      <div onclick="atrashs();">&#60;</div>
+      <a href=""><img src="images/imagen-hs-1.jpeg" id="imagenhs"></a>
+      <div href="" onclick="adelantehs();">></div>
+    </div>
   </div>
-
-  <!--Gallery images-->
-
-  <div class="slider">
-    <ul>
-      <li><img src="images/imagen-gall-1.jpg" alt=""></li>
-      <li><img src="images/imagen-gall-2.jpg" alt=""></li>
-      <li><img src="images/imagen-gall-3.jpeg" alt=""></li>
-      <li><img src="images/imagen-gall-6.jpg" alt=""></li>
-      <li><img src="images/imagen-gall-7.jpg" alt=""></li>
-      <li><img src="images/imagen-gall-8.jpg" alt=""></li>
-    </ul>
-  </div>
-
-  <!--Gallery images-->
 
 </div>
-<!--/.Gallery Section-->
+<!--Gallery Section-->
 
 <!--Contact Section-->
 <div class="help-container" id="contact"></div>

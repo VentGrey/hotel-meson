@@ -204,69 +204,61 @@ input {
 
 /* Gallery Section */
 .gallery-section {
-      width: 100%;
-      height: auto;
-      background-color: #fff;
-  }
-
-.gallery_main {
-      margin-top: 3.5em;
-      margin-bottom: 3em;
-  }
-
-.hm-row {
-      margin-left: 50%;
-      transform: translate(-50%, 0);
-      width: 95%;
-      margin-bottom: 1.6em;
-  }
-
-.hm-gallery_img {
-      border-radius: 3px;
-  }
-
-.slider {
-      width: 55%;
-      margin: auto;
-      overflow: hidden;
-  }
-
-.slider ul {
-  display: flex;
-  padding: 0;
-  width: 600%;
-
-  animation: cambio 30s infinite;
-}
-
-.slider li {
   width: 100%;
+  margin: auto;
   list-style: none;
+  padding: 1em;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.slider img {
+.modal {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  padding-top: 15px;
   width: 100%;
+  height: 100%;
 }
 
-@keyframes cambio {
-    0% { margin-left: 0; }
-    13% { margin-left: 0; }
+.imagen {
+  width: 100%;
+  height: 50%;
 
-    16% { margin-left: -100%; }
-    29% { margin-left: -100%; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    32% { margin-left: -200%; }
-    45% { margin-left: -200%; }
+.imagen div {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 10px;
+}
 
-    48% { margin-left: -300%; }
-    61% { margin-left: -300%; }
+.imagen div:hover {
+  cursor: pointer;
+}
 
-    64% { margin-left: -400%; }
-    77% { margin-left: -400%; }
+.imagen a {
+  margin: 0;
+  height: 100%;
+  flex-shrink: 2;
+}
 
-    80% { margin-left: -500%; }
-    95% { margin-left: -500%; }
-  }
+.imagen img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
 
 /* Contact Section */
 .contact-section {
@@ -313,6 +305,7 @@ input {
     left: 50px;
     bottom: 10px;
     align-items: center;
+    z-index: 1000;
   }
 
 .msng-bubble {
@@ -337,6 +330,7 @@ input {
     top: 50%;
     transform: translate(0, -50%);
     align-items: center;
+    z-index: 1500;
   }
 
 .red-facebook {
