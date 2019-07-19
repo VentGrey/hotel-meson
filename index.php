@@ -82,7 +82,7 @@
   <div class="box_home-linea"></div>
 
   <div class="box_home-logo">
-    <span class="home_logo logo-main">Hotel Mesón</span>
+    <span class="home_logo logo-main">Hotel Mesón de</span>
     <span class="home_logo logo-sec">Juan Valle</span>
   </div>
 
@@ -145,6 +145,7 @@
         <i class="page-text fas fa-parking"></i>
         <p class="page-text text-center font-weight-light">Estacionamiento</p>
         <p class="service-text font-weight-lighter">Estacionamiento gratis y privado. No es necesario reservar. Tenemos servicio de valet parking.</p>
+        <p class="service-text font-weight-lighter">(Pensión a 900m de distancia).</p>
       </div>
 
       <!-- No smoking policy (Viewed on booking.com) -->
