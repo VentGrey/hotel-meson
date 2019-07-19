@@ -99,17 +99,6 @@
   </div>
   <div class="about-container">
     <p class="lead page-text text-justify font-weight-lighter text-wrap page-text_cel">
-      <!--El Mesón de Juan Valle está localizado en Guanajuato capital y gracias a su ubicación, se
-      encuentra a 150 metros del Jardín Principal y a 300 metros del Jardín de la Unión. De igual
-      forma, tiene muchas de las atracciones más populares cerca, como el Callejón del Beso. <br>
-      Hay WiFi gratis en todas las habitaciones y servicio de estacionamiento gratis con valet parking. <br>
-      Ven y vive unas vacaciones inolvidables.
-      El Mesón de Juan Valle is located in the capital of Guanajuato, and thanks to its location,
-      It is 150 meters from the Main Garden and 300 meters from the Jardín de la Unión. Similarly,
-      It has many of the most famous tourist attractions in the area, such as the Callejón del Beso
-      and the Hidalgo Market.
-      There is free Wi-Fi in all rooms and free parking service.
-      Come and live an unforgettable vacation.-->
     </p>
   </div>
 </div>
@@ -227,11 +216,12 @@
                 <li class="li-lg">
                   <i class="fas fa-phone mt-4 fa-2x"></i>
                   <p class="page-text-2">01 473 732 2096</p>
+                  <p class="page-text-2">01 473 732 0557</p>
                 </li>
 
                 <li class="li-lg">
                   <i class="fas fa-envelope mt-4 fa-2x"></i>
-                  <p class="page-text-2">contact@ambotics.com</p>
+                  <p class="page-text-2">reservacionesjuanvalle@gmail.com</p>
                 </li>
             </ul>
         </div>
