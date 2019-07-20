@@ -65,7 +65,8 @@
       </div>
       <div class="room-info info-price">
         <div class="part-price">
-            <!-- Price Should go here -->
+            <span class="main-subtext-price" id="p1">$1,200</span>
+            <span class="main-subtext2-price">p/noche</span>
         </div>
         <div class="part-add">
             <div class="add">
@@ -110,7 +111,8 @@
       </div>
       <div class="room-info info-price">
         <div class="part-price">
-            <!-- Price should go here -->
+            <span class="main-subtext-price" id="p2">$1,500</span>
+            <span class="main-subtext2-price">p/noche</span>
         </div>
         <div class="part-add">
           <div class="add">
@@ -155,7 +157,8 @@
       </div>
       <div class="room-info info-price">
         <div class="part-price">
-            <!-- Price should go here -->
+            <span class="main-subtext-price" id="p3">$1,800</span>
+            <span class="main-subtext2-price">p/noche</span>
         </div>
         <div class="part-add">
           <div class="add">
@@ -200,7 +203,8 @@
       </div>
       <div class="room-info info-price">
         <div class="part-price">
-            <!-- Price should go here -->
+            <span class="main-subtext-price" id="p4">$2,000</span>
+            <span class="main-subtext2-price">p/noche</span>
         </div>
         <div class="part-add">
           <div class="add">
@@ -241,10 +245,10 @@
         <label for="num-habcua" class="number-label">Habitación Cuádruple</label>
         <input type="number" min="0" max="1" name="num-habcua" class="number-input">
 
-        <label for="check-in" class="number-label">Check in</label>
+        <label for="check-in" class="number-label" id="checkin">Check in</label>
         <input class="number-input" type="date" name="check-in" class="check-date">
 
-        <label for="check-out" class="number-label">Check out</label>
+        <label for="check-out" class="number-label" id="checkout">Check out</label>
         <input class="number-input" type="date" name="check-out" class="check-date">
 
       <div class="container-card">
