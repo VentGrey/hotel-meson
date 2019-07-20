@@ -35,6 +35,9 @@
   </div>
   <!--/.Navbar-->
 
+  <!--Help Container-->
+  <div class="help-container"></div>
+  <!--/.Help Container-->
 
   <!--Type Rooms-->
   <div class="container-rooms">
@@ -223,10 +226,6 @@
     </div>
     <!--/.Hab Cuádruple-->
 
-    <!--Help Container-->
-    <div class="help-container"></div>
-    <!--/.Help Container-->
-
     <!--Counter-->
     <form name="f1" action="CreateCharge.php" method="post" id="payment-form" class="form-number">
 
@@ -245,17 +244,18 @@
         <label for="num-habcua" class="number-label">Habitación Cuádruple</label>
         <input type="number" min="0" max="1" name="num-habcua" class="number-input">
 
-        <label for="check-in" class="number-label" id="checkin">Check in</label>
-        <input class="number-input" type="date" name="check-in" class="check-date">
+        <label for="check-in" class="number-label">Check in</label>
+        <input type="date" name="check-in" class="check-date">
 
-        <label for="check-out" class="number-label" id="checkout">Check out</label>
-        <input class="number-input" type="date" name="check-out" class="check-date">
+        <label for="check-out" class="number-label">Check out</label>
+        <input type="date" name="check-out" class="check-date">
+      </div>
 
       <div class="container-card">
         <div class="box-card">
           <label for="card-element" class="card-label">Tarjeta de crédito o débito</label>
           <div id="card-element" class="card-element">
-              <!-- A Stripe Element will be inserted here. -->
+
           </div>
         </div>
 
@@ -267,7 +267,6 @@
         </div>
 
         <input type="submit" name="" value="Submit Payment" class="pagar-btn">
-        <!--<button class="pagar-btn">Submit Payment</button>-->
       </div>
 
     </form>

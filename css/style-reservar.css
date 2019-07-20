@@ -299,14 +299,13 @@ img {
 .form-number {
   width: 100%;
   background-color: #fff;
-  border-top: 1px solid #b0b4ba;
+  border-bottom: 1px solid #b0b4ba;
 }
 
 .form-number > span {
   display: block;
   width: 90%;
   height: auto;
-  padding-top: 0.2em;
   padding-bottom: 0.4em;
   margin-bottom: 0.4em;
   margin-left: 50%;
@@ -351,9 +350,24 @@ img {
   font-size: 1rem;
 }
 
+.check-date {
+  display: inline-block;
+  width: 6%;
+  height: 2.3em;
+  padding-top: 0.7em;
+  margin-right: 2.3em;
+
+  background-color: rgba(82,82,82,0.5);
+  border: 1.5px solid #000;
+  border-radius: 3px;
+  color: #000;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1rem;
+}
+
 /*Card Container*/
 .container-card {
-  width: 90%;
+  width: 98%;
   height: auto;
   margin-left: 50%;
   transform: translate(-50%, 0);
@@ -566,6 +580,13 @@ img {
     width: 30%;
   }
 
+  .check-date {
+    padding-top: 0;
+    padding-left: 5em;
+    display: block;
+    width: 100%;
+  }
+
   .container-card {
     margin-top: 1em;
   }
@@ -682,6 +703,12 @@ img {
     width: 15%;
   }
 
+  .check-date {
+    padding: 0;
+    display: inline-block;
+    width: 61.5%;
+  }
+
   .box-card {
     margin-bottom: 4em;
   }
@@ -777,8 +804,12 @@ img {
   }
 
   /*Pay Part*/
+  .check-date {
+    width: 58.5%;
+  }
+
   .card-element {
-    width: 70%;
+    width: 82%;
   }
 
   .pagar-btn {
@@ -854,17 +885,33 @@ img {
 
   .form-number {
     position: fixed;
-    bottom: 0;
-    padding-top: 0;
+    top: 0;
+    padding-top: 0.5em;
+  }
+
+  .form-number > span {
+    padding-bottom: 0;
+    width: 98%;
+  }
+
+  .box-number {
+    width: 98%;
   }
 
   .number-label {
     width: 6%;
     font-size: 15px;
+    margin-right: 1em;
   }
 
   .number-input {
+    width: 6%;
+    margin-right: 1em;
+  }
+
+  .check-date {
     width: 9%;
+    margin-right: 1em;
   }
 
   .box-card {
@@ -876,7 +923,7 @@ img {
   }
 
   .card-element {
-    width: 45%;
+    width: 40%;
     height: 2em;
   }
 
