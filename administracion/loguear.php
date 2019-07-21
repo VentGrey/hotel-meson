@@ -47,11 +47,18 @@ if (isset($_POST['password'])){
       session_start();
       $_SESSION['id_usr'] = $id;
       $_SESSION['username'] = $username;
+
+      if($id =="1"){
+        header('Location: index-admin.php');
+      }else if($id=="2"){
+        header('Location: index-recepcion.php');
+      }else{
+        header('Location: login.php?mensaje=Error2');
+      }
       //nos vamos al panel de Bienvenida//
-      header('Location: panel.php');
   }else{
     //Regresamos al login con un error 2
-    //header('Location: login.php?mensaje=Error2');
+    header('Location: login.php?mensaje=Error2');
     echo "N registros: ".$contar_registros;
   }
 
