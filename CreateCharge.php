@@ -73,9 +73,72 @@ if(isset($_POST['correo'])){
 
 //echo gettype($num_habcua);
 
-$total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) + ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+/*$total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) + ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
 $total = ($total * 100);
-echo $total;
+echo $total;*/
+
+//Each month calculator
+$today = getdate();
+$mm = $today[mon];
+$dd = $today[mday];
+$total;
+
+//January
+if ($mm == 1 && ($dd == 1 or $dd == 2 or $dd == 3 or $dd == 4
+      or $dd == 5 or $dd == 6 or $dd == 7)) {
+        $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
+        ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+}
+//February
+if ($mm == 2 && ($dd == 1 or $dd == 2 or $dd == 3 or $dd == 4
+      or $dd == 27 or $dd == 28 or $dd == 29)) {
+        $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
+        ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+}
+//March
+if ($mm == 3 && ($dd == 1 or $dd == 2 or $dd == 3 or $dd == 4
+      or $dd == 5 or $dd == 15 or $dd == 16 or $dd == 17 or $dd == 18)) {
+        $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
+        ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+}
+//April
+if ($mm == 4 && $dd >= 12) {
+        $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
+        ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+}
+//May
+if ($mm == 5 && ($dd == 1 or $dd == 10 or $dd == 11 or $dd == 12
+      or $dd == 13)) {
+        $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
+        ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+}
+//July
+if ($mm == 7 && $dd >= 5) {
+        $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
+        ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+}
+//August
+if ($mm == 8 && $dd <= 18) {
+        $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
+        ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+}
+//September
+if ($mm == 9 && ($dd == 14 or $dd == 15 or $dd == 16 or $dd == 17)) {
+        $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
+        ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+}
+//November
+if ($mm == 11 && ($dd == 2 or $dd == 3 or $dd == 4 or $dd == 5
+      or $dd == 16 or $dd == 17 or $dd == 18 or $dd == 19)) {
+        $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
+        ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+}
+//December
+if ($mm == 12 && $dd >= 20) {
+        $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
+        ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
+}
+//Each Month Calculator END
 
 
 $token="";
