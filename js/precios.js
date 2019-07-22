@@ -55,26 +55,23 @@ $(document).ready(function() {
                 // Mayo
             } else if (mm == '05' && (dd == '01' || dd == '10' || dd == '11' || dd == '12' || dd == '13')) {
 
-                // Junio
-            } else if () {
-
                 // Julio
-            } else if () {
+            } else if (mm == '07' && (dd == '05' || dd == '06' || dd == '07' || dd == '08' || dd == '09' || dd == '10' || dd == '11' || dd == '12' || dd == '13' || dd == '14' || dd == '15' || dd == '16' || dd == '17' || dd == '18' || dd == '19' || dd == '20' || dd == '21' || dd == '22' || dd == '23' || dd == '24' || dd == '25' || dd == '26' || dd == '27' || dd == '28' || dd == '29' || dd == '30' || dd == '31')) {
 
                 // Agosto
-            } else if () {
+            } else if (mm == '08' && (dd == '01' || dd == '02' ||dd == '03' ||dd == '04' ||dd == '05' ||dd == '06' ||dd == '07' ||dd == '08' ||dd == '09' ||dd == '10' ||dd == '11' ||dd == '12' ||dd == '13' ||dd == '14' ||dd == '15' ||dd == '16' ||dd == '17' || dd == '18')) {
 
                 // Septiembre
-            } else if () {
+            } else if (mm == '09') {
 
                 // Octubre
-            } else if () {
+            } else if (mm == '10') {
 
                 // Noviembre
-            } else if () {
+            } else if (mm == '11') {
 
                 // Diciembre
-            } else if () {
+            } else if (mm == '12') {
 
             } else {
 
