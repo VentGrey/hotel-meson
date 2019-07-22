@@ -10,15 +10,17 @@ $(document).ready(function() {
 
     var url = "administracion/precio_tipo.php";
     var serial="";
+
     $.ajax({
         type: 'POST',
         url: url,
         dataType: 'json',
         success: function(data)
         {
-            var today = new Date();
-            var dd = String(today.getDate()).padStart(2, '0');
-            var mm = String(today.getMonth()).padStart(2, '0');
+            let today = new Date();
+            let dd = String(today.getDate()).padStart(2, '0');
+            let mm = String(today.getMonth()).padStart(2, '0');
+
             $Pa.empty();
             $Pa.append('<span class="main-subtext-price" id="p1">' + '$' + data[0].precio + '-MXN' + '</span>');
             $Pb.empty();
@@ -28,9 +30,54 @@ $(document).ready(function() {
             $Pd.empty();
             $Pd.append('<span class="main-subtext-price" id="p1">' + '$' + data[3].precio + '-MXN' + '</span>');
 
-            if( dd == '19' && mm == '06') {
+            // Mostrar precios por temporada de forma dinámica
+
+            // Temporadas altas por mes
+            // Enero
+            if (mm == '01' && (dd == '01' || dd == '02' || dd == '03'
+                               || dd == '04' || dd == '05' || dd == '06')) {
                 $Pa.empty();
                 $Pa.append('<span class="main-subtext-price" id="p1">' + '$' + '5000' + '-MXN' + '</span>');
+                // Febrero
+            } else if (mm == '02' && (dd == '01' || dd == '02' || dd == '03' || dd == '04' || dd == '27' || dd == '28' || dd == '29')) {
+                // Modificar precios aquí
+
+
+
+                // Marzo
+            } else if (mm == '03' && (dd == '01' || dd == '02' || dd == '03' || dd == '04' || dd == '05' || dd == '15' || dd == '16' || dd == '17' || dd == '18')) {
+                // Modificar precios aquí
+
+
+                // Abril
+            } else if (mm == '04' && (dd == '12' || dd == '13' || dd == '14' || dd == '15' || dd == '16' || dd == '17' || dd == '18' || dd == '19' || dd == '20' || dd == '21' || dd == '22' || dd == '23' || dd == '24' || dd == '25' || dd == '26' || dd == '27' || dd == '28' || dd == '29' || dd == '30')) {
+
+                // Mayo
+            } else if (mm == '05' && (dd == '01' || dd == '10' || dd == '11' || dd == '12' || dd == '13')) {
+
+                // Junio
+            } else if () {
+
+                // Julio
+            } else if () {
+
+                // Agosto
+            } else if () {
+
+                // Septiembre
+            } else if () {
+
+                // Octubre
+            } else if () {
+
+                // Noviembre
+            } else if () {
+
+                // Diciembre
+            } else if () {
+
+            } else {
+
             }
 
             //alert(data[0].precio);
