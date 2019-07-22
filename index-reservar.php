@@ -227,7 +227,7 @@
     <!--/.Hab Cuádruple-->
 
     <!--Counter-->
-    <!--<form name="f1" action="CreateCharge.php" method="post" id="payment-form" class="form-number">
+    <form name="f1" action="CreateCharge.php" method="post" id="payment-form" class="form-number">
 
       <span>Elija el número de habitaciones que desea reservar por cada habitación.</span>
 
@@ -251,7 +251,7 @@
         <input type="date" name="check-out" class="check-date">
       </div>
 
-      <div class="container-card">
+      <!--<div class="container-card">
         <span class="card-label">Total: <a class="" href="CreateCharge.php?total=y">$ dinero</a></span>
 
         <div class="box-card">
@@ -269,8 +269,8 @@
         </div>
 
         <input type="submit" name="" value="Submit Payment" class="pagar-btn">
-      </div>
-    </form>-->
+      </div>-->
+    </form>
     <!--/.Counter-->
 
   </div>
