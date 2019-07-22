@@ -53,7 +53,7 @@
           <!--<span class="ir_page-text"><span id="clicks-ava-hs">11</span> habitaciones disponibles</span>-->
           <ul class="main-list">
             <li class="main-item">Tamaño: 14 - 17 mts.</li>
-            <li class="main-item">Camas: 1 cama matrimonial</li>
+            <li class="main-item">Camas: 1 cama queen size</li>
             <li class="main-item">Máximo: 2 personas</li>
           </ul>
         </div>
@@ -99,7 +99,7 @@
           <!--<span class="ir_page-text"><span id="clicks-ava-hd">10</span> habitaciones disponibles</span>-->
           <ul class="main-list">
             <li class="main-item">Tamaño: 18 - 21 mts.</li>
-            <li class="main-item">Camas: 2 camas matrimoniales</li>
+            <li class="main-item">Camas: 2 camas queen sizees</li>
             <li class="main-item">Máximo: 4 personas</li>
           </ul>
         </div>
@@ -145,7 +145,7 @@
           <!--<span class="ir_page-text"><span id="clicks-ava-ht">5</span> habitaciones disponibles</span>-->
           <ul class="main-list">
             <li class="main-item">Tamaño: 18 - 21 mts.</li>
-            <li class="main-item">Camas: 3 camas matrimoniales</li>
+            <li class="main-item">Camas: 3 camas queen sizees</li>
             <li class="main-item">Máximo: 6 personas</li>
           </ul>
         </div>
@@ -191,7 +191,7 @@
           <!--<span class="ir_page-text"><span id="clicks-ava-hc">1</span> habitación disponible</span>-->
           <ul class="main-list">
             <li class="main-item">Tamaño: 20 - 25 mts.</li>
-            <li class="main-item">Camas: 4 camas matrimoniales</li>
+            <li class="main-item">Camas: 4 camas queen sizees</li>
             <li class="main-item">Máximo: 8 personas</li>
           </ul>
         </div>
@@ -227,7 +227,7 @@
     <!--/.Hab Cuádruple-->
 
     <!--Counter-->
-    <form name="f1" action="CreateCharge.php" method="post" id="payment-form" class="form-number">
+    <!--<form name="f1" action="CreateCharge.php" method="post" id="payment-form" class="form-number">
 
       <span>Elija el número de habitaciones que desea reservar por cada habitación.</span>
 
@@ -270,8 +270,7 @@
 
         <input type="submit" name="" value="Submit Payment" class="pagar-btn">
       </div>
-
-    </form>
+    </form>-->
     <!--/.Counter-->
 
   </div>
@@ -296,7 +295,6 @@
     </a>
   </div>
   <!--/.Redes sociales-->
-
   <!--Scripts-->
   <!--<script src="js/counter.js"></script>-->
   <script src="js/galeria.js"></script>

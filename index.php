@@ -109,11 +109,17 @@
   <div class="img-rooms_inside-container container_cel">
     <div class="rooms-container">
       <p class="lead page-title text-justify font-weight-lighter text-wrap">
-        Nuestras habitaciones son perfectas para ti. Tienen camas matrimoniales, televisión de pantalla
-        plana con TV de paga, WiFi gratis en cada una de ellas y muchas otras cosas que harán que tu
-        estancia aquí sea muy placentera.
-        <!--Our rooms are perfect for you. They have individual beds, flat screen TV with PayTV, free WiFi
-        and many other things that will make your stay very pleasent-->
+        Experimente la bienvenida de la comodidad distinguida. Ubicado en el
+        centro de la ciudad, el Hotel Meson de Juan Valle está a sólo unos
+        minutos de las principales atracciones de la ciudad.
+
+
+        Con un fácil acceso a los principales puntos de interés de la ciudad y
+        cerca de los lugares del transporte público, somos el hotel de elección
+        para quienes viajan por negocios y por placer.
+
+        Nuestras habitaciones luminosas y muy amplias ofrecen una atmósfera
+        acogedora y personal y detalles modernos muy convenientes.
       </p>
       <a class="btn btn-hm" href="index-reservar.php">Reservar<!--Book A Room--></a>
     </div>
