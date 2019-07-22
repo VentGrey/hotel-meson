@@ -138,6 +138,14 @@ if ($mm == 12 && $dd >= 20) {
         $total = $num_dias * (($precio_habsen*$num_habsen) + ($precio_habdob*$num_habdob) +
         ($precio_habtri*$num_habtri) + ($precio_habcua * $num_habcua));
 }
+
+//Showing the result on the html file
+if($_GET[total]=='y') {
+  echo "<br>Hola";
+} else {
+  echo "<br>Adiós";
+}
+
 //Each Month Calculator END
 
 

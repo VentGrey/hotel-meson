@@ -252,6 +252,8 @@
       </div>
 
       <div class="container-card">
+        <span class="card-label">Total: <a class="" href="CreateCharge.php?total=y">$ dinero</a></span>
+
         <div class="box-card">
           <label for="card-element" class="card-label">Tarjeta de crédito o débito</label>
           <div id="card-element" class="card-element">
