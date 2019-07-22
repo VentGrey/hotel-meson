@@ -35,7 +35,7 @@ $(document).ready(function() {
             // Temporadas altas por mes
             // Enero
             if (mm == '01' && (dd == '01' || dd == '02' || dd == '03'
-                               || dd == '04' || dd == '05' || dd == '06')) {
+                               || dd == '04' || dd == '05' || dd == '06' || dd =='07')) {
                 $Pa.empty();
                 $Pa.append('<span class="main-subtext-price" id="p1">' + '$' + '5000' + '-MXN' + '</span>');
                 // Febrero
@@ -62,16 +62,13 @@ $(document).ready(function() {
             } else if (mm == '08' && (dd == '01' || dd == '02' ||dd == '03' ||dd == '04' ||dd == '05' ||dd == '06' ||dd == '07' ||dd == '08' ||dd == '09' ||dd == '10' ||dd == '11' ||dd == '12' ||dd == '13' ||dd == '14' ||dd == '15' ||dd == '16' ||dd == '17' || dd == '18')) {
 
                 // Septiembre
-            } else if (mm == '09') {
-
-                // Octubre
-            } else if (mm == '10') {
+            } else if (mm == '09' && (dd == '14' || dd == '15' || dd == '16' || dd == '17')) {
 
                 // Noviembre
-            } else if (mm == '11') {
+            } else if (mm == '11' && (dd == '02' || dd == '03' || dd == '04' || dd == '05' || dd == '16' || dd == '17' || dd == '18' || dd == '19')) {
 
                 // Diciembre
-            } else if (mm == '12') {
+            } else if (mm == '12' && (dd == '20' || dd == '21' || dd == '22' || dd == '23' || dd == '24' || dd == '25' || dd == '26' || dd == '27' || dd == '28' || dd == '29' || dd == '30' || dd == '31')) {
 
             } else {
 
