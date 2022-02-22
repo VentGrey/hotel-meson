@@ -1,5 +1,7 @@
-# PROJECT QUALITY
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/00adae03eb844883b994ff8dc48845f4)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VentGrey/hotel-meson&amp;utm_campaign=Badge_Grade)
+# Para propósitos educativos.
+Este fue uno de los primeros proyectos que se realizó en conjunto para un hotel. La página y su uso ahora están
+*deprecated* y el contrato con los derechos de la misma expiró para su aquel entonces cliente. He decidido liberar
+el código con propósitos educativos y para que vean el chorizote de código que nos aventamos 😅
 
 ## Objetivo
 
